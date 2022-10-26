@@ -1,0 +1,140 @@
+GUI _xmnuwVFTEe2J0bu3ffrh5w {
+  fullWidth false
+  disableAutoLayout true
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "BrokerAssignmentTab"
+  DataContext _xmoV0VFTEe2J0bu3ffrh5w at 10,10 size 221,231 {
+  	dfViewWorkaround true
+  	ComplexVariable _K3MBAVGJEe2J0bu3ffrh5w at 10,52 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isInput true
+  		name "offers"
+  		dfViewWorkaround true
+  		isList true
+  		-FOR-> _RAvZMVGJEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _SQGIQVGJEe2J0bu3ffrh5w
+  			index "index"
+  		}
+  		
+  		-ComplexListAttributeConnector-> _Su_DsVGJEe2J0bu3ffrh5w  decorate "Ellipse" at (0,0) {
+  			id _SvFxYVGJEe2J0bu3ffrh5w
+  			attributeName current
+  		}
+  	}
+  	
+  	ComplexVariable _Su_DsVGJEe2J0bu3ffrh5w at 10,150 size 201,61 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isInput false
+  		name "offer"
+  		dfViewWorkaround true
+  		isList false
+  		PrimitiveAttribute _s4g74VGKEe2J0bu3ffrh5w at 10,23 size 181,25 {
+  			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		-ComplexRead-> _no5cYVGKEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _oKBMcFGKEe2J0bu3ffrh5w
+  		}
+  	}
+  }
+  
+  Template _xmo84VFTEe2J0bu3ffrh5w at 300,10 size 190,414 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _xmpj8FFTEe2J0bu3ffrh5w {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Panel _RAvZMVGJEe2J0bu3ffrh5w at 10,30 size 170,354 {
+  		collapsable false
+  		defaultOpen "true"
+  		heading StaticContent _RAvZVFGJEe2J0bu3ffrh5w {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "{{offer.title}}"
+  				styling TextStyling _RAvZVVGJEe2J0bu3ffrh5w {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold true
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			}
+  		coloring ComponentColoring _RAvZVlGJEe2J0bu3ffrh5w {
+  				color Default
+  			}
+  		generalStyle GeneralStyling _RAvZU1GJEe2J0bu3ffrh5w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  				rawContent ""
+  			}
+  		MoveUp _RAvZWFGJEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _RAvZW1GJEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  		}
+  		
+  		GUISIB _no1yAVGKEe2J0bu3ffrh5w at 10,30 size 150,294 {
+  			libraryComponentUID "_dsesAVGJEe2J0bu3ffrh5w"
+  			label "BrokerAssignBiddingsTable"
+  			generalStyle GeneralStyling _npQowFGKEe2J0bu3ffrh5w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			ComplexInputPort _no5cYVGKEe2J0bu3ffrh5w at 5,67 size 90,18 {
+  				libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  				isList false
+  				name "offer"
+  			}
+  			
+  			Branch _no8fsVGKEe2J0bu3ffrh5w at 5,90 size 100,50 {
+  				name "Show bidding"
+  				ComplexOutputPort _no-78VGKEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  					libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  					name "bidding"
+  					isList false
+  				}
+  			}
+  			
+  			Branch _npCmUVGKEe2J0bu3ffrh5w at 5,158 size 100,50 {
+  				name "Assign"
+  				ComplexOutputPort _npFCkVGKEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  					libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  					name "bidding"
+  					isList false
+  				}
+  			}
+  			
+  			Branch _npIs8VGKEe2J0bu3ffrh5w at 5,226 size 100,50 {
+  				name "Unassign"
+  				ComplexOutputPort _npLwQVGKEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  					libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  					name "bidding"
+  					isList false
+  				}
+  			}
+  			
+  			MoveUp _npQBsVGKEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _npQBs1GKEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  			}
+  		}
+  	}
+  }
+}

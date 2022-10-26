@@ -1,0 +1,251 @@
+GUI _sK8JMVFTEe2J0bu3ffrh5w {
+  fullWidth false
+  disableAutoLayout true
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "BrokerApprovalTab"
+  DataContext _sK8wQVFTEe2J0bu3ffrh5w at 10,10 size 221,685 {
+  	dfViewWorkaround true
+  	ComplexVariable _8DguIVGEEe2J0bu3ffrh5w at 10,120 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isInput true
+  		name "offers"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexRead-> _et7lIVGNEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _C0igkVGGEe2J0bu3ffrh5w
+  		}
+  	}
+  	
+  	ComplexVariable _n7n2AVGIEe2J0bu3ffrh5w at 10,630 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isInput true
+  		name "biddings"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexRead-> _gGKjYVGNEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _p6EfsVGIEe2J0bu3ffrh5w
+  		}
+  	}
+  }
+  
+  Template _sK9-YVFTEe2J0bu3ffrh5w at 300,10 size 190,1050 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _sK-lcFFTEe2J0bu3ffrh5w {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Panel _2WMcQVFTEe2J0bu3ffrh5w at 10,30 size 170,490 {
+  		collapsable false
+  		defaultOpen "true"
+  		heading StaticContent _2WNDg1FTEe2J0bu3ffrh5w {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Offers"
+  				styling TextStyling _2WNDhFFTEe2J0bu3ffrh5w {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold true
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			}
+  		coloring ComponentColoring _2WNDhVFTEe2J0bu3ffrh5w {
+  				color Default
+  			}
+  		generalStyle GeneralStyling _2WNDglFTEe2J0bu3ffrh5w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  				rawContent ""
+  			}
+  		MoveUp _2WNDh1FTEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _2WNDilFTEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  		}
+  		
+  		GUISIB _etrtgVGNEe2J0bu3ffrh5w at 10,30 size 150,430 {
+  			libraryComponentUID "_JXgxEVFUEe2J0bu3ffrh5w"
+  			label "BrokerOfferTable"
+  			generalStyle GeneralStyling _mRbh4FGEEe2J0bu3ffrh5w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			ComplexInputPort _et7lIVGNEe2J0bu3ffrh5w at 5,67 size 90,18 {
+  				libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  				isList true
+  				name "offers"
+  			}
+  			
+  			Branch _euEvEVGNEe2J0bu3ffrh5w at 5,90 size 100,50 {
+  				name "Show offer"
+  				ComplexOutputPort _euIZcVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  					libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  					name "offer"
+  					isList false
+  				}
+  			}
+  			
+  			Branch _euPuMVGNEe2J0bu3ffrh5w at 5,158 size 100,50 {
+  				name "Decide offer"
+  				ComplexOutputPort _euT_oVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  					libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  					name "offer"
+  					isList false
+  				}
+  			}
+  			
+  			Branch _eubUYVGNEe2J0bu3ffrh5w at 5,226 size 100,50 {
+  				name "Review offer"
+  				ComplexOutputPort _eufl0VGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  					libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  					name "offer"
+  					isList false
+  				}
+  			}
+  			
+  			Branch _eunhoVGNEe2J0bu3ffrh5w at 5,294 size 100,50 {
+  				name "Edit report"
+  				ComplexOutputPort _eusaIVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  					libraryComponentUID "_eC67EVFSEe2J0bu3ffrh5w"
+  					name "report"
+  					isList false
+  				}
+  			}
+  			
+  			Branch _eu0V8VGNEe2J0bu3ffrh5w at 5,362 size 100,50 {
+  				name "Revoke offer"
+  				ComplexOutputPort _eu4nYVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  					libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  					name "offer"
+  					isList false
+  				}
+  			}
+  			
+  			MoveUp _evBKQVGNEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _evBKQ1GNEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  			}
+  		}
+  	}
+  	
+  	Panel _ED0-MVGGEe2J0bu3ffrh5w at 10,530 size 170,490 {
+  		collapsable false
+  		defaultOpen "true"
+  		heading StaticContent _ED1lVlGGEe2J0bu3ffrh5w {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Biddings"
+  				styling TextStyling _ED1lV1GGEe2J0bu3ffrh5w {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold true
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			}
+  		coloring ComponentColoring _ED1lWFGGEe2J0bu3ffrh5w {
+  				color Default
+  			}
+  		generalStyle GeneralStyling _ED1lVVGGEe2J0bu3ffrh5w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  				rawContent ""
+  			}
+  		MoveUp _ED1lWlGGEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _ED1lXVGGEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  		}
+  		
+  		GUISIB _gF7S0VGNEe2J0bu3ffrh5w at 10,30 size 150,430 {
+  			libraryComponentUID "_Ln-sIFGGEe2J0bu3ffrh5w"
+  			label "BrokerBiddingTable"
+  			generalStyle GeneralStyling _RNhi4FGHEe2J0bu3ffrh5w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			ComplexInputPort _gGKjYVGNEe2J0bu3ffrh5w at 5,67 size 90,18 {
+  				libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  				isList true
+  				name "biddings"
+  			}
+  			
+  			Branch _gGTGQVGNEe2J0bu3ffrh5w at 5,90 size 100,50 {
+  				name "Show bidding"
+  				ComplexOutputPort _gGXXsVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  					libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  					name "bidding"
+  					isList false
+  				}
+  			}
+  			
+  			Branch _gGescVGNEe2J0bu3ffrh5w at 5,158 size 100,50 {
+  				name "Decide bidding"
+  				ComplexOutputPort _gGiW0VGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  					libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  					name "bidding"
+  					isList false
+  				}
+  			}
+  			
+  			Branch _gGprkVGNEe2J0bu3ffrh5w at 5,226 size 100,50 {
+  				name "Review bidding"
+  				ComplexOutputPort _gGtV8VGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  					libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  					name "bidding"
+  					isList false
+  				}
+  			}
+  			
+  			Branch _gG1RwVGNEe2J0bu3ffrh5w at 5,294 size 100,50 {
+  				name "Edit report"
+  				ComplexOutputPort _gG6KQVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  					libraryComponentUID "_eC67EVFSEe2J0bu3ffrh5w"
+  					name "report"
+  					isList false
+  				}
+  			}
+  			
+  			Branch _gHBfAVGNEe2J0bu3ffrh5w at 5,362 size 100,50 {
+  				name "Revoke bidding"
+  				ComplexOutputPort _gHGXgVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  					libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  					name "bidding"
+  					isList false
+  				}
+  			}
+  			
+  			MoveUp _gHOTUVGNEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _gHOTU1GNEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  			}
+  		}
+  	}
+  }
+}

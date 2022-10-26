@@ -1,0 +1,327 @@
+GUI _S6RoAVLZEe2djpkPxa2Z3Q {
+  fullWidth false
+  disableAutoLayout true
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "AdminTemplatesTab"
+  DataContext _S6S2IFLZEe2djpkPxa2Z3Q at 10,10 size 221,1002 {
+  	dfViewWorkaround true
+  	ComplexVariable _iLgWYVLZEe2djpkPxa2Z3Q at 10,300 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput true
+  		name "featuresForOffer"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexRead-> _LqHXoVLaEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _kMQGIVLZEe2djpkPxa2Z3Q
+  		}
+  	}
+  	
+  	ComplexVariable _sWe8oVLZEe2djpkPxa2Z3Q at 10,780 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput true
+  		name "featuresForBidding"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexRead-> _MOl9sVLaEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _vdGIQVLZEe2djpkPxa2Z3Q
+  		}
+  	}
+  }
+  
+  Template _S6TdMVLZEe2djpkPxa2Z3Q at 300,10 size 290,1002 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _S6UEQFLZEe2djpkPxa2Z3Q {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Panel _bWN5kVLZEe2djpkPxa2Z3Q at 10,30 size 270,466 {
+  		collapsable true
+  		defaultOpen "false"
+  		heading StaticContent _bWOgtFLZEe2djpkPxa2Z3Q {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Offer Features"
+  				styling TextStyling _bWOgtVLZEe2djpkPxa2Z3Q {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold true
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			}
+  		coloring ComponentColoring _bWOgtlLZEe2djpkPxa2Z3Q {
+  				color Default
+  			}
+  		generalStyle GeneralStyling _bWOgs1LZEe2djpkPxa2Z3Q {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  				rawContent ""
+  			}
+  		MoveUp _bWOguFLZEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _bWPHsVLZEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  		}
+  		
+  		Row _bWPHtFLZEe2djpkPxa2Z3Q at 10,30 size 250,170 {
+  			generalStyle GeneralStyling _bWPHy1LZEe2djpkPxa2Z3Q {
+  					tallness Fitting
+  					marginBottom Single
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _bWPHzVLZEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _bWPH0FLZEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  			}
+  			
+  			Col _bWPH01LZEe2djpkPxa2Z3Q at 10,30 size 220,120 {
+  				wideness Full
+  				layout Layout _bWPuzFLZEe2djpkPxa2Z3Q {
+  						size Default
+  						offset None
+  						alignment Right
+  					}
+  				generalStyle GeneralStyling _bWPuy1LZEe2djpkPxa2Z3Q {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveLeft _bWPuzlLZEe2djpkPxa2Z3Q at 2,2 size 7,14 {
+  				}
+  				
+  				MoveRight _bWPu0VLZEe2djpkPxa2Z3Q at 10,2 size 7,14 {
+  				}
+  				
+  				Button _bWPu1FLZEe2djpkPxa2Z3Q at 10,30 size 200,60 {
+  					displayLabel "Create new feature"
+  					label "Create offer feature"
+  					styling ButtonStyling _bWPu21LZEe2djpkPxa2Z3Q {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Green
+  						}
+  					options ButtonOptions _bWPu3FLZEe2djpkPxa2Z3Q {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _bWPu2lLZEe2djpkPxa2Z3Q {
+  							postIcon None
+  							preIcon Plus
+  						}
+  					generalStyle GeneralStyling _bWPu2VLZEe2djpkPxa2Z3Q {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _bWPu3lLZEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _bWPu4VLZEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  					}
+  				}
+  			}
+  		}
+  		
+  		GUISIB _Lp248VLaEe2djpkPxa2Z3Q at 10,210 size 150,226 {
+  			libraryComponentUID "_a-hbAVLIEe2djpkPxa2Z3Q"
+  			label "FeatureTemplateTable"
+  			generalStyle GeneralStyling _bWPu8lLZEe2djpkPxa2Z3Q {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			ComplexInputPort _LqHXoVLaEe2djpkPxa2Z3Q at 5,67 size 90,18 {
+  				libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  				isList true
+  				name "features"
+  			}
+  			
+  			Branch _LqRIoVLaEe2djpkPxa2Z3Q at 5,90 size 100,50 {
+  				name "Edit feature"
+  				ComplexOutputPort _LqVaEVLaEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  					libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  					name "feature"
+  					isList false
+  				}
+  			}
+  			
+  			Branch _LqfLEVLaEe2djpkPxa2Z3Q at 5,158 size 100,50 {
+  				name "Delete feature"
+  				ComplexOutputPort _LqkqoVLaEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  					libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  					name "feature"
+  					isList false
+  				}
+  			}
+  			
+  			MoveUp _LquboVLaEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _LqvCsVLaEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  			}
+  		}
+  	}
+  	
+  	Panel _mSgA8VLZEe2djpkPxa2Z3Q at 10,506 size 270,466 {
+  		collapsable true
+  		defaultOpen "false"
+  		heading StaticContent _mSgoJ1LZEe2djpkPxa2Z3Q {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Bidding Features"
+  				styling TextStyling _mSgoKFLZEe2djpkPxa2Z3Q {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold true
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			}
+  		coloring ComponentColoring _mShPEFLZEe2djpkPxa2Z3Q {
+  				color Default
+  			}
+  		generalStyle GeneralStyling _mSgoJlLZEe2djpkPxa2Z3Q {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  				rawContent ""
+  			}
+  		MoveUp _mShPElLZEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _mShPFVLZEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  		}
+  		
+  		Row _mShPGFLZEe2djpkPxa2Z3Q at 10,30 size 250,170 {
+  			generalStyle GeneralStyling _mShPL1LZEe2djpkPxa2Z3Q {
+  					tallness Fitting
+  					marginBottom Single
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _mShPMVLZEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _mShPNFLZEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  			}
+  			
+  			Col _mShPN1LZEe2djpkPxa2Z3Q at 10,30 size 220,120 {
+  				wideness Full
+  				layout Layout _mSh2J1LZEe2djpkPxa2Z3Q {
+  						size Default
+  						offset None
+  						alignment Right
+  					}
+  				generalStyle GeneralStyling _mSh2JlLZEe2djpkPxa2Z3Q {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveLeft _mSh2KVLZEe2djpkPxa2Z3Q at 2,2 size 7,14 {
+  				}
+  				
+  				MoveRight _mSh2LFLZEe2djpkPxa2Z3Q at 10,2 size 7,14 {
+  				}
+  				
+  				Button _mSh2L1LZEe2djpkPxa2Z3Q at 10,30 size 200,60 {
+  					displayLabel "Create new feature"
+  					label "Create bidding feature"
+  					styling ButtonStyling _mSh2NlLZEe2djpkPxa2Z3Q {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Green
+  						}
+  					options ButtonOptions _mSh2N1LZEe2djpkPxa2Z3Q {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _mSh2NVLZEe2djpkPxa2Z3Q {
+  							postIcon None
+  							preIcon Plus
+  						}
+  					generalStyle GeneralStyling _mSh2NFLZEe2djpkPxa2Z3Q {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _mSh2OVLZEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _mSh2PFLZEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  					}
+  				}
+  			}
+  		}
+  		
+  		GUISIB _MOVfAVLaEe2djpkPxa2Z3Q at 10,210 size 150,226 {
+  			libraryComponentUID "_a-hbAVLIEe2djpkPxa2Z3Q"
+  			label "FeatureTemplateTable"
+  			generalStyle GeneralStyling _mSh2TVLZEe2djpkPxa2Z3Q {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			ComplexInputPort _MOl9sVLaEe2djpkPxa2Z3Q at 5,67 size 90,18 {
+  				libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  				isList true
+  				name "features"
+  			}
+  			
+  			Branch _MOvusVLaEe2djpkPxa2Z3Q at 5,90 size 100,50 {
+  				name "Edit feature"
+  				ComplexOutputPort _MO1OQVLaEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  					libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  					name "feature"
+  					isList false
+  				}
+  			}
+  			
+  			Branch _MO-_QVLaEe2djpkPxa2Z3Q at 5,158 size 100,50 {
+  				name "Delete feature"
+  				ComplexOutputPort _MPEe0VLaEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  					libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  					name "feature"
+  					isList false
+  				}
+  			}
+  			
+  			MoveUp _MPO24VLaEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _MPO241LaEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  			}
+  		}
+  	}
+  }
+}

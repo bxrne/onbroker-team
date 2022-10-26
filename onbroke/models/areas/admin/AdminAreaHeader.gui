@@ -1,0 +1,163 @@
+GUI _ikwGUVE4Ee2Vgcav4Znc_w {
+  fullWidth false
+  disableAutoLayout true
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "AdminAreaHeader"
+  DataContext _ikzJoFE4Ee2Vgcav4Znc_w at 10,10 size 221,178 {
+  	dfViewWorkaround true
+  	ComplexVariable _kxP9oVE5Ee2Vgcav4Znc_w at 10,70 size 201,78 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isInput false
+  		name "currentUser"
+  		dfViewWorkaround true
+  		isList false
+  		PrimitiveAttribute _lcnO0VE5Ee2Vgcav4Znc_w at 10,23 size 181,25 {
+  			libraryComponentUID "_KAc-cUIAEe26p7mBymqW2w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _lcn14VE5Ee2Vgcav4Znc_w at 10,50 size 181,25 {
+  			libraryComponentUID "_Ljih0UIAEe26p7mBymqW2w"
+  			isLive false
+  		}
+  	}
+  }
+  
+  Template _ikzwsVE4Ee2Vgcav4Znc_w at 300,10 size 370,425 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _ik0-0FE4Ee2Vgcav4Znc_w {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _ik1l4VE4Ee2Vgcav4Znc_w at 10,30 size 350,290 {
+  		generalStyle GeneralStyling _ik4pMFE4Ee2Vgcav4Znc_w {
+  				tallness Fitting
+  				marginBottom Double
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _ik2M8VE4Ee2Vgcav4Znc_w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _ik2M81E4Ee2Vgcav4Znc_w at 2,10 size 14,7 {
+  		}
+  		
+  		Col _ik20AVE4Ee2Vgcav4Znc_w at 10,30 size 320,240 {
+  			wideness Full
+  			layout Layout _ik4CIVE4Ee2Vgcav4Znc_w {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _ik4CIFE4Ee2Vgcav4Znc_w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _ik3bEVE4Ee2Vgcav4Znc_w at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _ik3bE1E4Ee2Vgcav4Znc_w at 10,2 size 7,14 {
+  			}
+  			
+  			Headline _fLZvcVE5Ee2Vgcav4Znc_w at 10,90 size 300,50 {
+  				size Small
+  				content [ StaticContent _fLZvd1E5Ee2Vgcav4Znc_w {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "Admin Area · Logged in as {{currentUser.firstName}} {{currentUser.lastName}}"
+  					} ]
+  				generalStyle GeneralStyling _fLZvdlE5Ee2Vgcav4Znc_w {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _fLaWgVE5Ee2Vgcav4Znc_w at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _fLaWhFE5Ee2Vgcav4Znc_w at 2,10 size 14,7 {
+  				}
+  			}
+  			
+  			Button _q8xKEFFMEe2J0bu3ffrh5w at 10,150 size 200,60 {
+  				displayLabel "Logout"
+  				label "Logout"
+  				styling ButtonStyling _q8xxIlFMEe2J0bu3ffrh5w {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Blue
+  					}
+  				options ButtonOptions _q8xxI1FMEe2J0bu3ffrh5w {
+  						isLink false
+  						submitsForm false
+  						staticURL "logout"
+  					}
+  				disabled false
+  				icon Icon _q8xxIVFMEe2J0bu3ffrh5w {
+  						postIcon LogOut
+  						preIcon None
+  					}
+  				generalStyle GeneralStyling _q8xxIFFMEe2J0bu3ffrh5w {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop Single
+  					}
+  				MoveUp _q8xxJVFMEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _q8xxKFFMEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  				}
+  			}
+  			
+  			Headline _aSAZgVHnEe2J0bu3ffrh5w at 10,30 size 300,50 {
+  				size Big
+  				content [ StaticContent _aSAZh1HnEe2J0bu3ffrh5w {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "Onbroke"
+  					} ]
+  				generalStyle GeneralStyling _aSAZhlHnEe2J0bu3ffrh5w {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  						rawContent "margin-top: 0;\nfont-variant: small-caps;"
+  					}
+  				MoveUp _aSAZiVHnEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _aSAZjFHnEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  	
+  	ProcessSIB _vR1s4VFMEe2J0bu3ffrh5w at 10,330 size 150,65 {
+  		libraryComponentUID "_rHwukVFLEe2Vgcav4Znc_w"
+  		label "ShowAdminArea"
+  		generalStyle GeneralStyling _vSFkgFFMEe2J0bu3ffrh5w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _vSEWYVFMEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _vSEWY1FMEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}

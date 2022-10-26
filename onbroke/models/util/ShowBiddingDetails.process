@@ -1,0 +1,135 @@
+Process _U_pfYVOlEe2KQc5QIsW97w {
+  modelName "ShowBiddingDetails"
+  description "ShowBiddingDetails"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  StartSIB _VLMoEVOlEe2KQc5QIsW97w at 200,30 size 100,90 {
+  	ComplexOutputPort _awmKUVOlEe2KQc5QIsW97w at 5,67 size 90,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  		-ComplexDirectDataFlow-> _Yur88VOlEe2KQc5QIsW97w via (180,106) (180,236) decorate "" at (0,0) {
+  			id _bHZgwVOlEe2KQc5QIsW97w
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _Yuo5oVOlEe2KQc5QIsW97w  decorate "" at (0,0) {
+  		id _bWLjoVOlEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _Yuo5oVOlEe2KQc5QIsW97w at 190,160 size 120,90 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_zSAVgVOjEe2KQc5QIsW97w"
+  	name "BiddingDetails"
+  	label "BiddingDetails"
+  	ignoredBranch [  ]
+  	ComplexInputPort _Yur88VOlEe2KQc5QIsW97w at 5,67 size 110,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  	}
+  	-BranchConnector-> _jZ9z61OlEe2KQc5QIsW97w via (250,280) (410,280)  {
+  		id _lbr0AVOlEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _jZ9M2VOlEe2KQc5QIsW97w via (250,280) (610,280)  {
+  		id _lwXqkVOlEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _jZ-a_lOlEe2KQc5QIsW97w via (250,280) (810,280)  {
+  		id _maxScVOlEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _jZ-a8VOlEe2KQc5QIsW97w via (250,280) (1010,280)  {
+  		id _m7KpwVOlEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _Afrl0VOmEe2KQc5QIsW97w   {
+  		id _Afsz8VOmEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Documentation _jZ9M0VOlEe2KQc5QIsW97w at 750,360 size 52,40 {
+  	content "TODO"
+  }
+  
+  Documentation _jZ9M1VOlEe2KQc5QIsW97w at 950,360 size 52,40 {
+  	content "TODO"
+  }
+  
+  Branch _jZ9M2VOlEe2KQc5QIsW97w at 550,300 size 120,50 {
+  	name "Show issue"
+  	ComplexOutputPort _jZ9z4lOlEe2KQc5QIsW97w at 5,27 size 110,18 {
+  		libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
+  		isList false
+  		name "issue"
+  	}
+  	-ControlFlow-> _Yuo5oVOlEe2KQc5QIsW97w via (610,400) (690,400) (690,205) decorate "" at (0,0) {
+  		id _rWe-gVOlEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Branch _jZ9z61OlEe2KQc5QIsW97w at 350,300 size 120,25 {
+  	name "Create issue"
+  	-ControlFlow-> _Yuo5oVOlEe2KQc5QIsW97w via (409,399) (490,399) (490,205) decorate "" at (0,0) {
+  		id _pYeZsFOlEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Documentation _jZ9z8FOlEe2KQc5QIsW97w at 350,360 size 52,40 {
+  	content "TODO"
+  }
+  
+  Branch _jZ-a8VOlEe2KQc5QIsW97w at 950,300 size 120,50 {
+  	name "Unresolve issue"
+  	ComplexOutputPort _jZ-a9VOlEe2KQc5QIsW97w at 5,27 size 110,18 {
+  		libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
+  		isList false
+  		name "issue"
+  	}
+  	-ControlFlow-> _Yuo5oVOlEe2KQc5QIsW97w via (1010,399) (1090,399) (1090,205) decorate "" at (0,0) {
+  		id _vWDLYVOlEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Branch _jZ-a_lOlEe2KQc5QIsW97w at 750,300 size 120,50 {
+  	name "Resolve issue"
+  	ComplexOutputPort _jZ-bAlOlEe2KQc5QIsW97w at 5,27 size 110,18 {
+  		libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
+  		isList false
+  		name "issue"
+  	}
+  	-ControlFlow-> _Yuo5oVOlEe2KQc5QIsW97w via (810,400) (890,400) (890,205) decorate "" at (0,0) {
+  		id _tYOz0VOlEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Documentation _jZ_CBVOlEe2KQc5QIsW97w at 550,360 size 52,40 {
+  	content "TODO"
+  }
+  
+  Branch _Afrl0VOmEe2KQc5QIsW97w at 330,140 size 120,25 {
+  	name "Back"
+  	-ControlFlow-> _BCILkVOmEe2KQc5QIsW97w  decorate "" at (0,0) {
+  		id _BUzP8VOmEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _BCILkVOmEe2KQc5QIsW97w at 490,70 size 100,65 {
+  	branchName "back"
+  }
+}

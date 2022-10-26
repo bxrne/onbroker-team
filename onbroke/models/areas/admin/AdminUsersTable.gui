@@ -1,0 +1,339 @@
+GUI _q5eDsVLnEe2djpkPxa2Z3Q {
+  fullWidth false
+  disableAutoLayout true
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "AdminUsersTable"
+  DataContext _q5eqwVLnEe2djpkPxa2Z3Q at 10,10 size 221,425 {
+  	dfViewWorkaround true
+  	ComplexVariable _27iucVLnEe2djpkPxa2Z3Q at 10,70 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isInput true
+  		name "users"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexListAttributeConnector-> _CkPP4VLoEe2djpkPxa2Z3Q  decorate "Ellipse" at (0,0) {
+  			id _Ckd5YVLoEe2djpkPxa2Z3Q
+  			attributeName current
+  		}
+  		
+  		-TableLoad-> _vZcO8VLnEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _DUzKIVLoEe2djpkPxa2Z3Q
+  		}
+  	}
+  	
+  	ComplexVariable _CkPP4VLoEe2djpkPxa2Z3Q at 10,290 size 201,105 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isInput false
+  		name "user"
+  		dfViewWorkaround true
+  		isList false
+  		PrimitiveAttribute _Ck5-Q1LoEe2djpkPxa2Z3Q at 10,23 size 181,25 {
+  			libraryComponentUID "_KAc-cUIAEe26p7mBymqW2w"
+  			isLive false
+  			-TableColumnLoad-> _0Zu5AVLnEe2djpkPxa2Z3Q via (659,335) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _FnKOUVLoEe2djpkPxa2Z3Q
+  			}
+  		}
+  		
+  		PrimitiveAttribute _Ck6lUVLoEe2djpkPxa2Z3Q at 10,50 size 181,25 {
+  			libraryComponentUID "_Ljih0UIAEe26p7mBymqW2w"
+  			isLive false
+  			-TableColumnLoad-> _vZc2QFLnEe2djpkPxa2Z3Q via (429,362) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _GKwqoVLoEe2djpkPxa2Z3Q
+  			}
+  		}
+  		
+  		ComplexAttribute _urBNQVLoEe2djpkPxa2Z3Q at 10,77 size 181,25 {
+  			libraryComponentUID "_vk0f0FE3Ee2Vgcav4Znc_w"
+  			isLive false
+  			-ComplexRead-> _t40UQVLoEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _vfpvMVLoEe2djpkPxa2Z3Q
+  			}
+  			
+  			-TableColumnLoad-> _IOQMYVLoEe2djpkPxa2Z3Q via (864,389) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _wmCIcVLoEe2djpkPxa2Z3Q
+  			}
+  		}
+  		-AddComplexToSubmission-> _vZeEOFLnEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _4fR8oVLoEe2djpkPxa2Z3Q
+  		}
+  		
+  		-AddComplexToSubmission-> _vZeESVLnEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _5pg7IVLoEe2djpkPxa2Z3Q
+  		}
+  	}
+  }
+  
+  Template _q5fR0VLnEe2djpkPxa2Z3Q at 300,10 size 1150,280 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _q5f44FLnEe2djpkPxa2Z3Q {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Table _vZcO8VLnEe2djpkPxa2Z3Q at 10,30 size 1130,220 {
+  		striped true
+  		numbering false
+  		pagination 20
+  		autoSorted true
+  		condensed true
+  		reSortable false
+  		bordered false
+  		hover true
+  		responsive true
+  		name "table"
+  		choices NONE
+  		dropTargets [  ]
+  		generalStyle GeneralStyling _vZc2OFLnEe2djpkPxa2Z3Q {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _vZc2OlLnEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _vZc2PVLnEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  		}
+  		
+  		TableEntry _vZc2QFLnEe2djpkPxa2Z3Q at 10,30 size 220,120 {
+  			fullTextSearch true
+  			defaultSorting ASC
+  			label "Last name"
+  			sortable true
+  			generalStyle GeneralStyling _vZc2TlLnEe2djpkPxa2Z3Q {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _vZc2UFLnEe2djpkPxa2Z3Q at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _vZc2U1LnEe2djpkPxa2Z3Q at 10,2 size 7,14 {
+  			}
+  			
+  			Text _vZc2VlLnEe2djpkPxa2Z3Q at 10,30 size 200,60 {
+  				content [ StaticContent _vZddE1LnEe2djpkPxa2Z3Q {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "{{user.lastName}}"
+  						styling TextStyling _vZddFFLnEe2djpkPxa2Z3Q {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _vZddElLnEe2djpkPxa2Z3Q {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _vZddFlLnEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _vZddGVLnEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  		
+  		TableEntry _vZddHlLnEe2djpkPxa2Z3Q at 650,30 size 460,170 {
+  			fullTextSearch false
+  			defaultSorting NONE
+  			label "Actions"
+  			sortable false
+  			generalStyle GeneralStyling _vZddSFLnEe2djpkPxa2Z3Q {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _vZddSlLnEe2djpkPxa2Z3Q at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _vZddTVLnEe2djpkPxa2Z3Q at 10,2 size 7,14 {
+  			}
+  			
+  			ButtonGroup _vZddUFLnEe2djpkPxa2Z3Q at 10,30 size 440,110 {
+  				size Default
+  				alignment horizontal
+  				generalStyle GeneralStyling _vZddc1LnEe2djpkPxa2Z3Q {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _vZeEIVLnEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _vZeEJFLnEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  				}
+  				
+  				Button _vZeEOFLnEe2djpkPxa2Z3Q at 10,30 size 200,60 {
+  					displayLabel "Edit"
+  					label "Edit user"
+  					styling ButtonStyling _vZeEP1LnEe2djpkPxa2Z3Q {
+  							fullWidth false
+  							size Small
+  							disabled false
+  							color Yellow
+  						}
+  					options ButtonOptions _vZeEQFLnEe2djpkPxa2Z3Q {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _vZeEPlLnEe2djpkPxa2Z3Q {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _vZeEPVLnEe2djpkPxa2Z3Q {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _vZeEQlLnEe2djpkPxa2Z3Q at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _vZeERVLnEe2djpkPxa2Z3Q at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				Button _vZeESVLnEe2djpkPxa2Z3Q at 220,30 size 200,60 {
+  					displayLabel "Delete"
+  					label "Delete user"
+  					styling ButtonStyling _vZeEUFLnEe2djpkPxa2Z3Q {
+  							fullWidth false
+  							size Small
+  							disabled false
+  							color Red
+  						}
+  					options ButtonOptions _vZeEUVLnEe2djpkPxa2Z3Q {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _vZeET1LnEe2djpkPxa2Z3Q {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _vZeETlLnEe2djpkPxa2Z3Q {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _vZeEU1LnEe2djpkPxa2Z3Q at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _vZeEVlLnEe2djpkPxa2Z3Q at 10,2 size 7,14 {
+  					}
+  				}
+  			}
+  		}
+  		
+  		TableEntry _0Zu5AVLnEe2djpkPxa2Z3Q at 240,30 size 220,120 {
+  			fullTextSearch true
+  			defaultSorting NONE
+  			label "First name"
+  			sortable true
+  			generalStyle GeneralStyling _0Zu5D1LnEe2djpkPxa2Z3Q {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _0Zu5EVLnEe2djpkPxa2Z3Q at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _0Zu5FFLnEe2djpkPxa2Z3Q at 10,2 size 7,14 {
+  			}
+  			
+  			Text _0Zu5F1LnEe2djpkPxa2Z3Q at 10,30 size 200,60 {
+  				content [ StaticContent _0Zu5HVLnEe2djpkPxa2Z3Q {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "{{user.firstName}}"
+  						styling TextStyling _0Zu5HlLnEe2djpkPxa2Z3Q {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _0Zu5HFLnEe2djpkPxa2Z3Q {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _0Zu5IFLnEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _0Zu5I1LnEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  		
+  		TableEntry _IOQMYVLoEe2djpkPxa2Z3Q at 470,30 size 170,150 {
+  			fullTextSearch true
+  			defaultSorting NONE
+  			label "Role"
+  			sortable true
+  			generalStyle GeneralStyling _IOQMb1LoEe2djpkPxa2Z3Q {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _IOQMcVLoEe2djpkPxa2Z3Q at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _IOQMdFLoEe2djpkPxa2Z3Q at 10,2 size 7,14 {
+  			}
+  			
+  			GUISIB _t4qjZVLoEe2djpkPxa2Z3Q at 10,30 size 150,90 {
+  				libraryComponentUID "_gqOMAVLoEe2djpkPxa2Z3Q"
+  				label "UserRoleBadge"
+  				generalStyle GeneralStyling _t4_6cFLoEe2djpkPxa2Z3Q {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				ComplexInputPort _t40UQVLoEe2djpkPxa2Z3Q at 5,67 size 90,18 {
+  					libraryComponentUID "_mSHlYFE3Ee2Vgcav4Znc_w"
+  					isList false
+  					name "role"
+  				}
+  				
+  				MoveUp _t4-sUVLoEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _t4_TYVLoEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  }
+}

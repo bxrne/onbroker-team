@@ -1,0 +1,135 @@
+Process _-tSigVOiEe2KQc5QIsW97w {
+  modelName "ShowOfferDetails"
+  description "ShowOfferDetails"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  StartSIB _-7yRgVOiEe2KQc5QIsW97w at 200,30 size 100,90 {
+  	ComplexOutputPort _BBuqUVOjEe2KQc5QIsW97w at 5,67 size 90,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  		-ComplexDirectDataFlow-> _AaMwQVOjEe2KQc5QIsW97w via (180,106) (180,236) decorate "" at (0,0) {
+  			id _KbZvcVOjEe2KQc5QIsW97w
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _AaCYMVOjEe2KQc5QIsW97w  decorate "" at (0,0) {
+  		id _BkbuwVOjEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _AaCYMVOjEe2KQc5QIsW97w at 190,160 size 120,90 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_fcOIkVN8Ee2KQc5QIsW97w"
+  	name "OfferDetails"
+  	label "OfferDetails"
+  	ignoredBranch [  ]
+  	ComplexInputPort _AaMwQVOjEe2KQc5QIsW97w at 5,67 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  	}
+  	-BranchConnector-> _AaXvYVOjEe2KQc5QIsW97w via (250,280) (610,280)  {
+  		id _AaZkkVOjEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _AaiHcVOjEe2KQc5QIsW97w via (250,280) (810,280)  {
+  		id _AaiugVOjEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _AaqDQVOjEe2KQc5QIsW97w via (250,280) (1010,280)  {
+  		id _AaqqUVOjEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _AaxYAVOjEe2KQc5QIsW97w via (250,280) (410,280)  {
+  		id _Aax_EVOjEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _DXxNQVOmEe2KQc5QIsW97w   {
+  		id _DXybYVOmEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Branch _AaXvYVOjEe2KQc5QIsW97w at 550,300 size 120,50 {
+  	name "Show issue"
+  	ComplexOutputPort _AacA0VOjEe2KQc5QIsW97w at 5,27 size 110,18 {
+  		libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
+  		isList false
+  		name "issue"
+  	}
+  	-ControlFlow-> _AaCYMVOjEe2KQc5QIsW97w via (610,450) (690,450) (690,205) decorate "" at (0,0) {
+  		id _TggSwVOjEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Branch _AaiHcVOjEe2KQc5QIsW97w at 750,300 size 120,50 {
+  	name "Resolve issue"
+  	ComplexOutputPort _Aalx0VOjEe2KQc5QIsW97w at 5,27 size 110,18 {
+  		libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
+  		isList false
+  		name "issue"
+  	}
+  	-ControlFlow-> _AaCYMVOjEe2KQc5QIsW97w via (810,450) (890,450) (890,205) decorate "" at (0,0) {
+  		id _VnaU4VOjEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Branch _AaqDQVOjEe2KQc5QIsW97w at 950,300 size 120,50 {
+  	name "Unresolve issue"
+  	ComplexOutputPort _AatGkVOjEe2KQc5QIsW97w at 5,27 size 110,18 {
+  		libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
+  		isList false
+  		name "issue"
+  	}
+  	-ControlFlow-> _AaCYMVOjEe2KQc5QIsW97w via (1010,450) (1090,450) (1090,205) decorate "" at (0,0) {
+  		id _YfA0IVOjEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Branch _AaxYAVOjEe2KQc5QIsW97w at 350,300 size 120,25 {
+  	name "Create issue"
+  	-ControlFlow-> _AaCYMVOjEe2KQc5QIsW97w via (410,449) (490,449) (490,205) decorate "" at (0,0) {
+  		id _P5JxkVOjEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Documentation _SVtTkVOjEe2KQc5QIsW97w at 350,360 size 52,40 {
+  	content "TODO"
+  }
+  
+  Documentation _SzxvoVOjEe2KQc5QIsW97w at 550,360 size 52,40 {
+  	content "TODO"
+  }
+  
+  Documentation _XU-p8VOjEe2KQc5QIsW97w at 750,360 size 52,40 {
+  	content "TODO"
+  }
+  
+  Documentation _bIILcVOjEe2KQc5QIsW97w at 950,360 size 52,40 {
+  	content "TODO"
+  }
+  
+  Branch _DXxNQVOmEe2KQc5QIsW97w at 330,140 size 120,25 {
+  	name "Back"
+  	-ControlFlow-> _D_mpUVOmEe2KQc5QIsW97w  decorate "" at (0,0) {
+  		id _EwIuYVOmEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _D_mpUVOmEe2KQc5QIsW97w at 490,60 size 100,65 {
+  	branchName "back"
+  }
+}

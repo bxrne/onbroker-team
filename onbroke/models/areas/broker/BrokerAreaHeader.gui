@@ -1,0 +1,163 @@
+GUI _kylP0VE4Ee2Vgcav4Znc_w {
+  fullWidth false
+  disableAutoLayout true
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "BrokerAreaHeader"
+  DataContext _kyl24VE4Ee2Vgcav4Znc_w at 10,10 size 221,178 {
+  	dfViewWorkaround true
+  	ComplexVariable _vfCWAFE5Ee2Vgcav4Znc_w at 10,70 size 201,78 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isInput false
+  		name "currentUser"
+  		dfViewWorkaround true
+  		isList false
+  		PrimitiveAttribute _vfCWBlE5Ee2Vgcav4Znc_w at 10,23 size 181,25 {
+  			libraryComponentUID "_KAc-cUIAEe26p7mBymqW2w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _vfCWCVE5Ee2Vgcav4Znc_w at 10,50 size 181,25 {
+  			libraryComponentUID "_Ljih0UIAEe26p7mBymqW2w"
+  			isLive false
+  		}
+  	}
+  }
+  
+  Template _kynFAVE4Ee2Vgcav4Znc_w at 300,10 size 370,425 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _kynsEFE4Ee2Vgcav4Znc_w {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _tedlYVE5Ee2Vgcav4Znc_w at 10,30 size 350,290 {
+  		generalStyle GeneralStyling _tedldlE5Ee2Vgcav4Znc_w {
+  				tallness Fitting
+  				marginBottom Double
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _tedleFE5Ee2Vgcav4Znc_w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _tedle1E5Ee2Vgcav4Znc_w at 2,10 size 14,7 {
+  		}
+  		
+  		Col _tedlflE5Ee2Vgcav4Znc_w at 10,30 size 320,240 {
+  			wideness Full
+  			layout Layout _tedljFE5Ee2Vgcav4Znc_w {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _tedli1E5Ee2Vgcav4Znc_w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _teeMcVE5Ee2Vgcav4Znc_w at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _teeMdFE5Ee2Vgcav4Znc_w at 10,2 size 7,14 {
+  			}
+  			
+  			Headline _teeMd1E5Ee2Vgcav4Znc_w at 10,90 size 300,50 {
+  				size Small
+  				content [ StaticContent _teeMfVE5Ee2Vgcav4Znc_w {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "Broker Area · Logged in as {{currentUser.firstName}} {{currentUser.lastName}}"
+  					} ]
+  				generalStyle GeneralStyling _teeMfFE5Ee2Vgcav4Znc_w {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _teeMf1E5Ee2Vgcav4Znc_w at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _teeMglE5Ee2Vgcav4Znc_w at 2,10 size 14,7 {
+  				}
+  			}
+  			
+  			Button _xGsVsVFMEe2J0bu3ffrh5w at 10,150 size 200,60 {
+  				displayLabel "Logout"
+  				label "Logout"
+  				styling ButtonStyling _xGsVuFFMEe2J0bu3ffrh5w {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Blue
+  					}
+  				options ButtonOptions _xGsVuVFMEe2J0bu3ffrh5w {
+  						isLink false
+  						submitsForm false
+  						staticURL "logout"
+  					}
+  				disabled false
+  				icon Icon _xGsVt1FMEe2J0bu3ffrh5w {
+  						postIcon LogOut
+  						preIcon None
+  					}
+  				generalStyle GeneralStyling _xGsVtlFMEe2J0bu3ffrh5w {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop Single
+  					}
+  				MoveUp _xGs8wVFMEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _xGs8xFFMEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  				}
+  			}
+  			
+  			Headline _bxl88VHnEe2J0bu3ffrh5w at 10,30 size 300,50 {
+  				size Big
+  				content [ StaticContent _bxmkAFHnEe2J0bu3ffrh5w {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "Onbroke"
+  					} ]
+  				generalStyle GeneralStyling _bxl89lHnEe2J0bu3ffrh5w {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  						rawContent "margin-top: 0;\nfont-variant: small-caps;"
+  					}
+  				MoveUp _bxmkAlHnEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _bxmkBVHnEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  	
+  	ProcessSIB _yCTCUFFMEe2J0bu3ffrh5w at 10,330 size 150,65 {
+  		libraryComponentUID "_zgnP4FFLEe2Vgcav4Znc_w"
+  		label "ShowBrokerArea"
+  		generalStyle GeneralStyling _yCczUFFMEe2J0bu3ffrh5w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _yCblMVFMEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _yCcMQVFMEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}

@@ -1,0 +1,184 @@
+name TestData
+
+generate {
+	modelId _zn_1sEt2Ee22z989Tp8YUw
+}
+
+import "models/app.data" as data
+
+// ---- TEMPLATES ----
+
+featTmpl = new data.Feature {
+	title = "3 Year Warranty"
+	isTemplateForOffer = true
+}
+
+attrTmpl = new data.Feature {
+	title = "Cash Payment"
+	isTemplateForBidding = true
+}
+
+// ----- OFFER ------
+
+offer1 = new data.Offer {
+	title = "Awesome Product"
+	user = user
+	features = [
+		extend featTmpl {
+			isTemplateForOffer = false
+		}
+	]
+	preferences = [
+		extend attrTmpl {
+			isTemplateForBidding = false
+			priority = "high"
+		}
+	]
+	issues = [
+		new data.Issue {
+			title = "The title is confusing"
+			comments = [
+				new data.Comment {
+					^text = "The title is very confusing. Please change it."
+				},
+				new data.Comment {
+					^text = "Ok, i see. I'll change it and upload a new version."
+				}
+			]
+		}
+	]
+	report = new data.Report {}
+	decision = new data.Decision {
+		state = "approved"
+	}
+}
+
+new data.Bidding {
+	user = user2
+	offer = offer1
+	preferences = [
+		extend featTmpl {
+			isTemplateForOffer = false
+			priority = "high"
+		}
+	]
+	report = new data.Report {}
+}
+
+new data.Bidding {
+	user = user3
+	offer = offer1
+	features = [
+		extend attrTmpl {
+			isTemplateForBidding = false
+		}
+	]
+	preferences = [
+		extend featTmpl {
+			isTemplateForOffer = false
+			priority = "low"
+		}
+	]
+	report = new data.Report {}
+	decision = new data.Decision {
+		state = "rejected"
+	}
+}
+
+// ----- OFFER ------
+
+offer2 = new data.Offer {
+	title = "Great Product"
+	user = user2
+}
+
+new data.Bidding {
+	user = user
+	offer = offer2
+	features = [
+		extend attrTmpl {
+			isTemplateForBidding = false
+		}
+	]
+	preferences = [
+		extend featTmpl {
+			isTemplateForOffer = false
+			priority = "low"
+		}
+	]
+}
+
+new data.Bidding {
+	user = user3
+	offer = offer2
+	preferences = [
+		extend featTmpl {
+			isTemplateForOffer = false
+			priority = "medium"
+		}
+	]
+}
+
+// ----- USERS ------
+
+admin = new data.User {
+	firstName = "System"
+	lastName = "Admin"
+	role = "admin"
+	baseUser = new data.BaseUser {
+		username = "admin"
+		password = hashed "pwd"
+	}
+}
+
+broker = new data.User {
+	firstName = "Peter"
+	lastName = "Parker"
+	role = "broker"
+	baseUser = new data.BaseUser {
+		username = "broker"
+		password = hashed "pwd"
+	}
+}
+
+mary = new data.User {
+	firstName = "Mary Jane"
+	lastName = "Watson"
+	role = "broker"
+	baseUser = new data.BaseUser {
+		username = "broker2"
+		password = hashed "pwd"
+	}
+}
+
+user = new data.User {
+	firstName = "Homer"
+	lastName = "Simpson"
+	role = "user"
+	baseUser = new data.BaseUser {
+		username = "user"
+		password = hashed "pwd"
+	}
+}
+
+user2 = new data.User {
+	firstName = "Barney"
+	lastName = "Gumble"
+	role = "user"
+	baseUser = new data.BaseUser {
+		username = "user2"
+		password = hashed "pwd"
+	}
+}
+
+user3 = new data.User {
+	firstName = "Gums"
+	lastName = "Murphy"
+	role = "user"
+	baseUser = new data.BaseUser {
+		username = "user3"
+		password = hashed "pwd"
+	}
+}
+
+

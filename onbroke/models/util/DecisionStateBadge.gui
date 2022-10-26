@@ -1,0 +1,140 @@
+GUI _bvuygVLpEe2djpkPxa2Z3Q {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "DecisionStateBadge"
+  DataContext _bvwAoVLpEe2djpkPxa2Z3Q at 10,10 size 180,224 {
+  	dfViewWorkaround true
+  	ComplexVariable _fes-oVLpEe2djpkPxa2Z3Q at 10,100 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_lmR-0VFSEe2J0bu3ffrh5w"
+  		isInput true
+  		name "decisionState"
+  		dfViewWorkaround true
+  		isList false
+  		-IS-> _eCwlEVLpEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _jBK_0FLpEe2djpkPxa2Z3Q
+  			exactMatch false
+  			negate false
+  			matchingType "_m8RhYVFSEe2J0bu3ffrh5w"
+  		}
+  		
+  		-IS-> _eCxML1LpEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _jbaEwVLpEe2djpkPxa2Z3Q
+  			exactMatch false
+  			negate false
+  			matchingType "_oFXQYVFSEe2J0bu3ffrh5w"
+  		}
+  		
+  		-IF-> _eCxzP1LpEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _mbULcVLpEe2djpkPxa2Z3Q
+  			negate true
+  		}
+  	}
+  }
+  
+  Template _bvwnsVLpEe2djpkPxa2Z3Q at 240,10 size 220,250 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _bvxOwFLpEe2djpkPxa2Z3Q {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Badge _eCwlEVLpEe2djpkPxa2Z3Q at 10,88 size 200,48 {
+  		color Green
+  		content [ StaticContent _eCwlF1LpEe2djpkPxa2Z3Q {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "approved"
+  				styling TextStyling _eCwlGFLpEe2djpkPxa2Z3Q {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _eCwlFlLpEe2djpkPxa2Z3Q {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _eCxMIVLpEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _eCxMJFLpEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Badge _eCxML1LpEe2djpkPxa2Z3Q at 10,146 size 200,48 {
+  		color Red
+  		content [ StaticContent _eCxMNVLpEe2djpkPxa2Z3Q {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "rejected"
+  				styling TextStyling _eCxMNlLpEe2djpkPxa2Z3Q {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _eCxMNFLpEe2djpkPxa2Z3Q {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _eCxzMVLpEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _eCxzNFLpEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Badge _eCxzP1LpEe2djpkPxa2Z3Q at 10,30 size 200,48 {
+  		color Default
+  		content [ StaticContent _eCyaQFLpEe2djpkPxa2Z3Q {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "none"
+  				styling TextStyling _eCyaQVLpEe2djpkPxa2Z3Q {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _eCxzRFLpEe2djpkPxa2Z3Q {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _eCyaQ1LpEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _eCyaRlLpEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}

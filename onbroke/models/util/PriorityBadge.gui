@@ -1,0 +1,142 @@
+GUI _41rLsVOeEe2KQc5QIsW97w_INTERNAL {
+  fullWidth false
+  disableAutoLayout true
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "PriorityBadge"
+  DataContext _41rywVOeEe2KQc5QIsW97w_INTERNAL at 10,10 size 180,155 {
+  	dfViewWorkaround true
+  	ComplexVariable _62mhoFOeEe2KQc5QIsW97w_INTERNAL at 10,100 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_j0KaUVHpEe2J0bu3ffrh5w"
+  		isInput true
+  		name "priority"
+  		dfViewWorkaround true
+  		isList false
+  		-IS-> _8XgTsVOeEe2KQc5QIsW97w_INTERNAL  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _CmygcVOfEe2KQc5QIsW97w
+  			exactMatch false
+  			negate false
+  			matchingType "_lZeyUVHpEe2J0bu3ffrh5w"
+  		}
+  		
+  		-IS-> __nSpcVOeEe2KQc5QIsW97w_INTERNAL  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _DgAncVOfEe2KQc5QIsW97w
+  			exactMatch false
+  			negate false
+  			matchingType "_mQGRQVHpEe2J0bu3ffrh5w"
+  		}
+  		
+  		-IS-> __-zxkVOeEe2KQc5QIsW97w_INTERNAL  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _Eaf5wVOfEe2KQc5QIsW97w
+  			exactMatch false
+  			negate false
+  			matchingType "_nFDjUVHpEe2J0bu3ffrh5w"
+  		}
+  	}
+  }
+  
+  Template _41tA4VOeEe2KQc5QIsW97w_INTERNAL at 240,10 size 220,224 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _41tn8FOeEe2KQc5QIsW97w {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Badge _8XgTsVOeEe2KQc5QIsW97w_INTERNAL at 10,30 size 200,48 {
+  		color Default
+  		content [ StaticContent _8XgTt1OeEe2KQc5QIsW97w {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "high"
+  				styling TextStyling _8XgTuFOeEe2KQc5QIsW97w {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _8XgTtlOeEe2KQc5QIsW97w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _8XgTulOeEe2KQc5QIsW97w_INTERNAL at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _8XgTvVOeEe2KQc5QIsW97w_INTERNAL at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Badge __nSpcVOeEe2KQc5QIsW97w_INTERNAL at 10,88 size 200,48 {
+  		color Default
+  		content [ StaticContent __nSpd1OeEe2KQc5QIsW97w {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "medium"
+  				styling TextStyling __nTQgFOeEe2KQc5QIsW97w {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling __nSpdlOeEe2KQc5QIsW97w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp __nTQglOeEe2KQc5QIsW97w_INTERNAL at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown __nTQhVOeEe2KQc5QIsW97w_INTERNAL at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Badge __-zxkVOeEe2KQc5QIsW97w_INTERNAL at 10,146 size 200,48 {
+  		color Default
+  		content [ StaticContent __-zxl1OeEe2KQc5QIsW97w {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "low"
+  				styling TextStyling __-zxmFOeEe2KQc5QIsW97w {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling __-zxllOeEe2KQc5QIsW97w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp __-zxmlOeEe2KQc5QIsW97w_INTERNAL at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown __-zxnVOeEe2KQc5QIsW97w_INTERNAL at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}

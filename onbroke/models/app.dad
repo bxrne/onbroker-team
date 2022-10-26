@@ -1,0 +1,38 @@
+DAD _9G1SoMwLEeWZVvvwxpYu8A {
+  mode Development
+  postScripts [  ]
+  appName "Onbroke"
+  errorMessage ""
+  additionalStylesheets [  ]
+  preScripts [  ]
+  advacedSettings AdvancedSettings _lMrE4EIQEe2ssMLK_hLm6A {
+  		bodyStyle "max-width: 1000px;\npadding: 50px;"
+  	}
+  externalResources [  ]
+  Start _9xD7YMwLEeWZVvvwxpYu8A at 177,24 size 30,30 {
+  	-StartupProcessPointer-> _e0kD8NvjEeWvrN7BnrpCFw via (114,38) decorate "Polyline" at (2,0) decorate "Text" at (0,4) {
+  		id _fbjygNvjEeWvrN7BnrpCFw
+  	}
+  	
+  	-RootInteractionPointer-> __TU1IF-UEea6DvTF5PmsmA via (270,38) decorate "" at (0,0) decorate "Text" at (-34,4) {
+  		id _JVhi8Ti8Ee2C9OkkGn7qSQ
+  	}
+  }
+  
+  ProcessComponent _e0kD8NvjEeWvrN7BnrpCFw at 50,80 size 128,32 {
+  	libraryComponentUID "_sA1GYNviEeWsF7MALrkAZQ"
+  }
+  
+  DataComponent _F_rGIMwNEeWZVvvwxpYu8A at 380,38 size 128,32 {
+  	libraryComponentUID "_tH3fEMwMEeWZVvvwxpYu8A"
+  }
+  
+  SystemUser _DyCqAF4SEear0NzybbrMtw at 380,78 size 128,32 {
+  	libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  }
+  
+  ProcessComponent __TU1IF-UEea6DvTF5PmsmA at 207,80 size 128,32 {
+  	libraryComponentUID "_LWgagF-SEeakMeYoloYxpg"
+  	url "home"
+  }
+}

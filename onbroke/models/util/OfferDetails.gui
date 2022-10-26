@@ -1,0 +1,556 @@
+GUI _fcOIkVN8Ee2KQc5QIsW97w {
+  fullWidth false
+  disableAutoLayout true
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "OfferDetails"
+  DataContext _fcRL4VN8Ee2KQc5QIsW97w at 18,10 size 221,1335 {
+  	dfViewWorkaround true
+  	ComplexVariable _kWGooFN8Ee2KQc5QIsW97w at 10,90 size 201,61 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isInput true
+  		name "offer"
+  		dfViewWorkaround true
+  		isList false
+  		PrimitiveAttribute _bWxoQ1OfEe2KQc5QIsW97w at 10,23 size 181,25 {
+  			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		-ComplexAttributeConnector-> _mTap4VN8Ee2KQc5QIsW97w  decorate "Ellipse" at (0,0) {
+  			id _mTgwgVN8Ee2KQc5QIsW97w
+  			associationName "features"
+  		}
+  		
+  		-ComplexAttributeConnector-> _rTbusVOeEe2KQc5QIsW97w via (10,130) (10,691) decorate "Ellipse" at (0,0) {
+  			id _rTjqgVOeEe2KQc5QIsW97w
+  			associationName "preferences"
+  		}
+  		
+  		-ComplexRead-> _ydxmwVOkEe2KQc5QIsW97w via (270,131) (270,1006) decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _2VzBMVOkEe2KQc5QIsW97w
+  		}
+  	}
+  	
+  	ComplexVariable _mTap4VN8Ee2KQc5QIsW97w at 10,330 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput false
+  		name "features"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexListAttributeConnector-> _aDvIgVOeEe2KQc5QIsW97w  decorate "Ellipse" at (0,0) {
+  			id _aD0BAVOeEe2KQc5QIsW97w
+  			attributeName current
+  		}
+  		
+  		-FOR-> _c8L8UVOeEe2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _bEroIVOeEe2KQc5QIsW97w
+  			index "index"
+  		}
+  		
+  		-IF-> _jmSc0VOeEe2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _lbhgIVOeEe2KQc5QIsW97w
+  			negate true
+  		}
+  	}
+  	
+  	ComplexVariable _aDvIgVOeEe2KQc5QIsW97w at 10,393 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput false
+  		name "feature"
+  		dfViewWorkaround true
+  		isList false
+  	}
+  	
+  	ComplexVariable _rTbusVOeEe2KQc5QIsW97w at 10,670 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput false
+  		name "preferences"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexListAttributeConnector-> _vDbOgVOeEe2KQc5QIsW97w  decorate "Ellipse" at (0,0) {
+  			id _vDguEVOeEe2KQc5QIsW97w
+  			attributeName current
+  		}
+  		
+  		-IF-> _oq-eyVOeEe2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _vo7vUVOeEe2KQc5QIsW97w
+  			negate true
+  		}
+  		
+  		-FOR-> _oq93pFOeEe2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _weHq4VOeEe2KQc5QIsW97w
+  			index "index"
+  		}
+  	}
+  	
+  	ComplexVariable _vDbOgVOeEe2KQc5QIsW97w at 10,770 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput false
+  		name "preference"
+  		dfViewWorkaround true
+  		isList false
+  	}
+  }
+  
+  Template _fcSaAVN8Ee2KQc5QIsW97w at 300,10 size 370,1335 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _fcToIFN8Ee2KQc5QIsW97w {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _xWrjAVN8Ee2KQc5QIsW97w at 10,30 size 350,230 {
+  		generalStyle GeneralStyling _xWsKJ1N8Ee2KQc5QIsW97w {
+  				tallness Fitting
+  				marginBottom Double
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _xWsxIVN8Ee2KQc5QIsW97w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _xWsxJFN8Ee2KQc5QIsW97w at 2,10 size 14,7 {
+  		}
+  		
+  		Col _xWsxJ1N8Ee2KQc5QIsW97w at 10,30 size 320,180 {
+  			wideness Full
+  			layout Layout _xWtYMlN8Ee2KQc5QIsW97w {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _xWtYMVN8Ee2KQc5QIsW97w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _xWtYNFN8Ee2KQc5QIsW97w at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _xWtYN1N8Ee2KQc5QIsW97w at 10,2 size 7,14 {
+  			}
+  			
+  			Headline _xWtYOlN8Ee2KQc5QIsW97w at 10,30 size 300,50 {
+  				size Small
+  				content [ StaticContent _xWtYQFN8Ee2KQc5QIsW97w {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "Offer · {{offer.title}}"
+  					} ]
+  				generalStyle GeneralStyling _xWtYP1N8Ee2KQc5QIsW97w {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _xWtYQlN8Ee2KQc5QIsW97w at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _xWtYRVN8Ee2KQc5QIsW97w at 2,10 size 14,7 {
+  				}
+  			}
+  			
+  			Button _-9XegVOlEe2KQc5QIsW97w at 10,90 size 200,60 {
+  				displayLabel "Back"
+  				label "Back"
+  				styling ButtonStyling _-9XeiFOlEe2KQc5QIsW97w {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions _-9XeiVOlEe2KQc5QIsW97w {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon _-9Xeh1OlEe2KQc5QIsW97w {
+  						postIcon None
+  						preIcon ArrowLeft
+  					}
+  				generalStyle GeneralStyling _-9XehlOlEe2KQc5QIsW97w {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _-9Xei1OlEe2KQc5QIsW97w at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _-9XejlOlEe2KQc5QIsW97w at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  	
+  	Panel _PXMGQVOeEe2KQc5QIsW97w at 10,270 size 270,300 {
+  		collapsable false
+  		defaultOpen "true"
+  		heading StaticContent _PXNUYlOeEe2KQc5QIsW97w {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Features"
+  				styling TextStyling _PXNUY1OeEe2KQc5QIsW97w {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold true
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			}
+  		coloring ComponentColoring _PXNUZFOeEe2KQc5QIsW97w {
+  				color Default
+  			}
+  		generalStyle GeneralStyling _PXNUYVOeEe2KQc5QIsW97w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  				rawContent ""
+  			}
+  		MoveUp _PXNUZlOeEe2KQc5QIsW97w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _PXNUaVOeEe2KQc5QIsW97w at 2,10 size 14,7 {
+  		}
+  		
+  		Row _c8L8UVOeEe2KQc5QIsW97w at 10,100 size 250,170 {
+  			generalStyle GeneralStyling _c8XigFOeEe2KQc5QIsW97w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _c8NKcVOeEe2KQc5QIsW97w at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _c8NxgVOeEe2KQc5QIsW97w at 2,10 size 14,7 {
+  			}
+  			
+  			Col _c8PmsVOeEe2KQc5QIsW97w at 10,30 size 220,120 {
+  				wideness Full
+  				layout Layout _c8Rb4VOeEe2KQc5QIsW97w {
+  						size Default
+  						offset None
+  						alignment Left
+  					}
+  				generalStyle GeneralStyling _c8Rb4FOeEe2KQc5QIsW97w {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveLeft _c8QNwVOeEe2KQc5QIsW97w at 2,2 size 7,14 {
+  				}
+  				
+  				MoveRight _c8QNw1OeEe2KQc5QIsW97w at 10,2 size 7,14 {
+  				}
+  				
+  				Text _XMa9IVOeEe2KQc5QIsW97w at 10,30 size 200,60 {
+  					content [ StaticContent _XMfOkVOeEe2KQc5QIsW97w {
+  							renderMarkdown false
+  							maxChars 0
+  							html false
+  							rawContent " · {{feature.title}}"
+  							styling TextStyling _XMfOklOeEe2KQc5QIsW97w {
+  									small false
+  									highlight false
+  									deleted false
+  									underline false
+  									bold false
+  									alignment Left
+  									italic false
+  									color Default
+  								}
+  						} ]
+  					generalStyle GeneralStyling _XMfOkFOeEe2KQc5QIsW97w {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _XMdZYVOeEe2KQc5QIsW97w at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _XMeAcVOeEe2KQc5QIsW97w at 2,10 size 14,7 {
+  					}
+  				}
+  			}
+  		}
+  		
+  		Text _jmSc0VOeEe2KQc5QIsW97w at 10,30 size 200,60 {
+  			content [ StaticContent _jmSc11OeEe2KQc5QIsW97w {
+  					renderMarkdown false
+  					maxChars 0
+  					html false
+  					rawContent "None"
+  					styling TextStyling _jmSc2FOeEe2KQc5QIsW97w {
+  							small false
+  							highlight false
+  							deleted false
+  							underline false
+  							bold false
+  							alignment Left
+  							italic true
+  							color Default
+  						}
+  				} ]
+  			generalStyle GeneralStyling _jmSc1lOeEe2KQc5QIsW97w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  					rawContent "color: grey;\n"
+  				}
+  			MoveUp _jmSc2lOeEe2KQc5QIsW97w at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _jmSc3VOeEe2KQc5QIsW97w at 2,10 size 14,7 {
+  			}
+  		}
+  	}
+  	
+  	Panel _oq8pgVOeEe2KQc5QIsW97w at 10,580 size 270,300 {
+  		collapsable false
+  		defaultOpen "true"
+  		heading StaticContent _oq9QslOeEe2KQc5QIsW97w {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Preferences"
+  				styling TextStyling _oq9Qs1OeEe2KQc5QIsW97w {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold true
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			}
+  		coloring ComponentColoring _oq9QtFOeEe2KQc5QIsW97w {
+  				color Default
+  			}
+  		generalStyle GeneralStyling _oq9QsVOeEe2KQc5QIsW97w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  				rawContent ""
+  			}
+  		MoveUp _oq9QtlOeEe2KQc5QIsW97w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _oq93oVOeEe2KQc5QIsW97w at 2,10 size 14,7 {
+  		}
+  		
+  		Row _oq93pFOeEe2KQc5QIsW97w at 10,100 size 250,170 {
+  			generalStyle GeneralStyling _oq93ulOeEe2KQc5QIsW97w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _oq93vFOeEe2KQc5QIsW97w at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _oq93v1OeEe2KQc5QIsW97w at 2,10 size 14,7 {
+  			}
+  			
+  			Col _oq93wlOeEe2KQc5QIsW97w at 10,30 size 220,120 {
+  				wideness Full
+  				layout Layout _oq930VOeEe2KQc5QIsW97w {
+  						size Default
+  						offset None
+  						alignment Left
+  					}
+  				generalStyle GeneralStyling _oq930FOeEe2KQc5QIsW97w {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveLeft _oq-esVOeEe2KQc5QIsW97w at 2,2 size 7,14 {
+  				}
+  				
+  				MoveRight _oq-etFOeEe2KQc5QIsW97w at 10,2 size 7,14 {
+  				}
+  				
+  				Text _oq-et1OeEe2KQc5QIsW97w at 10,30 size 200,60 {
+  					content [ StaticContent _oq-evVOeEe2KQc5QIsW97w {
+  							renderMarkdown false
+  							maxChars 0
+  							html false
+  							rawContent " · {{preference.title}} ({{preference.priority}})"
+  							styling TextStyling _oq-evlOeEe2KQc5QIsW97w {
+  									small false
+  									highlight false
+  									deleted false
+  									underline false
+  									bold false
+  									alignment Left
+  									italic false
+  									color Default
+  								}
+  						} ]
+  					generalStyle GeneralStyling _oq-evFOeEe2KQc5QIsW97w {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _oq-ewFOeEe2KQc5QIsW97w at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _oq-ew1OeEe2KQc5QIsW97w at 2,10 size 14,7 {
+  					}
+  				}
+  			}
+  		}
+  		
+  		Text _oq-eyVOeEe2KQc5QIsW97w at 10,30 size 200,60 {
+  			content [ StaticContent _oq-ez1OeEe2KQc5QIsW97w {
+  					renderMarkdown false
+  					maxChars 0
+  					html false
+  					rawContent "None"
+  					styling TextStyling _oq-e0FOeEe2KQc5QIsW97w {
+  							small false
+  							highlight false
+  							deleted false
+  							underline false
+  							bold false
+  							alignment Left
+  							italic true
+  							color Default
+  						}
+  				} ]
+  			generalStyle GeneralStyling _oq-ezlOeEe2KQc5QIsW97w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  					rawContent "color: grey;\n"
+  				}
+  			MoveUp _oq-e0lOeEe2KQc5QIsW97w at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _oq-e1VOeEe2KQc5QIsW97w at 2,10 size 14,7 {
+  			}
+  		}
+  	}
+  	
+  	Panel _Ueh-EVOfEe2KQc5QIsW97w at 10,890 size 170,415 {
+  		collapsable false
+  		defaultOpen "true"
+  		heading StaticContent _UeilLlOfEe2KQc5QIsW97w {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Discussion"
+  				styling TextStyling _UeilL1OfEe2KQc5QIsW97w {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold true
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			}
+  		coloring ComponentColoring _UeilMFOfEe2KQc5QIsW97w {
+  				color Default
+  			}
+  		generalStyle GeneralStyling _UeilLVOfEe2KQc5QIsW97w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  				rawContent ""
+  			}
+  		MoveUp _UeilMlOfEe2KQc5QIsW97w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _UeilNVOfEe2KQc5QIsW97w at 2,10 size 14,7 {
+  		}
+  		
+  		GUISIB _ydn1wVOkEe2KQc5QIsW97w at 10,30 size 150,355 {
+  			libraryComponentUID "_cA-CgVOkEe2KQc5QIsW97w"
+  			label "DiscussionPanelContent"
+  			generalStyle GeneralStyling _ye_uwFOkEe2KQc5QIsW97w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			ComplexInputPort _ydxmwVOkEe2KQc5QIsW97w at 5,67 size 90,18 {
+  				libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  				isList false
+  				name "submission"
+  			}
+  			
+  			Branch _yeHlAVOkEe2KQc5QIsW97w at 5,108 size 100,50 {
+  				name "Show issue"
+  				ComplexOutputPort _yeMdgVOkEe2KQc5QIsW97w at 5,27 size 90,18 {
+  					libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
+  					name "issue"
+  					isList false
+  				}
+  			}
+  			
+  			Branch _yeVncVOkEe2KQc5QIsW97w at 5,176 size 100,50 {
+  				name "Resolve issue"
+  				ComplexOutputPort _yebHAVOkEe2KQc5QIsW97w at 5,27 size 90,18 {
+  					libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
+  					name "issue"
+  					isList false
+  				}
+  			}
+  			
+  			Branch _yenUQVOkEe2KQc5QIsW97w at 5,244 size 100,50 {
+  				name "Unresolve issue"
+  				ComplexOutputPort _yeta4VOkEe2KQc5QIsW97w at 5,27 size 90,18 {
+  					libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
+  					name "issue"
+  					isList false
+  				}
+  			}
+  			
+  			Branch _ye4aAVOkEe2KQc5QIsW97w at 5,312 size 100,25 {
+  				name "Create issue"
+  			}
+  			
+  			MoveUp _ye-goVOkEe2KQc5QIsW97w at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _ye_HsVOkEe2KQc5QIsW97w at 2,10 size 14,7 {
+  			}
+  			
+  			BooleanInputStatic _zlh5AVOkEe2KQc5QIsW97w at 5,85 size 90,18 {
+  				value false
+  				name "showResolveButtons"
+  			}
+  		}
+  	}
+  }
+}

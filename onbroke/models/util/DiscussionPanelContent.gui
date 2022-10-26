@@ -1,0 +1,226 @@
+GUI _cA-CgVOkEe2KQc5QIsW97w {
+  fullWidth false
+  disableAutoLayout true
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "DiscussionPanelContent"
+  DataContext _cA-pkVOkEe2KQc5QIsW97w at 10,10 size 221,415 {
+  	dfViewWorkaround true
+  	ComplexVariable _fwHNwVOkEe2KQc5QIsW97w at 10,37 size 201,64 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isInput true
+  		name "submission"
+  		dfViewWorkaround true
+  		isList false
+  		PrimitiveExtensionAttribute _gL3Vo1OkEe2KQc5QIsW97w at 10,23 size 181,25 {
+  			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
+  			isLive false
+  			-IF-> _h9uU2lOkEe2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _kqbLoVOkEe2KQc5QIsW97w
+  				negate true
+  			}
+  			
+  			-IF-> _h9uU6lOkEe2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _lfpjcVOkEe2KQc5QIsW97w
+  				negate false
+  			}
+  			
+  			-IF-> _h9u7_FOkEe2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _l6yAQVOkEe2KQc5QIsW97w
+  				negate false
+  			}
+  		}
+  		-ComplexAttributeConnector-> _uH6ZwVOkEe2KQc5QIsW97w  decorate "Ellipse" at (0,0) {
+  			id _uIC8oVOkEe2KQc5QIsW97w
+  			associationName "issues"
+  		}
+  	}
+  	
+  	PrimitiveVariable _qoCZkVOkEe2KQc5QIsW97w at 10,360 size 201,25 {
+  		dataType Boolean
+  		isInput true
+  		name "showResolveButtons"
+  		dfViewWorkaround true
+  		isList false
+  		-PrimitiveRead-> _r---YVOkEe2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _sV9T8FOkEe2KQc5QIsW97w
+  		}
+  	}
+  	
+  	ComplexVariable _uH6ZwVOkEe2KQc5QIsW97w at 10,320 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
+  		isInput false
+  		name "issues"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexRead-> _h9u8E1OkEe2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _vSmrQVOkEe2KQc5QIsW97w
+  		}
+  	}
+  }
+  
+  Template _cA_3sVOkEe2KQc5QIsW97w at 300,10 size 270,610 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _cA_3slOkEe2KQc5QIsW97w {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Badge _h9uU2lOkEe2KQc5QIsW97w at 10,30 size 200,48 {
+  		color Default
+  		content [ StaticContent _h9uU4FOkEe2KQc5QIsW97w {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "undisclosed"
+  				styling TextStyling _h9uU4VOkEe2KQc5QIsW97w {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _h9uU31OkEe2KQc5QIsW97w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _h9uU41OkEe2KQc5QIsW97w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _h9uU5lOkEe2KQc5QIsW97w at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Row _h9uU6lOkEe2KQc5QIsW97w at 10,88 size 250,170 {
+  		generalStyle GeneralStyling _h9uVAVOkEe2KQc5QIsW97w {
+  				tallness Fitting
+  				marginBottom Single
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _h9uVA1OkEe2KQc5QIsW97w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _h9uVBlOkEe2KQc5QIsW97w at 2,10 size 14,7 {
+  		}
+  		
+  		Col _h9uVCVOkEe2KQc5QIsW97w at 10,30 size 220,120 {
+  			wideness Full
+  			layout Layout _h9u74VOkEe2KQc5QIsW97w {
+  					size Default
+  					offset None
+  					alignment Right
+  				}
+  			generalStyle GeneralStyling _h9u74FOkEe2KQc5QIsW97w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _h9u741OkEe2KQc5QIsW97w at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _h9u75lOkEe2KQc5QIsW97w at 10,2 size 7,14 {
+  			}
+  			
+  			Button _h9u76VOkEe2KQc5QIsW97w at 10,30 size 200,60 {
+  				displayLabel "Create new issue"
+  				label "Create issue"
+  				styling ButtonStyling _h9u78FOkEe2KQc5QIsW97w {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Green
+  					}
+  				options ButtonOptions _h9u78VOkEe2KQc5QIsW97w {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon _h9u771OkEe2KQc5QIsW97w {
+  						postIcon None
+  						preIcon Plus
+  					}
+  				generalStyle GeneralStyling _h9u77lOkEe2KQc5QIsW97w {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _h9u781OkEe2KQc5QIsW97w at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _h9u79lOkEe2KQc5QIsW97w at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  	
+  	GUISIB _h9u7_FOkEe2KQc5QIsW97w at 10,268 size 150,312 {
+  		libraryComponentUID "_UOyxYVN9Ee2KQc5QIsW97w"
+  		label "DiscussionTable"
+  		generalStyle GeneralStyling _h9u8EVOkEe2KQc5QIsW97w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		ComplexInputPort _h9u8E1OkEe2KQc5QIsW97w at 5,67 size 90,18 {
+  			libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
+  			isList true
+  			name "issues"
+  		}
+  		
+  		Branch _h9u8FlOkEe2KQc5QIsW97w at 5,108 size 100,50 {
+  			name "Show issue"
+  			ComplexOutputPort _h9u8GlOkEe2KQc5QIsW97w at 5,27 size 90,18 {
+  				libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
+  				name "issue"
+  				isList false
+  			}
+  		}
+  		
+  		Branch _h9u8HlOkEe2KQc5QIsW97w at 5,176 size 100,50 {
+  			name "Resolve issue"
+  			ComplexOutputPort _h9u8IlOkEe2KQc5QIsW97w at 5,27 size 90,18 {
+  				libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
+  				name "issue"
+  				isList false
+  			}
+  		}
+  		
+  		Branch _h9u8JlOkEe2KQc5QIsW97w at 5,244 size 100,50 {
+  			name "Unresolve issue"
+  			ComplexOutputPort _h9vi8lOkEe2KQc5QIsW97w at 5,27 size 90,18 {
+  				libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
+  				name "issue"
+  				isList false
+  			}
+  		}
+  		
+  		MoveUp _h9vi9lOkEe2KQc5QIsW97w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _h9vi-VOkEe2KQc5QIsW97w at 2,10 size 14,7 {
+  		}
+  		
+  		PrimitiveInputPort _r---YVOkEe2KQc5QIsW97w at 5,85 size 90,18 {
+  			dataType Boolean
+  			isList false
+  			name "showResolveButtons"
+  		}
+  	}
+  }
+}

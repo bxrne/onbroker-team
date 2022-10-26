@@ -1,0 +1,291 @@
+Process _rUELYFOfEe2KQc5QIsW97w {
+  modelName "UserCanDiscuss"
+  description "UserCanDiscuss"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  DataContext _rhQ54VOfEe2KQc5QIsW97w at 20,20 size 210,431 {
+  	dfViewWorkaround true
+  	ComplexVariable _wqFN0VOfEe2KQc5QIsW97w at 10,340 size 190,61 {
+  		expanded false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		name "user"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute _yklLoVOfEe2KQc5QIsW97w at 10,23 size 170,25 {
+  			libraryComponentUID "_vk0f0FE3Ee2Vgcav4Znc_w"
+  			dfViewWorkaround true
+  			-ComplexRead-> _0ibYYVOfEe2KQc5QIsW97w  decorate "" at (0,0) {
+  				id _1v4qAVOfEe2KQc5QIsW97w
+  				dfViewWorkaround true
+  			}
+  		}
+  		-ComplexRead-> _6It2AFOgEe2KQc5QIsW97w via (125,754) decorate "" at (0,0) {
+  			id _-rI4UFOgEe2KQc5QIsW97w
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  StartSIB _rhSIAVOfEe2KQc5QIsW97w at 330,20 size 100,90 {
+  	ComplexOutputPort _saBt4VOfEe2KQc5QIsW97w at 5,67 size 90,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isList false
+  		name "submission"
+  		-ComplexDirectDataFlow-> _v_gxYVOgEe2KQc5QIsW97w via (290,96) (290,556) decorate "" at (0,0) {
+  			id _ySI7UVOgEe2KQc5QIsW97w
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _uW97sVOfEe2KQc5QIsW97w  decorate "" at (0,0) {
+  		id _u_-ccVOfEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _rhXnkVOfEe2KQc5QIsW97w at 330,1060 size 100,90 {
+  	branchName "success"
+  	PrimitiveInputPort _FndKMVOhEe2KQc5QIsW97w at 5,67 size 90,18 {
+  		dataType Boolean
+  		isList false
+  		name "result"
+  	}
+  }
+  
+  RetrieveCurrentUserSIB _uW97sVOfEe2KQc5QIsW97w at 320,150 size 120,65 {
+  	libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  	label "Retrieve Current User"
+  	ignoredBranch [  ]
+  	-BranchConnector-> _uXEpYVOfEe2KQc5QIsW97w   {
+  		id _uXT58VOfEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _uXZZgVOfEe2KQc5QIsW97w   {
+  		id _uXbOsVOfEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Branch _uXEpYVOfEe2KQc5QIsW97w at 320,230 size 120,50 {
+  	name "success"
+  	ComplexOutputPort _uXVvIVOfEe2KQc5QIsW97w at 5,27 size 110,18 {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "currentUser"
+  		-ComplexUpdate-> _wqFN0VOfEe2KQc5QIsW97w via (125,266) decorate "" at (0,0) {
+  			id _yBKVgVOfEe2KQc5QIsW97w
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _0iRAUVOfEe2KQc5QIsW97w  decorate "" at (0,0) {
+  		id _1KoA0VOfEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Branch _uXZZgVOfEe2KQc5QIsW97w at 450,170 size 120,25 {
+  	name "not authenticated"
+  	-ControlFlow-> _WqvFA1OhEe2KQc5QIsW97w via (599,183) decorate "" at (0,0) {
+  		id _ccoLIVOhEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  EnumSwitchSIB _0iRAUVOfEe2KQc5QIsW97w at 320,320 size 120,90 {
+  	deletionStarted false
+  	libraryComponentUID "_mSHlYFE3Ee2Vgcav4Znc_w"
+  	label "Switch UserRole"
+  	ignoredBranch [  ]
+  	ComplexInputPort _0ibYYVOfEe2KQc5QIsW97w at 5,67 size 110,18 {
+  		libraryComponentUID "_mSHlYFE3Ee2Vgcav4Znc_w"
+  		isList false
+  		name "enum"
+  	}
+  	-BranchConnector-> _0i0Z8VOfEe2KQc5QIsW97w   {
+  		id _0i1BAVOfEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _0i55gVOfEe2KQc5QIsW97w   {
+  		id _0i7HoVOfEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Branch _0i0Z8VOfEe2KQc5QIsW97w at 320,425 size 120,25 {
+  	name "user"
+  	-ControlFlow-> _v_VLMVOgEe2KQc5QIsW97w  decorate "" at (0,0) {
+  		id _xFrIMVOgEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Branch _0i55gVOfEe2KQc5QIsW97w at 450,352 size 71,25 {
+  	name "else"
+  	-ControlFlow-> _J4vZMVOhEe2KQc5QIsW97w via (540,364) (540,885) decorate "" at (0,0) {
+  		id _lO_YoVOhEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _v_VLMVOgEe2KQc5QIsW97w at 320,480 size 120,90 {
+  	libraryComponentUID "_Ba_mQVOgEe2KQc5QIsW97w"
+  	label "GetSubmitter"
+  	ignoredBranch [  ]
+  	ComplexInputPort _v_gxYVOgEe2KQc5QIsW97w at 5,67 size 110,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isList false
+  		name "submission"
+  	}
+  	-BranchConnector-> _v_uz0VOgEe2KQc5QIsW97w   {
+  		id _v_va4VOgEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Branch _v_uz0VOgEe2KQc5QIsW97w at 320,580 size 120,50 {
+  	name "success"
+  	ComplexOutputPort _v_0TYVOgEe2KQc5QIsW97w at 5,27 size 110,18 {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "submitter"
+  		-ComplexDirectDataFlow-> _50vxIVOgEe2KQc5QIsW97w via (310,616) (310,736) decorate "" at (0,0) {
+  			id _7pJuAVOgEe2KQc5QIsW97w
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _3DRvEVOgEe2KQc5QIsW97w  decorate "" at (0,0) {
+  		id _416xYVOgEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  AtomicSIB _3DRvEVOgEe2KQc5QIsW97w at 320,660 size 120,108 {
+  	libraryComponentUID "common.ObjectEquals"
+  	label "ObjectEquals"
+  	ignoredBranch [ IgnoreBranch _3DZq4FOgEe2KQc5QIsW97w {
+  			name "noresult"
+  		}, IgnoreBranch _3DfxgFOgEe2KQc5QIsW97w {
+  			name "failure"
+  		} ]
+  	ComplexInputPort _50vxIVOgEe2KQc5QIsW97w at 5,67 size 110,18 {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "a"
+  	}
+  	
+  	ComplexInputPort _6It2AFOgEe2KQc5QIsW97w at 5,85 size 110,18 {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "b"
+  	}
+  	-BranchConnector-> _3M3v8VOgEe2KQc5QIsW97w   {
+  		id _3M4XAVOgEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _3M92kVOgEe2KQc5QIsW97w   {
+  		id _3M-doVOgEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Branch _3M3v8VOgEe2KQc5QIsW97w at 320,778 size 120,25 {
+  	name "true"
+  	-ControlFlow-> _J4vZMVOhEe2KQc5QIsW97w  decorate "" at (0,0) {
+  		id _HEkBYVOhEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Branch _3M92kVOgEe2KQc5QIsW97w at 450,701 size 71,25 {
+  	name "false"
+  	-ControlFlow-> _WqvFA1OhEe2KQc5QIsW97w via (599,713) decorate "" at (0,0) {
+  		id _ay8QgVOhEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  DataContext _IRHUEVOhEe2KQc5QIsW97w at 300,1060 size 30,90 {
+  	dfViewWorkaround true
+  	PrimitiveVariable _IRV9kFOhEe2KQc5QIsW97w at 10,71 size 10,10 {
+  		dataType Boolean
+  		name "result_FndKMVOhEe2KQc5QIsW97w"
+  		dfViewWorkaround true
+  		isList false
+  		-PrimitiveRead-> _FndKMVOhEe2KQc5QIsW97w  decorate "" at (0,0) {
+  			id _IRqGoFOhEe2KQc5QIsW97w
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  PutToContextSIB _J4vZMVOhEe2KQc5QIsW97w at 320,840 size 120,90 {
+  	label "PutToContext"
+  	ignoredBranch [  ]
+  	BooleanInputStatic _NzILIVOhEe2KQc5QIsW97w at 5,67 size 110,18 {
+  		value true
+  		name "value"
+  	}
+  	-BranchConnector-> _J44jIVOhEe2KQc5QIsW97w   {
+  		id _J4-pwVOhEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Branch _J44jIVOhEe2KQc5QIsW97w at 320,940 size 120,50 {
+  	name "success"
+  	PrimitiveOutputPort _MOfvoVOhEe2KQc5QIsW97w at 5,27 size 110,18 {
+  		dataType Boolean
+  		isList false
+  		name "value"
+  		-PrimitiveUpdate-> _IRV9kFOhEe2KQc5QIsW97w via (280,976) (280,1136) decorate "" at (0,0) {
+  			id _UogukFOhEe2KQc5QIsW97w
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _rhXnkVOfEe2KQc5QIsW97w  decorate "" at (0,0) {
+  		id _OeomQVOhEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  PutToContextSIB _WqvFA1OhEe2KQc5QIsW97w at 540,900 size 120,90 {
+  	label "PutToContext"
+  	ignoredBranch [  ]
+  	BooleanInputStatic _WqvFB1OhEe2KQc5QIsW97w at 5,67 size 110,18 {
+  		value false
+  		name "value"
+  	}
+  	-BranchConnector-> _WqvFClOhEe2KQc5QIsW97w   {
+  		id _WqvFAVOhEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Branch _WqvFClOhEe2KQc5QIsW97w at 540,1000 size 120,50 {
+  	name "success"
+  	PrimitiveOutputPort _WqvFDlOhEe2KQc5QIsW97w at 5,27 size 110,18 {
+  		dataType Boolean
+  		isList false
+  		name "value"
+  		-PrimitiveUpdate-> _IRV9kFOhEe2KQc5QIsW97w via (280,1036) (280,1136) decorate "" at (0,0) {
+  			id _YwxkcVOhEe2KQc5QIsW97w
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _rhXnkVOfEe2KQc5QIsW97w via (599,1104) decorate "" at (0,0) {
+  		id _Z1UxsVOhEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  Documentation _sLB9sVOhEe2KQc5QIsW97w at 450,300 size 171,40 {
+  	content "Admins and Brokers can discuss"
+  }
+  
+  Documentation _wGwzcVOhEe2KQc5QIsW97w at 450,650 size 171,40 {
+  	content "Users can discuss if they are submitters"
+  }
+}

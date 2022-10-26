@@ -1,0 +1,138 @@
+Process _xEG9AUH8Ee26p7mBymqW2w {
+  modelName "ShowInternalArea"
+  description "ShowInternalArea"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  StartSIB _xS-fcUH8Ee26p7mBymqW2w at 250,20 size 100,65 {
+  	-ControlFlow-> _6dpqkFE3Ee2Vgcav4Znc_w  decorate "" at (0,0) {
+  		id _7Lm8wVE3Ee2Vgcav4Znc_w
+  		concurrent true
+  	}
+  }
+  
+  RetrieveCurrentUserSIB _6dpqkFE3Ee2Vgcav4Znc_w at 240,130 size 120,65 {
+  	libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  	label "Retrieve Current User"
+  	ignoredBranch [ IgnoreBranch _91lPsFE3Ee2Vgcav4Znc_w {
+  			name "not authenticated"
+  		} ]
+  	-BranchConnector-> _6d0psVE3Ee2Vgcav4Znc_w   {
+  		id _6d5iMVE3Ee2Vgcav4Znc_w
+  		concurrent true
+  	}
+  }
+  
+  Branch _6d0psVE3Ee2Vgcav4Znc_w at 240,210 size 120,50 {
+  	name "success"
+  	ComplexOutputPort _6d8lgVE3Ee2Vgcav4Znc_w at 5,27 size 110,18 {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "currentUser"
+  		-ComplexUpdate-> _GQWckVE4Ee2Vgcav4Znc_w via (110,246) decorate "" at (0,0) {
+  			id _NbYf4VE4Ee2Vgcav4Znc_w
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _CE03UFE4Ee2Vgcav4Znc_w  decorate "" at (0,0) {
+  		id _C9xRgVE4Ee2Vgcav4Znc_w
+  		concurrent true
+  	}
+  }
+  
+  EnumSwitchSIB _CE03UFE4Ee2Vgcav4Znc_w at 240,300 size 120,90 {
+  	deletionStarted false
+  	libraryComponentUID "_mSHlYFE3Ee2Vgcav4Znc_w"
+  	label "Switch UserRole"
+  	ignoredBranch [  ]
+  	ComplexInputPort _CE_PYVE4Ee2Vgcav4Znc_w at 5,67 size 110,18 {
+  		libraryComponentUID "_mSHlYFE3Ee2Vgcav4Znc_w"
+  		isList false
+  		name "enum"
+  	}
+  	-BranchConnector-> _CFMqwFE4Ee2Vgcav4Znc_w   {
+  		id _CFNR0VE4Ee2Vgcav4Znc_w
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _CFVNoVE4Ee2Vgcav4Znc_w   {
+  		id _CFV0sVE4Ee2Vgcav4Znc_w
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _CFjQEVE4Ee2Vgcav4Znc_w   {
+  		id _CFkeMVE4Ee2Vgcav4Znc_w
+  		concurrent true
+  	}
+  }
+  
+  Branch _CFMqwFE4Ee2Vgcav4Znc_w at 240,410 size 120,25 {
+  	name "admin"
+  	-ControlFlow-> _p7PywVE4Ee2Vgcav4Znc_w  decorate "" at (0,0) {
+  		id _qqyZUVE4Ee2Vgcav4Znc_w
+  		concurrent true
+  	}
+  }
+  
+  Branch _CFVNoVE4Ee2Vgcav4Znc_w at 410,410 size 120,25 {
+  	name "broker"
+  	-ControlFlow-> _rcx28FE4Ee2Vgcav4Znc_w  decorate "" at (0,0) {
+  		id _sC1KUVE4Ee2Vgcav4Znc_w
+  		concurrent true
+  	}
+  }
+  
+  Branch _CFjQEVE4Ee2Vgcav4Znc_w at 580,410 size 120,25 {
+  	name "else"
+  	-ControlFlow-> _svmJsVE4Ee2Vgcav4Znc_w  decorate "" at (0,0) {
+  		id _tk7PMVE4Ee2Vgcav4Znc_w
+  		concurrent true
+  	}
+  }
+  
+  DataContext _FoDGcVE4Ee2Vgcav4Znc_w at 20,290 size 180,121 {
+  	dfViewWorkaround true
+  	ComplexVariable _GQWckVE4Ee2Vgcav4Znc_w at 10,50 size 160,57 {
+  		expanded false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		name "user"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute _KGC7wVE4Ee2Vgcav4Znc_w at 10,23 size 140,25 {
+  			libraryComponentUID "_vk0f0FE3Ee2Vgcav4Znc_w"
+  			dfViewWorkaround true
+  			-ComplexRead-> _CE_PYVE4Ee2Vgcav4Znc_w  decorate "" at (0,0) {
+  				id _Kib80VE4Ee2Vgcav4Znc_w
+  				dfViewWorkaround true
+  			}
+  		}
+  	}
+  }
+  
+  GUISIB _p7PywVE4Ee2Vgcav4Znc_w at 240,470 size 120,65 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_ikwGUVE4Ee2Vgcav4Znc_w"
+  	name "AdminAreaHeader"
+  	label "AdminAreaHeader"
+  	ignoredBranch [  ]
+  }
+  
+  GUISIB _rcx28FE4Ee2Vgcav4Znc_w at 410,470 size 120,65 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_kylP0VE4Ee2Vgcav4Znc_w"
+  	name "BrokerAreaHeader"
+  	label "BrokerAreaHeader"
+  	ignoredBranch [  ]
+  }
+  
+  GUISIB _svmJsVE4Ee2Vgcav4Znc_w at 580,470 size 120,65 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_oEUtYVE4Ee2Vgcav4Znc_w"
+  	name "UserAreaHeader"
+  	label "UserAreaHeader"
+  	ignoredBranch [  ]
+  }
+}

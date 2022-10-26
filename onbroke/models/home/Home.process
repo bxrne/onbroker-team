@@ -1,0 +1,28 @@
+Process _LWgagF-SEeakMeYoloYxpg {
+  modelName "Home"
+  description "Home"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  StartSIB _LYO40F-SEeakMeYoloYxpg at 100,20 size 100,65 {
+  	-ControlFlow-> _4dwC1VFMEe2J0bu3ffrh5w  decorate "" at (0,0) {
+  		id _5eWkMVFMEe2J0bu3ffrh5w
+  		concurrent true
+  	}
+  }
+  
+  Documentation _4dwC0VFMEe2J0bu3ffrh5w at 240,130 size 181,40 {
+  	content "Enforce Login via Guard Container"
+  }
+  
+  GuardContainer _4dwC1VFMEe2J0bu3ffrh5w at 77,130 size 146,96 {
+  	forceUserLogin false
+  	label "label"
+  	ignoredBranch [  ]
+  	GuardedProcessSIB _4dwp4VFMEe2J0bu3ffrh5w at 15,15 size 120,65 {
+  		libraryComponentUID "_xEG9AUH8Ee26p7mBymqW2w"
+  		label "ShowInternalArea"
+  		ignoredBranch [  ]
+  	}
+  }
+}

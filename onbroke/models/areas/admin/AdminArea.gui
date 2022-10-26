@@ -1,0 +1,354 @@
+GUI _YggYMVFOEe2J0bu3ffrh5w {
+  fullWidth false
+  disableAutoLayout true
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "AdminArea"
+  DataContext _YghmUVFOEe2J0bu3ffrh5w at 10,10 size 221,385 {
+  	dfViewWorkaround true
+  	ComplexVariable _Mq2hEFLIEe2djpkPxa2Z3Q at 10,300 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput true
+  		name "featuresForOffer"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexRead-> _DPHhQVLaEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _GLhA8VLaEe2djpkPxa2Z3Q
+  		}
+  	}
+  	
+  	ComplexVariable _beWGYVLPEe2djpkPxa2Z3Q at 9,330 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput true
+  		name "featuresForBidding"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexRead-> _DPKkkVLaEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _HybUYVLaEe2djpkPxa2Z3Q
+  		}
+  	}
+  	
+  	ComplexVariable _J1gBkVLpEe2djpkPxa2Z3Q at 10,180 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isInput true
+  		name "users"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexRead-> _N4Fl4VLsEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _PLE_IVLpEe2djpkPxa2Z3Q
+  		}
+  	}
+  	
+  	ComplexVariable _LStmcVLpEe2djpkPxa2Z3Q at 10,210 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isInput true
+  		name "offers"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexRead-> _N4PW4VLsEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _O32hIVLpEe2djpkPxa2Z3Q
+  		}
+  	}
+  	
+  	ComplexVariable _MxG3EVLpEe2djpkPxa2Z3Q at 10,240 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isInput true
+  		name "biddings"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexRead-> _N4Yg0VLsEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _OjezoVLpEe2djpkPxa2Z3Q
+  		}
+  	}
+  }
+  
+  Template _Ygi0cVFOEe2J0bu3ffrh5w at 300,10 size 500,993 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _Ygi0clFOEe2J0bu3ffrh5w {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Tabbing _2KvsAVLZEe2djpkPxa2Z3Q at 10,30 size 480,933 {
+  		justified false
+  		tabtype Tab
+  		generalStyle GeneralStyling _2KwTgFLZEe2djpkPxa2Z3Q {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _2KwTglLZEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _2KwThVLZEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  		}
+  		
+  		Tab _2Kw6IVLZEe2djpkPxa2Z3Q at 10,30 size 220,883 {
+  			default true
+  			label "Overview"
+  			generalStyle GeneralStyling _2Kw6ZFLZEe2djpkPxa2Z3Q {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _2Kw6ZlLZEe2djpkPxa2Z3Q at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _2Kw6aVLZEe2djpkPxa2Z3Q at 10,2 size 7,14 {
+  			}
+  			
+  			Row _2Kw6bFLZEe2djpkPxa2Z3Q at 10,30 size 200,823 {
+  				generalStyle GeneralStyling _2Kw6qFLZEe2djpkPxa2Z3Q {
+  						tallness Fitting
+  						marginBottom Single
+  						attributes [  ]
+  						marginTop Single
+  					}
+  				MoveUp _2Kw6qlLZEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _2Kw6rVLZEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  				}
+  				
+  				Col _2Kw6sFLZEe2djpkPxa2Z3Q at 10,30 size 170,773 {
+  					wideness Full
+  					layout Layout _2KxhR1LZEe2djpkPxa2Z3Q {
+  							size Default
+  							offset None
+  							alignment Left
+  						}
+  					generalStyle GeneralStyling _2KxhRlLZEe2djpkPxa2Z3Q {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _2KxhSVLZEe2djpkPxa2Z3Q at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _2KxhTFLZEe2djpkPxa2Z3Q at 10,2 size 7,14 {
+  					}
+  					
+  					GUISIB _N3yq8VLsEe2djpkPxa2Z3Q at 10,30 size 150,713 {
+  						libraryComponentUID "_8iqPUVLkEe2djpkPxa2Z3Q"
+  						label "AdminOverviewTab"
+  						generalStyle GeneralStyling _G-c78FLpEe2djpkPxa2Z3Q {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						ComplexInputPort _N4Fl4VLsEe2djpkPxa2Z3Q at 5,67 size 90,18 {
+  							libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  							isList true
+  							name "users"
+  						}
+  						
+  						ComplexInputPort _N4PW4VLsEe2djpkPxa2Z3Q at 5,85 size 90,18 {
+  							libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  							isList true
+  							name "offers"
+  						}
+  						
+  						ComplexInputPort _N4Yg0VLsEe2djpkPxa2Z3Q at 5,103 size 90,18 {
+  							libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  							isList true
+  							name "biddings"
+  						}
+  						
+  						Branch _N4hqwVLsEe2djpkPxa2Z3Q at 5,126 size 100,50 {
+  							name "Edit user"
+  							ComplexOutputPort _N4nKUVLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  								libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  								name "user"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _N4wUQVLsEe2djpkPxa2Z3Q at 5,194 size 100,50 {
+  							name "Delete user"
+  							ComplexOutputPort _N42a4VLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  								libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  								name "user"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _N5AL4VLsEe2djpkPxa2Z3Q at 5,262 size 100,25 {
+  							name "Create user"
+  						}
+  						
+  						Branch _N5GSgVLsEe2djpkPxa2Z3Q at 5,305 size 100,50 {
+  							name "Show offer"
+  							ComplexOutputPort _N5MZIVLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  								libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  								name "offer"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _N5WxMVLsEe2djpkPxa2Z3Q at 5,373 size 100,50 {
+  							name "Edit offer"
+  							ComplexOutputPort _N5cQwVLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  								libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  								name "offer"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _N5nP4VLsEe2djpkPxa2Z3Q at 5,441 size 100,50 {
+  							name "Delete offer"
+  							ComplexOutputPort _N5tWgVLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  								libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  								name "offer"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _N54VoVLsEe2djpkPxa2Z3Q at 5,509 size 100,50 {
+  							name "Show bidding"
+  							ComplexOutputPort _N5-cQVLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  								libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  								name "bidding"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _N6KpgVLsEe2djpkPxa2Z3Q at 5,577 size 100,50 {
+  							name "Edit bidding"
+  							ComplexOutputPort _N6RXMVLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  								libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  								name "bidding"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _N6c9YVLsEe2djpkPxa2Z3Q at 5,645 size 100,50 {
+  							name "Delete bidding"
+  							ComplexOutputPort _N6jEAVLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  								libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  								name "bidding"
+  								isList false
+  							}
+  						}
+  						
+  						MoveUp _N6v4UVLsEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  						}
+  						
+  						MoveDown _N6wfYVLsEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  						}
+  					}
+  				}
+  			}
+  		}
+  		
+  		Tab _2Kxh1lLZEe2djpkPxa2Z3Q at 240,30 size 220,450 {
+  			default false
+  			label "Feature Templates"
+  			generalStyle GeneralStyling _2KyIV1LZEe2djpkPxa2Z3Q {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _2KyIWVLZEe2djpkPxa2Z3Q at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _2KyIXFLZEe2djpkPxa2Z3Q at 10,2 size 7,14 {
+  			}
+  			
+  			Row _2KyIX1LZEe2djpkPxa2Z3Q at 10,30 size 200,390 {
+  				generalStyle GeneralStyling _2KyIgVLZEe2djpkPxa2Z3Q {
+  						tallness Fitting
+  						marginBottom Single
+  						attributes [  ]
+  						marginTop Single
+  					}
+  				MoveUp _2KyIg1LZEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _2KyIhlLZEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  				}
+  				
+  				Col _2KyIiVLZEe2djpkPxa2Z3Q at 10,30 size 170,340 {
+  					wideness Full
+  					layout Layout _2KyIpFLZEe2djpkPxa2Z3Q {
+  							size Default
+  							offset None
+  							alignment Left
+  						}
+  					generalStyle GeneralStyling _2KyIo1LZEe2djpkPxa2Z3Q {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _2KyIplLZEe2djpkPxa2Z3Q at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _2KyIqVLZEe2djpkPxa2Z3Q at 10,2 size 7,14 {
+  					}
+  					
+  					GUISIB _DPD291LaEe2djpkPxa2Z3Q at 10,30 size 150,280 {
+  						libraryComponentUID "_S6RoAVLZEe2djpkPxa2Z3Q"
+  						label "AdminTemplatesTab"
+  						generalStyle GeneralStyling _DPXY4FLaEe2djpkPxa2Z3Q {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						ComplexInputPort _DPHhQVLaEe2djpkPxa2Z3Q at 5,67 size 90,18 {
+  							libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  							isList true
+  							name "featuresForOffer"
+  						}
+  						
+  						ComplexInputPort _DPKkkVLaEe2djpkPxa2Z3Q at 5,85 size 90,18 {
+  							libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  							isList true
+  							name "featuresForBidding"
+  						}
+  						
+  						Branch _DPNn4VLaEe2djpkPxa2Z3Q at 5,108 size 100,25 {
+  							name "Edit feature"
+  						}
+  						
+  						Branch _DPPdEVLaEe2djpkPxa2Z3Q at 5,151 size 100,25 {
+  							name "Delete feature"
+  						}
+  						
+  						Branch _DPR5UVLaEe2djpkPxa2Z3Q at 5,194 size 100,25 {
+  							name "Create offer feature"
+  						}
+  						
+  						Branch _DPTugVLaEe2djpkPxa2Z3Q at 5,237 size 100,25 {
+  							name "Create bidding feature"
+  						}
+  						
+  						MoveUp _DPWKwVLaEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  						}
+  						
+  						MoveDown _DPWx0VLaEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  						}
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}

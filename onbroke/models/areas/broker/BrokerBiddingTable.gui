@@ -1,0 +1,568 @@
+GUI _Ln-sIFGGEe2J0bu3ffrh5w {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "BrokerBiddingTable"
+  DataContext _TUZlQVGGEe2J0bu3ffrh5w at 20,10 size 221,335 {
+  	dfViewWorkaround true
+  	ComplexVariable _Wgc1EVGHEe2J0bu3ffrh5w at 10,280 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isInput true
+  		name "biddings"
+  		dfViewWorkaround true
+  		isList true
+  		-IF-> _X1iOJFGGEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _YIctoVGHEe2J0bu3ffrh5w
+  			negate true
+  		}
+  		
+  		-TableLoad-> _X1fx61GGEe2J0bu3ffrh5w via (260,374) decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _da1CsVGGEe2J0bu3ffrh5w
+  		}
+  		
+  		-ComplexListAttributeConnector-> _bdevwVGHEe2J0bu3ffrh5w via (130,55) decorate "Ellipse" at (0,0) {
+  			id _bdk2YVGHEe2J0bu3ffrh5w
+  			attributeName current
+  		}
+  		
+  		-IF-> _X1fx61GGEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _v8GCYVIeEe2FSMa3sLmgcg
+  			negate false
+  		}
+  	}
+  }
+  
+  DataContext _V8We81GGEe2J0bu3ffrh5w at 300,10 size 1600,191 {
+  	dfViewWorkaround true
+  	ComplexVariable _bdevwVGHEe2J0bu3ffrh5w at 200,20 size 201,51 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isInput false
+  		name "bidding"
+  		dfViewWorkaround true
+  		isList false
+  		PrimitiveAttribute _hG1k8VGHEe2J0bu3ffrh5w at 10,23 size 181,25 {
+  			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		-ComplexAttributeConnector-> _dhjgUVGHEe2J0bu3ffrh5w  decorate "Ellipse" at (0,0) {
+  			id _dhrcIVGHEe2J0bu3ffrh5w
+  			associationName "decision"
+  		}
+  		
+  		-ComplexAttributeConnector-> _e5MosVGHEe2J0bu3ffrh5w  decorate "Ellipse" at (0,0) {
+  			id _e5VLkVGHEe2J0bu3ffrh5w
+  			associationName "report"
+  		}
+  		
+  		-AddComplexToSubmission-> _X1hAWlGGEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _7-FJoVGGEe2J0bu3ffrh5w
+  		}
+  		
+  		-AddComplexToSubmission-> _X1hAfFGGEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _8u90AVGGEe2J0bu3ffrh5w
+  		}
+  		
+  		-AddComplexToSubmission-> _X1hAa1GGEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _AN7OMVGHEe2J0bu3ffrh5w
+  		}
+  		
+  		-AddComplexToSubmission-> _X1hnJVGGEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _BXcbAVGHEe2J0bu3ffrh5w
+  		}
+  		
+  		-ComplexAttributeConnector-> _RxaNEVHJEe2J0bu3ffrh5w  decorate "Ellipse" at (0,0) {
+  			id _Rx1q4VHJEe2J0bu3ffrh5w
+  			associationName "user"
+  		}
+  		
+  		-ComplexAttributeConnector-> _DulpkVIsEe2FSMa3sLmgcg  decorate "Ellipse" at (0,0) {
+  			id _Du7AwVIsEe2FSMa3sLmgcg
+  			associationName "offer"
+  		}
+  	}
+  	
+  	ComplexVariable _dhjgUVGHEe2J0bu3ffrh5w at 730,20 size 201,61 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_BtX2cVGBEe2J0bu3ffrh5w"
+  		isInput false
+  		name "decision"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute _diD2oVGHEe2J0bu3ffrh5w at 10,23 size 181,25 {
+  			libraryComponentUID "_FOudUVGBEe2J0bu3ffrh5w"
+  			isLive false
+  			-TableColumnLoad-> _X1hnOFGGEe2J0bu3ffrh5w via (890,106) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _ygDwAVGGEe2J0bu3ffrh5w
+  			}
+  			
+  			-ComplexRead-> _okxyUVLpEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _pMf5oVLpEe2djpkPxa2Z3Q
+  			}
+  		}
+  		-IF-> _X1hAa1GGEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _FhXdwVGHEe2J0bu3ffrh5w
+  			negate true
+  		}
+  		
+  		-IF-> _X1hnJVGGEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _HWyuUVGHEe2J0bu3ffrh5w
+  			negate false
+  		}
+  	}
+  	
+  	ComplexVariable _e5MosVGHEe2J0bu3ffrh5w at 1000,20 size 201,25 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_eC67EVFSEe2J0bu3ffrh5w"
+  		isInput false
+  		name "report"
+  		dfViewWorkaround true
+  		isList false
+  		-IF-> _X1hAfFGGEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _I4SWQVGHEe2J0bu3ffrh5w
+  			negate true
+  		}
+  		
+  		-AddComplexToSubmission-> _X1hnFFGGEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _KoB1kFGHEe2J0bu3ffrh5w
+  		}
+  		
+  		-IF-> _X1hnFFGGEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _KBO7UVGHEe2J0bu3ffrh5w
+  			negate false
+  		}
+  	}
+  	
+  	ComplexVariable _RxaNEVHJEe2J0bu3ffrh5w at 200,100 size 201,61 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isInput false
+  		name "user"
+  		dfViewWorkaround true
+  		isList false
+  		PrimitiveAttribute _RyekE1HJEe2J0bu3ffrh5w at 10,23 size 181,25 {
+  			libraryComponentUID "_Ljih0UIAEe26p7mBymqW2w"
+  			isLive false
+  			-TableColumnLoad-> _Iebl0VHJEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _TGvoUVHJEe2J0bu3ffrh5w
+  			}
+  		}
+  	}
+  	
+  	ComplexVariable _DulpkVIsEe2FSMa3sLmgcg at 20,100 size 161,61 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isInput false
+  		name "offer"
+  		dfViewWorkaround true
+  		isList false
+  		PrimitiveAttribute _Fp8jA1IsEe2FSMa3sLmgcg at 10,23 size 141,25 {
+  			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
+  			isLive false
+  			-TableColumnLoad-> _X1gZCVGGEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _HxA9MVIsEe2FSMa3sLmgcg
+  			}
+  		}
+  	}
+  }
+  
+  Template _X1ejwVGGEe2J0bu3ffrh5w at 301,215 size 1780,350 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _X1fx6VGGEe2J0bu3ffrh5w {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Table _X1fx61GGEe2J0bu3ffrh5w at 10,100 size 1760,220 {
+  		striped true
+  		numbering false
+  		pagination 20
+  		autoSorted true
+  		condensed true
+  		reSortable false
+  		bordered false
+  		hover true
+  		responsive true
+  		name "table"
+  		choices NONE
+  		dropTargets [  ]
+  		generalStyle GeneralStyling _X1gZAVGGEe2J0bu3ffrh5w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _X1gZA1GGEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _X1gZBlGGEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  		}
+  		
+  		TableEntry _X1gZCVGGEe2J0bu3ffrh5w at 10,30 size 220,120 {
+  			fullTextSearch false
+  			defaultSorting NONE
+  			label "Offer"
+  			sortable true
+  			generalStyle GeneralStyling _X1gZF1GGEe2J0bu3ffrh5w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _X1gZGVGGEe2J0bu3ffrh5w at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _X1gZHFGGEe2J0bu3ffrh5w at 10,2 size 7,14 {
+  			}
+  			
+  			Text _X1gZH1GGEe2J0bu3ffrh5w at 10,30 size 200,60 {
+  				content [ StaticContent _X1gZJVGGEe2J0bu3ffrh5w {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "{{bidding.offer.title}}"
+  						styling TextStyling _X1gZJlGGEe2J0bu3ffrh5w {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _X1gZJFGGEe2J0bu3ffrh5w {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _X1gZKFGGEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _X1gZK1GGEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  		
+  		TableEntry _X1gZMFGGEe2J0bu3ffrh5w at 650,30 size 1090,170 {
+  			fullTextSearch false
+  			defaultSorting NONE
+  			label "Actions"
+  			sortable false
+  			generalStyle GeneralStyling _X1hAE1GGEe2J0bu3ffrh5w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _X1hAFVGGEe2J0bu3ffrh5w at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _X1hAGFGGEe2J0bu3ffrh5w at 10,2 size 7,14 {
+  			}
+  			
+  			ButtonGroup _X1hAG1GGEe2J0bu3ffrh5w at 10,30 size 1070,110 {
+  				size Default
+  				alignment horizontal
+  				generalStyle GeneralStyling _X1hAUlGGEe2J0bu3ffrh5w {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _X1hAVFGGEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _X1hAV1GGEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  				}
+  				
+  				Button _X1hAWlGGEe2J0bu3ffrh5w at 10,30 size 200,60 {
+  					displayLabel "Details"
+  					label "Show bidding"
+  					styling ButtonStyling _X1hAYVGGEe2J0bu3ffrh5w {
+  							fullWidth false
+  							size Small
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions _X1hAYlGGEe2J0bu3ffrh5w {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _X1hAYFGGEe2J0bu3ffrh5w {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _X1hAX1GGEe2J0bu3ffrh5w {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _X1hAZFGGEe2J0bu3ffrh5w at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _X1hAZ1GGEe2J0bu3ffrh5w at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				Button _X1hAa1GGEe2J0bu3ffrh5w at 640,30 size 200,60 {
+  					displayLabel "Decide"
+  					label "Decide bidding"
+  					styling ButtonStyling _X1hAclGGEe2J0bu3ffrh5w {
+  							fullWidth false
+  							size Small
+  							disabled false
+  							color Lightblue
+  						}
+  					options ButtonOptions _X1hAc1GGEe2J0bu3ffrh5w {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _X1hAcVGGEe2J0bu3ffrh5w {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _X1hAcFGGEe2J0bu3ffrh5w {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _X1hAdVGGEe2J0bu3ffrh5w at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _X1hAeFGGEe2J0bu3ffrh5w at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				Button _X1hAfFGGEe2J0bu3ffrh5w at 220,30 size 200,60 {
+  					displayLabel "Create report"
+  					label "Review bidding"
+  					styling ButtonStyling _X1hAg1GGEe2J0bu3ffrh5w {
+  							fullWidth false
+  							size Small
+  							disabled false
+  							color Green
+  						}
+  					options ButtonOptions _X1hAhFGGEe2J0bu3ffrh5w {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _X1hAglGGEe2J0bu3ffrh5w {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _X1hAgVGGEe2J0bu3ffrh5w {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _X1hAhlGGEe2J0bu3ffrh5w at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _X1hnEFGGEe2J0bu3ffrh5w at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				Button _X1hnFFGGEe2J0bu3ffrh5w at 430,30 size 200,60 {
+  					displayLabel "Edit report"
+  					label "Edit report"
+  					styling ButtonStyling _X1hnG1GGEe2J0bu3ffrh5w {
+  							fullWidth false
+  							size Small
+  							disabled false
+  							color Yellow
+  						}
+  					options ButtonOptions _X1hnHFGGEe2J0bu3ffrh5w {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _X1hnGlGGEe2J0bu3ffrh5w {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _X1hnGVGGEe2J0bu3ffrh5w {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _X1hnHlGGEe2J0bu3ffrh5w at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _X1hnIVGGEe2J0bu3ffrh5w at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				Button _X1hnJVGGEe2J0bu3ffrh5w at 850,30 size 200,60 {
+  					displayLabel "Revoke"
+  					label "Revoke bidding"
+  					styling ButtonStyling _X1hnLFGGEe2J0bu3ffrh5w {
+  							fullWidth false
+  							size Small
+  							disabled false
+  							color Red
+  						}
+  					options ButtonOptions _X1hnLVGGEe2J0bu3ffrh5w {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _X1hnK1GGEe2J0bu3ffrh5w {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _X1hnKlGGEe2J0bu3ffrh5w {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _X1hnL1GGEe2J0bu3ffrh5w at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _X1hnMlGGEe2J0bu3ffrh5w at 10,2 size 7,14 {
+  					}
+  				}
+  			}
+  		}
+  		
+  		TableEntry _X1hnOFGGEe2J0bu3ffrh5w at 470,30 size 170,150 {
+  			fullTextSearch false
+  			defaultSorting NONE
+  			label "Decision"
+  			sortable true
+  			generalStyle GeneralStyling _X1hnWFGGEe2J0bu3ffrh5w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _X1hnWlGGEe2J0bu3ffrh5w at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _X1hnXVGGEe2J0bu3ffrh5w at 10,2 size 7,14 {
+  			}
+  			
+  			GUISIB _okhToVLpEe2djpkPxa2Z3Q at 10,30 size 150,90 {
+  				libraryComponentUID "_bvuygVLpEe2djpkPxa2Z3Q"
+  				label "DecisionStateBadge"
+  				generalStyle GeneralStyling _olC4EFLpEe2djpkPxa2Z3Q {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				ComplexInputPort _okxyUVLpEe2djpkPxa2Z3Q at 5,67 size 90,18 {
+  					libraryComponentUID "_lmR-0VFSEe2J0bu3ffrh5w"
+  					isList false
+  					name "decisionState"
+  				}
+  				
+  				MoveUp _olCRAVLpEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _olCRA1LpEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  		
+  		TableEntry _Iebl0VHJEe2J0bu3ffrh5w at 240,30 size 220,120 {
+  			fullTextSearch false
+  			defaultSorting NONE
+  			label "User"
+  			sortable true
+  			generalStyle GeneralStyling _IecM6VHJEe2J0bu3ffrh5w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _IecM61HJEe2J0bu3ffrh5w at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _IecM7lHJEe2J0bu3ffrh5w at 10,2 size 7,14 {
+  			}
+  			
+  			Text _IecM8VHJEe2J0bu3ffrh5w at 10,30 size 200,60 {
+  				content [ StaticContent _IecM91HJEe2J0bu3ffrh5w {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "{{bidding.user.lastName}}, {{bidding.user.firstName}}"
+  						styling TextStyling _IecM-FHJEe2J0bu3ffrh5w {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _IecM9lHJEe2J0bu3ffrh5w {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _IecM-lHJEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _IecM_VHJEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  	
+  	Text _X1iOJFGGEe2J0bu3ffrh5w at 10,30 size 200,60 {
+  		content [ StaticContent _X1iOKlGGEe2J0bu3ffrh5w {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "No biddings yet"
+  				styling TextStyling _X1iOK1GGEe2J0bu3ffrh5w {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic true
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _X1iOKVGGEe2J0bu3ffrh5w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  				rawContent "color: grey;\n"
+  			}
+  		MoveUp _X1iOLVGGEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _X1iOMFGGEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}

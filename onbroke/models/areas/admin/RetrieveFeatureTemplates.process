@@ -1,0 +1,143 @@
+Process _of7nAVLHEe2djpkPxa2Z3Q {
+  modelName "RetrieveFeatureTemplates"
+  description "RetrieveFeatureTemplates"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  StartSIB _os3PwVLHEe2djpkPxa2Z3Q at 330,20 size 100,65 {
+  	-ControlFlow-> _wHkt0VLHEe2djpkPxa2Z3Q  decorate "" at (0,0) {
+  		id _8VAUAFLHEe2djpkPxa2Z3Q
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _os8IQVLHEe2djpkPxa2Z3Q at 330,500 size 100,108 {
+  	branchName "success"
+  	ComplexInputPort _A70HEVLIEe2djpkPxa2Z3Q at 5,67 size 90,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList true
+  		name "featuresForOffer"
+  	}
+  	
+  	ComplexInputPort _FSTiAVLPEe2djpkPxa2Z3Q at 5,85 size 90,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList true
+  		name "featuresForBidding"
+  	}
+  }
+  
+  RetrieveOfTypeSIB _wHkt0VLHEe2djpkPxa2Z3Q at 320,120 size 120,90 {
+  	libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  	label "Retrieve from Feature"
+  	ignoredBranch [  ]
+  	BooleanInputStatic _zi6vIVLOEe2djpkPxa2Z3Q at 5,67 size 110,18 {
+  		value true
+  		name "isTemplateForOffer"
+  	}
+  	-BranchConnector-> _wHzXUVLHEe2djpkPxa2Z3Q   {
+  		id _wH5d8VLHEe2djpkPxa2Z3Q
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _wILx0VLHEe2djpkPxa2Z3Q   {
+  		id _wIOOEVLHEe2djpkPxa2Z3Q
+  		concurrent true
+  	}
+  }
+  
+  Branch _wHzXUVLHEe2djpkPxa2Z3Q at 243,220 size 120,50 {
+  	name "success"
+  	ComplexOutputPort _wH76MVLHEe2djpkPxa2Z3Q at 5,27 size 110,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList true
+  		name "retrieved"
+  		-ComplexUpdate-> _IJkDAVLPEe2djpkPxa2Z3Q via (230,256) (230,576) decorate "" at (0,0) {
+  			id _Kazs4VLPEe2djpkPxa2Z3Q
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _2nxAOFLOEe2djpkPxa2Z3Q  decorate "" at (0,0) {
+  		id _3t8lIVLOEe2djpkPxa2Z3Q
+  		concurrent true
+  	}
+  }
+  
+  Branch _wILx0VLHEe2djpkPxa2Z3Q at 403,220 size 120,25 {
+  	name "none found"
+  	-ControlFlow-> _2nxAOFLOEe2djpkPxa2Z3Q  decorate "" at (0,0) {
+  		id _3933gVLOEe2djpkPxa2Z3Q
+  		concurrent true
+  	}
+  }
+  
+  Branch _2nxAMVLOEe2djpkPxa2Z3Q at 403,410 size 120,25 {
+  	name "none found"
+  	-ControlFlow-> _os8IQVLHEe2djpkPxa2Z3Q  decorate "" at (0,0) {
+  		id _6eVCEVLOEe2djpkPxa2Z3Q
+  		concurrent true
+  	}
+  }
+  
+  RetrieveOfTypeSIB _2nxAOFLOEe2djpkPxa2Z3Q at 320,310 size 120,90 {
+  	libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  	label "Retrieve from Feature"
+  	ignoredBranch [  ]
+  	BooleanInputStatic _5f3OsVLOEe2djpkPxa2Z3Q at 5,67 size 110,18 {
+  		value true
+  		name "isTemplateForBidding"
+  	}
+  	-BranchConnector-> _2nxAMVLOEe2djpkPxa2Z3Q   {
+  		id _2nxANlLOEe2djpkPxa2Z3Q
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _2nxnSFLOEe2djpkPxa2Z3Q   {
+  		id _2nyOVFLOEe2djpkPxa2Z3Q
+  		concurrent true
+  	}
+  }
+  
+  Branch _2nxnSFLOEe2djpkPxa2Z3Q at 243,410 size 120,50 {
+  	name "success"
+  	ComplexOutputPort _2nxnTFLOEe2djpkPxa2Z3Q at 5,27 size 110,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList true
+  		name "retrieved"
+  		-ComplexUpdate-> _IJyFcVLPEe2djpkPxa2Z3Q via (210,446) (210,594) decorate "" at (0,0) {
+  			id _IqQVQVLPEe2djpkPxa2Z3Q
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _os8IQVLHEe2djpkPxa2Z3Q  decorate "" at (0,0) {
+  		id _6NjbIVLOEe2djpkPxa2Z3Q
+  		concurrent true
+  	}
+  }
+  
+  DataContext _IJiN0VLPEe2djpkPxa2Z3Q at 290,500 size 40,108 {
+  	dfViewWorkaround true
+  	ComplexVariable _IJkDAVLPEe2djpkPxa2Z3Q at 10,71 size 10,10 {
+  		expanded false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		name "featuresForOffers_A70HEVLIEe2djpkPxa2Z3Q"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexRead-> _A70HEVLIEe2djpkPxa2Z3Q  decorate "" at (0,0) {
+  			id _IJvCIVLPEe2djpkPxa2Z3Q
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	ComplexVariable _IJyFcVLPEe2djpkPxa2Z3Q at 20,89 size 10,10 {
+  		expanded false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		name "featuresForBiddings_FSTiAVLPEe2djpkPxa2Z3Q"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexRead-> _FSTiAVLPEe2djpkPxa2Z3Q  decorate "" at (0,0) {
+  			id _IJ5aMVLPEe2djpkPxa2Z3Q
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+}

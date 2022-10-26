@@ -1,0 +1,407 @@
+Data _tH3fEMwMEeWZVvvwxpYu8A {
+  modelName "Data"
+  ConcreteType _dh6BYMwNEeWZVvvwxpYu8A at 186,175 size 121,145 {
+  	name "User"
+  	UserAttribute _fPY24MwNEeWZVvvwxpYu8A at 5,32 size 111,18 {
+  		oppositeAttribute _fOkXgMwNEeWZVvvwxpYu8A
+  		dataType _UdYs4MwNEeWZVvvwxpYu8A
+  		name "baseUser"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _KAc-cUIAEe26p7mBymqW2w at 5,68 size 111,18 {
+  		dataType Text
+  		name "firstName"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _Ljih0UIAEe26p7mBymqW2w at 5,86 size 111,18 {
+  		dataType Text
+  		name "lastName"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _vk0f0FE3Ee2Vgcav4Znc_w at 5,122 size 111,18 {
+  		dataType _mSHlYFE3Ee2Vgcav4Znc_w
+  		name "role"
+  		isList false
+  	}
+  	
+  	BidirectionalAttribute _STDz8VFNEe2J0bu3ffrh5w at 5,104 size 111,18 {
+  		oppositeAttribute _STTrkVFNEe2J0bu3ffrh5w
+  		dataType _DJ1LAVFNEe2J0bu3ffrh5w
+  		name "offers"
+  		isList true
+  	}
+  	
+  	BidirectionalAttribute _T0OEsVFNEe2J0bu3ffrh5w at 5,50 size 111,18 {
+  		oppositeAttribute _T0d8UVFNEe2J0bu3ffrh5w
+  		dataType _FSL-oVFNEe2J0bu3ffrh5w
+  		name "biddings"
+  		isList true
+  	}
+  	-Association-> _mSHlYFE3Ee2Vgcav4Znc_w  decorate "Text" at (-19,-25) decorate "" at (0,0) {
+  		id _vkhk4FE3Ee2Vgcav4Znc_w
+  		isHidden false
+  		sourceAttr _vk0f0FE3Ee2Vgcav4Znc_w
+  	}
+  	
+  	-BidirectionalAssociation-> _DJ1LAVFNEe2J0bu3ffrh5w via (246,50) (880,50) decorate "Text" at (0,0) decorate "Text" at (90,11) {
+  		id _SS2_oVFNEe2J0bu3ffrh5w
+  		targetAttr _STDz8VFNEe2J0bu3ffrh5w
+  		isHidden false
+  		sourceAttr _STTrkVFNEe2J0bu3ffrh5w
+  	}
+  	
+  	-BidirectionalAssociation-> _FSL-oVFNEe2J0bu3ffrh5w via (246,462) (880,462) decorate "Text" at (0,0) decorate "Text" at (90,-21) {
+  		id _T0BQYVFNEe2J0bu3ffrh5w
+  		targetAttr _T0OEsVFNEe2J0bu3ffrh5w
+  		isHidden false
+  		sourceAttr _T0d8UVFNEe2J0bu3ffrh5w
+  	}
+  }
+  
+  UserType _UdYs4MwNEeWZVvvwxpYu8A at 46,382 size 121,91 {
+  	name "BaseUser"
+  	UserAttribute _fOkXgMwNEeWZVvvwxpYu8A at 5,50 size 111,18 {
+  		oppositeAttribute _fPY24MwNEeWZVvvwxpYu8A
+  		dataType _dh6BYMwNEeWZVvvwxpYu8A
+  		name "user"
+  		isList true
+  	}
+  	
+  	PrimitiveAttribute _YIIgUMwNEeWZVvvwxpYu8A at 5,32 size 111,18 {
+  		dataType Text
+  		name "password"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _1aiCkG_QEeaqHezD6-M0AA at 5,68 size 111,18 {
+  		dataType Text
+  		name "username"
+  		isList false
+  	}
+  	-UserAssociation-> _dh6BYMwNEeWZVvvwxpYu8A  decorate "Text" at (-46,-5) decorate "Text" at (-54,-13) {
+  		id _fOZ_cMwNEeWZVvvwxpYu8A
+  		targetAttr _fOkXgMwNEeWZVvvwxpYu8A
+  		isHidden false
+  		sourceAttr _fPY24MwNEeWZVvvwxpYu8A
+  	}
+  }
+  
+  EnumType _mSHlYFE3Ee2Vgcav4Znc_w at 46,202 size 94,91 {
+  	name "UserRole"
+  	EnumLiteral _nWFj0FE3Ee2Vgcav4Znc_w at 5,32 size 84,18 {
+  		displayName ""
+  		name "admin"
+  		isList false
+  	}
+  	
+  	EnumLiteral _p8Gj0VE3Ee2Vgcav4Znc_w at 5,50 size 84,18 {
+  		displayName ""
+  		name "broker"
+  		isList false
+  	}
+  	
+  	EnumLiteral _qyD7cVE3Ee2Vgcav4Znc_w at 5,68 size 84,18 {
+  		displayName ""
+  		name "user"
+  		isList false
+  	}
+  }
+  
+  ConcreteType _DJ1LAVFNEe2J0bu3ffrh5w at 810,78 size 140,109 {
+  	name "Offer"
+  	BidirectionalAttribute _STTrkVFNEe2J0bu3ffrh5w at 5,86 size 130,18 {
+  		oppositeAttribute _STDz8VFNEe2J0bu3ffrh5w
+  		dataType _dh6BYMwNEeWZVvvwxpYu8A
+  		name "user"
+  		isList false
+  	}
+  	
+  	BidirectionalAttribute _xZISQVGIEe2J0bu3ffrh5w at 5,32 size 130,18 {
+  		oppositeAttribute _xY5BsVGIEe2J0bu3ffrh5w
+  		dataType _FSL-oVFNEe2J0bu3ffrh5w
+  		name "biddings"
+  		isList true
+  	}
+  	
+  	ComplexAttribute _mFmoEVMTEe2KQc5QIsW97w at 5,68 size 130,18 {
+  		dataType _A6uWQVHpEe2J0bu3ffrh5w
+  		name "preferences"
+  		isList true
+  	}
+  	
+  	ComplexAttribute _txofoVMTEe2KQc5QIsW97w at 5,50 size 130,18 {
+  		dataType _A6uWQVHpEe2J0bu3ffrh5w
+  		name "features"
+  		isList true
+  	}
+  	-Inheritance-> _V7iG8FGDEe2J0bu3ffrh5w  decorate "" at (0,0) {
+  		id _hIpfoFGDEe2J0bu3ffrh5w
+  	}
+  	
+  	-Association-> _A6uWQVHpEe2J0bu3ffrh5w via (609,132) decorate "Text" at (-32,-20) decorate "" at (0,0) {
+  		id _mFYloVMTEe2KQc5QIsW97w
+  		isHidden false
+  		sourceAttr _mFmoEVMTEe2KQc5QIsW97w
+  	}
+  	
+  	-Association-> _A6uWQVHpEe2J0bu3ffrh5w  decorate "Text" at (-25,9) decorate "" at (0,0) {
+  		id _txadMFMTEe2KQc5QIsW97w
+  		isHidden false
+  		sourceAttr _txofoVMTEe2KQc5QIsW97w
+  	}
+  }
+  
+  ConcreteType _FSL-oVFNEe2J0bu3ffrh5w at 810,304 size 140,127 {
+  	name "Bidding"
+  	BidirectionalAttribute _T0d8UVFNEe2J0bu3ffrh5w at 5,104 size 130,18 {
+  		oppositeAttribute _T0OEsVFNEe2J0bu3ffrh5w
+  		dataType _dh6BYMwNEeWZVvvwxpYu8A
+  		name "user"
+  		isList false
+  	}
+  	
+  	BidirectionalAttribute _xY5BsVGIEe2J0bu3ffrh5w at 5,68 size 130,18 {
+  		oppositeAttribute _xZISQVGIEe2J0bu3ffrh5w
+  		dataType _DJ1LAVFNEe2J0bu3ffrh5w
+  		name "offer"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _ynLkUVGJEe2J0bu3ffrh5w at 5,32 size 130,18 {
+  		dataType Boolean
+  		name "assigned"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _xMbLgVMTEe2KQc5QIsW97w at 5,50 size 130,18 {
+  		dataType _A6uWQVHpEe2J0bu3ffrh5w
+  		name "features"
+  		isList true
+  	}
+  	
+  	ComplexAttribute _0_2Z0VMTEe2KQc5QIsW97w at 5,86 size 130,18 {
+  		dataType _A6uWQVHpEe2J0bu3ffrh5w
+  		name "preferences"
+  		isList true
+  	}
+  	-Inheritance-> _V7iG8FGDEe2J0bu3ffrh5w  decorate "" at (0,0) {
+  		id _h2jugVGDEe2J0bu3ffrh5w
+  	}
+  	
+  	-BidirectionalAssociation-> _DJ1LAVFNEe2J0bu3ffrh5w  decorate "Text" at (10,3) decorate "Text" at (10,-12) {
+  		id _xYrmUVGIEe2J0bu3ffrh5w
+  		targetAttr _xY5BsVGIEe2J0bu3ffrh5w
+  		isHidden false
+  		sourceAttr _xZISQVGIEe2J0bu3ffrh5w
+  	}
+  	
+  	-Association-> _A6uWQVHpEe2J0bu3ffrh5w  decorate "Text" at (-25,-30) decorate "" at (0,0) {
+  		id _xMT2wVMTEe2KQc5QIsW97w
+  		isHidden false
+  		sourceAttr _xMbLgVMTEe2KQc5QIsW97w
+  	}
+  	
+  	-Association-> _A6uWQVHpEe2J0bu3ffrh5w via (610,367) decorate "Text" at (-14,11) decorate "" at (0,0) {
+  		id _0_o-cVMTEe2KQc5QIsW97w
+  		isHidden false
+  		sourceAttr _0_2Z0VMTEe2KQc5QIsW97w
+  	}
+  }
+  
+  ConcreteType _eC67EVFSEe2J0bu3ffrh5w at 1009,62 size 140,30 {
+  	name "Report"
+  }
+  
+  EnumType _lmR-0VFSEe2J0bu3ffrh5w at 1023,472 size 112,73 {
+  	name "DecisionState"
+  	EnumLiteral _m8RhYVFSEe2J0bu3ffrh5w at 5,32 size 102,18 {
+  		displayName ""
+  		name "approved"
+  		isList false
+  	}
+  	
+  	EnumLiteral _oFXQYVFSEe2J0bu3ffrh5w at 5,50 size 102,18 {
+  		displayName ""
+  		name "rejected"
+  		isList false
+  	}
+  }
+  
+  ConcreteType _BtX2cVGBEe2J0bu3ffrh5w at 1010,378 size 140,55 {
+  	name "Decision"
+  	ComplexAttribute _FOudUVGBEe2J0bu3ffrh5w at 5,32 size 130,18 {
+  		dataType _lmR-0VFSEe2J0bu3ffrh5w
+  		name "state"
+  		isList false
+  	}
+  	-Association-> _lmR-0VFSEe2J0bu3ffrh5w  decorate "Text" at (11,0) decorate "" at (0,0) {
+  		id _FOhB8VGBEe2J0bu3ffrh5w
+  		isHidden false
+  		sourceAttr _FOudUVGBEe2J0bu3ffrh5w
+  	}
+  }
+  
+  AbstractType _V7iG8FGDEe2J0bu3ffrh5w at 1010,191 size 140,127 {
+  	name "Submission"
+  	ComplexAttribute _nEaTcVGDEe2J0bu3ffrh5w at 5,68 size 130,18 {
+  		dataType _eC67EVFSEe2J0bu3ffrh5w
+  		name "report"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _nrhWwVGDEe2J0bu3ffrh5w at 5,32 size 130,18 {
+  		dataType _BtX2cVGBEe2J0bu3ffrh5w
+  		name "decision"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _z9pPsVGDEe2J0bu3ffrh5w at 5,86 size 130,18 {
+  		dataType Text
+  		name "title"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _3M1ooVN9Ee2KQc5QIsW97w at 5,50 size 130,18 {
+  		dataType _psj6gVN9Ee2KQc5QIsW97w
+  		name "issues"
+  		isList true
+  	}
+  	
+  	ExtensionAttribute _2bMl8FOhEe2KQc5QIsW97w at 5,104 size 130,18 {
+  		dataType "Boolean"
+  		libraryComponentUID "_rUELYFOfEe2KQc5QIsW97w"
+  		documentation "tests whether the current user is allowed to see the discussion"
+  		name "userCanDiscuss"
+  		isList false
+  	}
+  	-Association-> _eC67EVFSEe2J0bu3ffrh5w  decorate "Text" at (8,-3) decorate "" at (0,0) {
+  		id _nEOtQVGDEe2J0bu3ffrh5w
+  		isHidden false
+  		sourceAttr _nEaTcVGDEe2J0bu3ffrh5w
+  	}
+  	
+  	-Association-> _BtX2cVGBEe2J0bu3ffrh5w  decorate "Text" at (7,-4) decorate "" at (0,0) {
+  		id _nrT7YVGDEe2J0bu3ffrh5w
+  		isHidden false
+  		sourceAttr _nrhWwVGDEe2J0bu3ffrh5w
+  	}
+  	
+  	-Association-> _psj6gVN9Ee2KQc5QIsW97w  decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _3MnmMVN9Ee2KQc5QIsW97w
+  		isHidden false
+  		sourceAttr _3M1ooVN9Ee2KQc5QIsW97w
+  	}
+  }
+  
+  ConcreteType _A6uWQVHpEe2J0bu3ffrh5w at 540,191 size 140,109 {
+  	name "Feature"
+  	PrimitiveAttribute _czYfMVHpEe2J0bu3ffrh5w at 5,50 size 130,18 {
+  		dataType Boolean
+  		name "isTemplateForOffer"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _pse4kVHpEe2J0bu3ffrh5w at 5,68 size 130,18 {
+  		dataType _j0KaUVHpEe2J0bu3ffrh5w
+  		name "priority"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _JgCw0VHqEe2J0bu3ffrh5w at 5,86 size 130,18 {
+  		dataType Text
+  		name "title"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _r5kYIVLOEe2djpkPxa2Z3Q at 5,32 size 130,18 {
+  		dataType Boolean
+  		name "isTemplateForBidding"
+  		isList false
+  	}
+  	-Association-> _j0KaUVHpEe2J0bu3ffrh5w  decorate "Text" at (-37,5) decorate "" at (0,0) {
+  		id _psPoAVHpEe2J0bu3ffrh5w
+  		isHidden false
+  		sourceAttr _pse4kVHpEe2J0bu3ffrh5w
+  	}
+  }
+  
+  EnumType _j0KaUVHpEe2J0bu3ffrh5w at 380,200 size 94,91 {
+  	name "Priority"
+  	EnumLiteral _lZeyUVHpEe2J0bu3ffrh5w at 5,32 size 84,18 {
+  		displayName ""
+  		name "high"
+  		isList false
+  	}
+  	
+  	EnumLiteral _mQGRQVHpEe2J0bu3ffrh5w at 5,68 size 84,18 {
+  		displayName ""
+  		name "medium"
+  		isList false
+  	}
+  	
+  	EnumLiteral _nFDjUVHpEe2J0bu3ffrh5w at 5,50 size 84,18 {
+  		displayName ""
+  		name "low"
+  		isList false
+  	}
+  }
+  
+  ConcreteType _psj6gVN9Ee2KQc5QIsW97w at 1208,209 size 140,91 {
+  	name "Issue"
+  	PrimitiveAttribute _rYOyIVN9Ee2KQc5QIsW97w at 5,68 size 130,18 {
+  		dataType Text
+  		name "title"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _yDwO8VN9Ee2KQc5QIsW97w at 5,32 size 130,18 {
+  		dataType _uaBIIVN9Ee2KQc5QIsW97w
+  		name "comments"
+  		isList true
+  	}
+  	
+  	ComplexAttribute _SNjc8VN-Ee2KQc5QIsW97w at 5,50 size 130,18 {
+  		dataType _MZz8sVN-Ee2KQc5QIsW97w
+  		name "state"
+  		isList false
+  	}
+  	-Association-> _uaBIIVN9Ee2KQc5QIsW97w  decorate "Text" at (-50,-25) decorate "" at (0,0) {
+  		id _yDhlcVN9Ee2KQc5QIsW97w
+  		isHidden false
+  		sourceAttr _yDwO8VN9Ee2KQc5QIsW97w
+  	}
+  	
+  	-Association-> _MZz8sVN-Ee2KQc5QIsW97w  decorate "Text" at (12,-1) decorate "" at (0,0) {
+  		id _SNUzcVN-Ee2KQc5QIsW97w
+  		isHidden false
+  		sourceAttr _SNjc8VN-Ee2KQc5QIsW97w
+  	}
+  }
+  
+  ConcreteType _uaBIIVN9Ee2KQc5QIsW97w at 1208,62 size 140,55 {
+  	name "Comment"
+  	PrimitiveAttribute _vzWSkVN9Ee2KQc5QIsW97w at 5,32 size 130,18 {
+  		dataType Text
+  		name "text"
+  		isList false
+  	}
+  }
+  
+  EnumType _MZz8sVN-Ee2KQc5QIsW97w at 1208,346 size 140,73 {
+  	name "IssueState"
+  	EnumLiteral _YzTB4VN-Ee2KQc5QIsW97w at 5,32 size 130,18 {
+  		displayName ""
+  		name "resolved"
+  		isList false
+  	}
+  	
+  	EnumLiteral _Z3-yAVN-Ee2KQc5QIsW97w at 5,50 size 130,18 {
+  		displayName ""
+  		name "unresolved"
+  		isList false
+  	}
+  }
+}

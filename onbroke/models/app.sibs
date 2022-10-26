@@ -1,0 +1,291 @@
+package common
+
+javaType Object : java.lang.Object
+javaType Long : java.lang.Long
+
+/**
+ * Compares two strings, whether they are equal.
+ * @param a : A String, which will compared with another String b
+ * @param b : A String, which will compared with String a
+ * @return : Returns true if the Strings are equal and false if not. Otherwise 'noresult' or 'failure' will be returned
+ */
+sib TextEquals : info.scce.dime.common.CommonNativeServiceLibrary#textEquals
+	a : text
+	b: text
+	-> true
+	-> false
+	-> noresult 
+	-> failure
+
+/**
+ * Appending to String a another String b.
+ * @param a : The first String to which another String b will be appended
+ * @param b : The String which will be appended to previously String
+ * @return : Returns the appended String. Otherwise 'noresult' or 'failure' will be returned'
+ */
+sib TextAppend : info.scce.dime.common.CommonNativeServiceLibrary#textAppend
+	a: text
+	b: text
+	-> success
+		result: text
+	-> noresult
+	-> failure
+
+/**
+ * Joining Strings
+ * @param prefix : The first part of the String to join
+ * @param infix	: The second part of the String to join
+ * @param suffix : The third part of the String to join
+ * @return : Returns the joined String prefix + infix + suffix. Otherwise 'noresult' or 'failure' will be returned'
+ */
+sib TextJoin : info.scce.dime.common.CommonNativeServiceLibrary#textJoin
+	prefix: text
+	suffix: text
+	infix: text
+	-> success
+		result: text
+	-> noresult // not correct, must be "no result", but grammar is broken
+
+/**
+ * Checks if a String is null
+ * @param a : A String that will be checked 
+ * @return : Returns true if a is null and false if not. Otherwise 'noresult' or 'failure' will be returned
+ */
+sib TextIsNull : info.scce.dime.common.CommonNativeServiceLibrary#textIsNull
+	a : text
+	-> true
+	-> false
+	-> noresult
+	-> failure
+
+/**
+ * Determine the length of a String
+ * @param a : A String that will be checked
+ * @return : Returns the length of a String. Otherwise 'noresult' or 'failure' will be returned
+ */
+sib TextLength : info.scce.dime.common.CommonNativeServiceLibrary#textLength
+	a : text
+	-> success
+		length : integer
+	-> noresult 
+	-> failure
+
+/**
+ * Convert a String into Lowercase
+ * @param a : The String that will be converted into Lowercase
+ * @return : Returns the converted String. Otherwise 'noresult' or 'failure' will be returned
+ */	
+sib TextToLowercase : info.scce.dime.common.CommonNativeServiceLibrary#textToLowercase
+	a : text
+	-> success
+		result : text
+	-> noresult 
+	-> failure
+
+/** 
+ * Checks if a given String 'string' contains another String 'needle'
+ * @param string : The String that will be checked
+ * @param needle : A String that is maybe a part of the given 'string'
+ * @return : Returns true if 'string' contains 'needle' and false if not. Otherwise 'noresult' or 'failure' will be returned
+ */	
+sib TextContains : info.scce.dime.common.CommonNativeServiceLibrary#textContains
+	string : text
+	needle : text
+	-> true
+	-> false
+	-> noresult
+	-> failure
+
+/**
+ * Splits a given String t by a 'splitter'
+ * @param t : The text that will be splitted
+ * @param splitter : This parameter splits a given String
+ * @return : Returns a list of String after the splitting
+ */	
+sib TextSplit: info.scce.dime.common.CommonNativeServices#textSplit
+	t : text
+	splitter : text
+	-> success
+		segments : [text]
+	-> noresult 
+	-> failure
+
+/**
+ * Returns the boolean value of the given parameter 'value'
+ * @param value : A boolean value that will be returned
+ * @return : Returns true if the value is true, else true. Otherwise 'noresult' or 'failure' will be returned
+ */	
+sib BooleanSwitch : info.scce.dime.common.CommonNativeServiceLibrary#booleanSwitch
+	value : boolean
+	-> true
+	-> false
+	-> noresult 
+    -> failure
+   
+/**
+ * Compares to parameter a and b and returns true if a is greater than b
+ * @param a : An integer value that will be compared to another parameter b
+ * @param b : An integer value that will be compared to another parameter a
+ * @return : Returns true if a is greater than b and false if not. Otherwise 'noresult' or 'failure' will be returned
+ */
+sib IntegerGreater : info.scce.dime.common.CommonNativeServiceLibrary#integerGreater
+	a : integer
+	b: integer
+	-> true
+	-> false
+	-> noresult 
+	-> failure
+
+/**
+ * Compares to parameter a and b and returns true if a is equal b
+ * @param a : An integer value that will be compared to another parameter b
+ * @param b : An integer value that will be compared to another parameter a
+ * @return : Returns true if the parameters are equal and false if not. Otherwise 'noresult' or 'failure' will be returned
+ */
+sib IntegerEquals : info.scce.dime.common.CommonNativeServiceLibrary#integerEquals
+	a : integer
+	b: integer
+	-> true
+	-> false
+	-> noresult 
+	-> failure
+
+/**
+ * Writes an error message when 'debugging'
+ * @param message : This message will be printed
+ * If this was successful the 'success' branch will be taken else 'failure'
+ */	
+sib LogDebugMessage : info.scce.dime.common.CommonNativeServiceLibrary#logDebugMessage
+	message: text
+	-> success
+	-> failure
+
+/**
+ * Checks if a given object already exists
+ * @param object : The object is checked for existence
+ * @return : Returns true if the object already exists and false if not. 
+ */
+sib ObjectExists : info.scce.dime.common.CommonNativeServiceLibrary#objectExists
+	object : Object
+	-> true
+	-> false
+	-> noresult
+	-> failure
+
+/**
+ * Checks if two given objects are the same
+ * @param a : The object a
+ * @param b : The object b
+ * @return : Returns true if the object a is equal to object b, otherwise false. 
+ */
+sib ObjectEquals : info.scce.dime.common.CommonNativeServiceLibrary#objectEquals
+	a: Object
+	b: Object
+	-> true
+	-> false
+	-> noresult
+	-> failure
+
+/**
+ * Adds two integers a and b
+ * @param a : The first argument of the addition
+ * @param b : The second argument of the addition
+ * @return : Returns the result of the addition. 
+ */
+sib IntegerAdd : info.scce.dime.common.CommonNativeServiceLibrary#integerAdd
+	a: integer
+	b: integer
+	-> success 
+		result : integer
+	-> noresult
+	-> failure
+
+/**
+ * Converts an integer value to a real one
+ * @param a : The value that will be converted
+ */	
+sib IntToReal : info.scce.dime.common.CommonNativeServiceLibrary#intToReal
+	a: integer
+	-> success
+		result: real
+	-> noresult
+	-> failure
+
+/**
+ * Converts an integer value to text
+ * @param a : The value that will be converted
+ */
+sib IntToString : info.scce.dime.common.CommonNativeServiceLibrary#intToString
+	a: integer
+	-> success
+		result: text
+	-> noresult
+
+/**
+ * Adds two real values a and b
+ * @param a : The first argument of the addition
+ * @param b : The second argument of the addition
+ * @return : Returns the result of the addition. 
+ */	
+sib RealAdd : info.scce.dime.common.CommonNativeServiceLibrary#realAdd
+	a: real
+	b: real
+	-> success 
+		result : real
+	-> noresult
+	-> failure
+
+/**
+ * Divides two real values a and b
+ * @param a : The dividend of the division
+ * @param b : The divisor of the division
+ * @return : Returns the result of the division 
+ */	
+sib RealDiv : info.scce.dime.common.CommonNativeServiceLibrary#realDiv
+	a: real
+	b: real
+	-> success 
+		result : real
+	-> noresult
+	-> failure
+
+/**
+ * Uploads a projekt resource
+ * @param path : Path of the project resource
+ * @return : Returns the file 'id' if the upload was successful
+ */	
+sib UploadProjectResource :info.scce.dime.common.CommonNativeServiceLibrary#uploadProjectResource
+	path: text
+	-> success
+		id : file
+	-> failure
+
+/**
+ * Converts an Object to a text
+ * @param a : An Object that will be converted into a text
+ * @return : Returns the converted Object as a text
+ */	
+sib ConvertToText: info.scce.dime.common.CommonNativeServiceLibrary#convertToText
+	a: Object
+	-> success
+		result: text
+	-> noresult
+
+/**
+ * Hashes the given text using the SHA 512 algorithm in conjunction with a randomly generated salt.
+ * @param password: the password to hash
+ * @return the hashed password in the form of <hashedPassword>:<salt>, both base64 encoded.
+ */
+sib HashPassword: info.scce.dime.common.CommonNativeServiceLibrary#createSaltedSHA512Hash
+	password: text
+	-> success
+		hashedPassword: text
+
+/*
+ * Creates a random UUID and returns it as String.
+ */
+sib RandomUUID : info.scce.dime.common.CommonNativeUtilsServiceLibrary#randomUUID
+	-> success
+		result: text
+    -> failure
+

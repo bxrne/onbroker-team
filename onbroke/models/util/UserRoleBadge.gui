@@ -1,0 +1,142 @@
+GUI _gqOMAVLoEe2djpkPxa2Z3Q {
+  fullWidth false
+  disableAutoLayout true
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "UserRoleBadge"
+  DataContext _gqPaIVLoEe2djpkPxa2Z3Q at 10,10 size 180,224 {
+  	dfViewWorkaround true
+  	ComplexVariable _is4nUVLoEe2djpkPxa2Z3Q at 10,100 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_mSHlYFE3Ee2Vgcav4Znc_w"
+  		isInput true
+  		name "role"
+  		dfViewWorkaround true
+  		isList false
+  		-IS-> _k_N2UVLoEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _mKuAIVLoEe2djpkPxa2Z3Q
+  			exactMatch false
+  			negate false
+  			matchingType "_qyD7cVE3Ee2Vgcav4Znc_w"
+  		}
+  		
+  		-IS-> _k_PEc1LoEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _m-b8EFLoEe2djpkPxa2Z3Q
+  			exactMatch false
+  			negate false
+  			matchingType "_p8Gj0VE3Ee2Vgcav4Znc_w"
+  		}
+  		
+  		-IS-> _k_OdZVLoEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _nhkeUVLoEe2djpkPxa2Z3Q
+  			exactMatch false
+  			negate false
+  			matchingType "_nWFj0FE3Ee2Vgcav4Znc_w"
+  		}
+  	}
+  }
+  
+  Template _gqQBMVLoEe2djpkPxa2Z3Q at 240,10 size 220,224 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _gqQoQFLoEe2djpkPxa2Z3Q {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Badge _k_N2UVLoEe2djpkPxa2Z3Q at 10,30 size 200,48 {
+  		color Default
+  		content [ StaticContent _k_N2V1LoEe2djpkPxa2Z3Q {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "User"
+  				styling TextStyling _k_N2WFLoEe2djpkPxa2Z3Q {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _k_N2VlLoEe2djpkPxa2Z3Q {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _k_N2WlLoEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _k_N2XVLoEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Badge _k_OdZVLoEe2djpkPxa2Z3Q at 10,146 size 200,48 {
+  		color Yellow
+  		content [ StaticContent _k_Oda1LoEe2djpkPxa2Z3Q {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Admin"
+  				styling TextStyling _k_OdbFLoEe2djpkPxa2Z3Q {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _k_OdalLoEe2djpkPxa2Z3Q {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _k_OdblLoEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _k_OdcVLoEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Badge _k_PEc1LoEe2djpkPxa2Z3Q at 10,88 size 200,48 {
+  		color Lightblue
+  		content [ StaticContent _k_PEeVLoEe2djpkPxa2Z3Q {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Broker"
+  				styling TextStyling _k_PEelLoEe2djpkPxa2Z3Q {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _k_PEeFLoEe2djpkPxa2Z3Q {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _k_PEfFLoEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _k_PEf1LoEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}

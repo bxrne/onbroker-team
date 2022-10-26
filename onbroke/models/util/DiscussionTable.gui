@@ -1,0 +1,400 @@
+GUI _UOyxYVN9Ee2KQc5QIsW97w {
+  fullWidth false
+  disableAutoLayout true
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "DiscussionTable"
+  DataContext _UOzYcVN9Ee2KQc5QIsW97w at 10,10 size 221,625 {
+  	dfViewWorkaround true
+  	ComplexVariable _9UIXAVN9Ee2KQc5QIsW97w at 10,70 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
+  		isInput true
+  		name "issues"
+  		dfViewWorkaround true
+  		isList true
+  		-IF-> _Y-2nEVN9Ee2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id __h2LwFN9Ee2KQc5QIsW97w
+  			negate true
+  		}
+  		
+  		-IF-> _bJt8IVN9Ee2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _AbtL8VN-Ee2KQc5QIsW97w
+  			negate false
+  		}
+  		
+  		-TableLoad-> _bJt8IVN9Ee2KQc5QIsW97w via (271,154) decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _A9cAAVN-Ee2KQc5QIsW97w
+  		}
+  		
+  		-ComplexListAttributeConnector-> _Bz-mcVN-Ee2KQc5QIsW97w  decorate "Ellipse" at (0,0) {
+  			id _B0JlkVN-Ee2KQc5QIsW97w
+  			attributeName current
+  		}
+  	}
+  	
+  	ComplexVariable _Bz-mcVN-Ee2KQc5QIsW97w at 10,390 size 201,61 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
+  		isInput false
+  		name "issue"
+  		dfViewWorkaround true
+  		isList false
+  		PrimitiveAttribute _B0pU0VN-Ee2KQc5QIsW97w at 10,23 size 181,25 {
+  			libraryComponentUID "_rYOyIVN9Ee2KQc5QIsW97w"
+  			isLive false
+  			-TableColumnLoad-> _bJvxZVN9Ee2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _HTGhkVN-Ee2KQc5QIsW97w
+  			}
+  		}
+  		-ComplexAttributeConnector-> _wGATYVN-Ee2KQc5QIsW97w  decorate "Ellipse" at (0,0) {
+  			id _wGIPMVN-Ee2KQc5QIsW97w
+  			associationName "state"
+  		}
+  		
+  		-AddComplexToSubmission-> _bJxmsVN9Ee2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _QJ1goVOdEe2KQc5QIsW97w
+  		}
+  		
+  		-AddComplexToSubmission-> _V3lGkVOdEe2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _ZpZLUVOdEe2KQc5QIsW97w
+  		}
+  		
+  		-AddComplexToSubmission-> _dDPcAVOdEe2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _jKUH8VOdEe2KQc5QIsW97w
+  		}
+  	}
+  	
+  	ComplexVariable _wGATYVN-Ee2KQc5QIsW97w at 10,494 size 201,25 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_MZz8sVN-Ee2KQc5QIsW97w"
+  		isInput false
+  		name "state"
+  		dfViewWorkaround true
+  		isList false
+  		-ComplexRead-> _u859UVN-Ee2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _xm6FcVN-Ee2KQc5QIsW97w
+  		}
+  		
+  		-TableColumnLoad-> _bJy0q1N9Ee2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _ywrw8VN-Ee2KQc5QIsW97w
+  		}
+  		
+  		-IS-> _V3lGkVOdEe2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _kXtIIVOdEe2KQc5QIsW97w
+  			exactMatch false
+  			negate false
+  			matchingType "_Z3-yAVN-Ee2KQc5QIsW97w"
+  		}
+  		
+  		-IS-> _dDPcAVOdEe2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _mbFVIVOdEe2KQc5QIsW97w
+  			exactMatch false
+  			negate false
+  			matchingType "_YzTB4VN-Ee2KQc5QIsW97w"
+  		}
+  	}
+  	
+  	PrimitiveVariable _N8_jsVOfEe2KQc5QIsW97w at 10,570 size 201,25 {
+  		dataType Boolean
+  		isInput true
+  		name "showResolveButtons"
+  		dfViewWorkaround true
+  		isList false
+  		-IF-> _V3lGkVOdEe2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _RlhwoVOfEe2KQc5QIsW97w
+  			negate false
+  		}
+  		
+  		-IF-> _dDPcAVOdEe2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _SeVA4VOfEe2KQc5QIsW97w
+  			negate false
+  		}
+  	}
+  }
+  
+  Template _UO0mkFN9Ee2KQc5QIsW97w at 300,10 size 1130,350 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _UO0mkVN9Ee2KQc5QIsW97w {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Text _Y-2nEVN9Ee2KQc5QIsW97w at 10,30 size 200,60 {
+  		content [ StaticContent _Y-2nF1N9Ee2KQc5QIsW97w {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "No issues yet"
+  				styling TextStyling _Y-2nGFN9Ee2KQc5QIsW97w {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic true
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _Y-2nFlN9Ee2KQc5QIsW97w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  				rawContent "color: grey;\n"
+  			}
+  		MoveUp _Y-2nGlN9Ee2KQc5QIsW97w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _Y-2nHVN9Ee2KQc5QIsW97w at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Table _bJt8IVN9Ee2KQc5QIsW97w at 10,100 size 1110,220 {
+  		striped true
+  		numbering false
+  		pagination 20
+  		autoSorted true
+  		condensed true
+  		reSortable false
+  		bordered false
+  		hover true
+  		responsive true
+  		name "table"
+  		choices NONE
+  		dropTargets [  ]
+  		generalStyle GeneralStyling _bJvxXVN9Ee2KQc5QIsW97w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _bJvxX1N9Ee2KQc5QIsW97w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _bJvxYlN9Ee2KQc5QIsW97w at 2,10 size 14,7 {
+  		}
+  		
+  		TableEntry _bJvxZVN9Ee2KQc5QIsW97w at 10,30 size 220,120 {
+  			fullTextSearch true
+  			defaultSorting NONE
+  			label "Title"
+  			sortable true
+  			generalStyle GeneralStyling _bJwYa1N9Ee2KQc5QIsW97w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _bJwYbVN9Ee2KQc5QIsW97w at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _bJwYcFN9Ee2KQc5QIsW97w at 10,2 size 7,14 {
+  			}
+  			
+  			Text _bJwYc1N9Ee2KQc5QIsW97w at 10,30 size 200,60 {
+  				content [ StaticContent _bJwYeVN9Ee2KQc5QIsW97w {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "{{issue.title}}"
+  						styling TextStyling _bJwYelN9Ee2KQc5QIsW97w {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _bJwYeFN9Ee2KQc5QIsW97w {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _bJwYfFN9Ee2KQc5QIsW97w at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _bJwYf1N9Ee2KQc5QIsW97w at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  		
+  		TableEntry _bJwYhFN9Ee2KQc5QIsW97w at 420,30 size 670,170 {
+  			fullTextSearch false
+  			defaultSorting NONE
+  			label "Actions"
+  			sortable false
+  			generalStyle GeneralStyling _bJw_mFN9Ee2KQc5QIsW97w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _bJw_mlN9Ee2KQc5QIsW97w at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _bJw_nVN9Ee2KQc5QIsW97w at 10,2 size 7,14 {
+  			}
+  			
+  			ButtonGroup _bJw_oFN9Ee2KQc5QIsW97w at 10,30 size 650,110 {
+  				size Default
+  				alignment horizontal
+  				generalStyle GeneralStyling _bJxmqVN9Ee2KQc5QIsW97w {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _bJxmq1N9Ee2KQc5QIsW97w at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _bJxmrlN9Ee2KQc5QIsW97w at 2,10 size 14,7 {
+  				}
+  				
+  				Button _bJxmsVN9Ee2KQc5QIsW97w at 10,30 size 200,60 {
+  					displayLabel "Details"
+  					label "Show issue"
+  					styling ButtonStyling _bJxmuFN9Ee2KQc5QIsW97w {
+  							fullWidth false
+  							size Small
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions _bJxmuVN9Ee2KQc5QIsW97w {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _bJxmt1N9Ee2KQc5QIsW97w {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _bJxmtlN9Ee2KQc5QIsW97w {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _bJyNkFN9Ee2KQc5QIsW97w at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _bJyNk1N9Ee2KQc5QIsW97w at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				Button _V3lGkVOdEe2KQc5QIsW97w at 220,30 size 200,60 {
+  					displayLabel "Mark resolved"
+  					label "Resolve issue"
+  					styling ButtonStyling _V3lGmFOdEe2KQc5QIsW97w {
+  							fullWidth false
+  							size Small
+  							disabled false
+  							color Green
+  						}
+  					options ButtonOptions _V3lGmVOdEe2KQc5QIsW97w {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _V3lGl1OdEe2KQc5QIsW97w {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _V3lGllOdEe2KQc5QIsW97w {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _V3lGm1OdEe2KQc5QIsW97w at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _V3lGnlOdEe2KQc5QIsW97w at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				Button _dDPcAVOdEe2KQc5QIsW97w at 430,30 size 200,60 {
+  					displayLabel "Mark unresolved"
+  					label "Unresolve issue"
+  					styling ButtonStyling _dDPcCFOdEe2KQc5QIsW97w {
+  							fullWidth false
+  							size Small
+  							disabled false
+  							color Red
+  						}
+  					options ButtonOptions _dDPcCVOdEe2KQc5QIsW97w {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _dDPcB1OdEe2KQc5QIsW97w {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _dDPcBlOdEe2KQc5QIsW97w {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _dDPcC1OdEe2KQc5QIsW97w at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _dDPcDlOdEe2KQc5QIsW97w at 10,2 size 7,14 {
+  					}
+  				}
+  			}
+  		}
+  		
+  		TableEntry _bJy0q1N9Ee2KQc5QIsW97w at 240,30 size 170,150 {
+  			fullTextSearch true
+  			defaultSorting DESC
+  			label "State"
+  			sortable true
+  			generalStyle GeneralStyling _bJy0y1N9Ee2KQc5QIsW97w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _bJy0zVN9Ee2KQc5QIsW97w at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _bJy00FN9Ee2KQc5QIsW97w at 10,2 size 7,14 {
+  			}
+  			
+  			GUISIB _u8rT5VN-Ee2KQc5QIsW97w at 10,30 size 150,90 {
+  				libraryComponentUID "_dFq2AVN-Ee2KQc5QIsW97w"
+  				label "IssueStateBadge"
+  				generalStyle GeneralStyling _u9H_wFN-Ee2KQc5QIsW97w {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				ComplexInputPort _u859UVN-Ee2KQc5QIsW97w at 5,67 size 90,18 {
+  					libraryComponentUID "_MZz8sVN-Ee2KQc5QIsW97w"
+  					isList false
+  					name "issueState"
+  				}
+  				
+  				MoveUp _u9HYsVN-Ee2KQc5QIsW97w at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _u9HYs1N-Ee2KQc5QIsW97w at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  }
+}

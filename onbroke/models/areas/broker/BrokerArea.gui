@@ -1,0 +1,380 @@
+GUI _dCbEMVFOEe2J0bu3ffrh5w {
+  fullWidth false
+  disableAutoLayout true
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "BrokerArea"
+  DataContext _dCbrQVFOEe2J0bu3ffrh5w at 10,10 size 221,245 {
+  	dfViewWorkaround true
+  	ComplexVariable _4sIT4VGKEe2J0bu3ffrh5w at 11,150 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isInput true
+  		name "offers"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexRead-> _iE_AgVGNEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _BVmEEVGLEe2J0bu3ffrh5w
+  		}
+  	}
+  	
+  	ComplexVariable _8njnoVGKEe2J0bu3ffrh5w at 11,90 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isInput true
+  		name "approvedOffers"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexRead-> _jIRpgVGNEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _EfAsEVGLEe2J0bu3ffrh5w
+  		}
+  	}
+  	
+  	ComplexVariable __safwVGKEe2J0bu3ffrh5w at 11,190 size 201,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isInput true
+  		name "biddings"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexRead-> _iFIKcVGNEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _DkgLoVGLEe2J0bu3ffrh5w
+  		}
+  	}
+  }
+  
+  Template _dCc5YVFOEe2J0bu3ffrh5w at 300,10 size 520,1000 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _dCeHgFFOEe2J0bu3ffrh5w {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Tabbing _hg-g4FFTEe2J0bu3ffrh5w at 10,30 size 500,940 {
+  		justified false
+  		tabtype Tab
+  		generalStyle GeneralStyling _hhW7YFFTEe2J0bu3ffrh5w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _hhCLQVFTEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _hhCyUVFTEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  		}
+  		
+  		Tab _hhQ0wFFTEe2J0bu3ffrh5w at 10,30 size 220,890 {
+  			default true
+  			label "Approval"
+  			generalStyle GeneralStyling _hhVtQFFTEe2J0bu3ffrh5w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _hhUfIVFTEe2J0bu3ffrh5w at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _hhVGMVFTEe2J0bu3ffrh5w at 10,2 size 7,14 {
+  			}
+  			
+  			Row _KhwKAVItEe2FSMa3sLmgcg at 10,30 size 200,830 {
+  				generalStyle GeneralStyling _KiAosFItEe2FSMa3sLmgcg {
+  						tallness Fitting
+  						marginBottom Single
+  						attributes [  ]
+  						marginTop Single
+  					}
+  				MoveUp _Kh1pkVItEe2FSMa3sLmgcg at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _Kh23sVItEe2FSMa3sLmgcg at 2,10 size 14,7 {
+  				}
+  				
+  				Col _Kh6iEFItEe2FSMa3sLmgcg at 10,30 size 170,780 {
+  					wideness Full
+  					layout Layout _KiABoVItEe2FSMa3sLmgcg {
+  							size Default
+  							offset None
+  							alignment Left
+  						}
+  					generalStyle GeneralStyling _KiABoFItEe2FSMa3sLmgcg {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _Kh8-UVItEe2FSMa3sLmgcg at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _Kh9lYVItEe2FSMa3sLmgcg at 10,2 size 7,14 {
+  					}
+  					
+  					GUISIB _iEvI4FGNEe2J0bu3ffrh5w at 10,30 size 150,720 {
+  						libraryComponentUID "_sK8JMVFTEe2J0bu3ffrh5w"
+  						label "BrokerApprovalTab"
+  						generalStyle GeneralStyling _13ykAFGKEe2J0bu3ffrh5w {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						ComplexInputPort _iE_AgVGNEe2J0bu3ffrh5w at 5,67 size 90,18 {
+  							libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  							isList true
+  							name "offers"
+  						}
+  						
+  						ComplexInputPort _iFIKcVGNEe2J0bu3ffrh5w at 5,85 size 90,18 {
+  							libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  							isList true
+  							name "biddings"
+  						}
+  						
+  						Branch _iFPfMVGNEe2J0bu3ffrh5w at 5,108 size 100,50 {
+  							name "Show offer"
+  							ComplexOutputPort _iFTJkVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  								libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  								name "offer"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _iFbFYVGNEe2J0bu3ffrh5w at 5,176 size 100,50 {
+  							name "Decide offer"
+  							ComplexOutputPort _iFfW0VGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  								libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  								name "offer"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _iFmEgVGNEe2J0bu3ffrh5w at 5,244 size 100,50 {
+  							name "Review offer"
+  							ComplexOutputPort _iFpu4VGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  								libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  								name "offer"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _iFxqsVGNEe2J0bu3ffrh5w at 5,312 size 100,50 {
+  							name "Edit report"
+  							ComplexOutputPort _iF2jMVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  								libraryComponentUID "_eC67EVFSEe2J0bu3ffrh5w"
+  								name "report"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _iF-fAVGNEe2J0bu3ffrh5w at 5,380 size 100,50 {
+  							name "Revoke offer"
+  							ComplexOutputPort _iGCwcVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  								libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  								name "offer"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _iGL6YVGNEe2J0bu3ffrh5w at 5,448 size 100,50 {
+  							name "Show bidding"
+  							ComplexOutputPort _iGQy4VGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  								libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  								name "bidding"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _iGaj4VGNEe2J0bu3ffrh5w at 5,516 size 100,50 {
+  							name "Decide bidding"
+  							ComplexOutputPort _iGgDcVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  								libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  								name "bidding"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _iGpNYVGNEe2J0bu3ffrh5w at 5,584 size 100,50 {
+  							name "Review bidding"
+  							ComplexOutputPort _iGus8VGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  								libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  								name "bidding"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _iG5FAVGNEe2J0bu3ffrh5w at 5,652 size 100,50 {
+  							name "Revoke bidding"
+  							ComplexOutputPort _iG-kkVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  								libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  								name "bidding"
+  								isList false
+  							}
+  						}
+  						
+  						MoveUp _iHI8oVGNEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  						}
+  						
+  						MoveDown _iHI8o1GNEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  						}
+  					}
+  				}
+  			}
+  		}
+  		
+  		Tab _iUpZgVFTEe2J0bu3ffrh5w at 240,30 size 240,594 {
+  			default false
+  			label "Assignments"
+  			generalStyle GeneralStyling _iUsc0FFTEe2J0bu3ffrh5w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _iUrOsVFTEe2J0bu3ffrh5w at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _iUrOs1FTEe2J0bu3ffrh5w at 10,2 size 7,14 {
+  			}
+  			
+  			Row _NTBXwVItEe2FSMa3sLmgcg at 10,160 size 200,404 {
+  				generalStyle GeneralStyling _NTGQQlItEe2FSMa3sLmgcg {
+  						tallness Fitting
+  						marginBottom Single
+  						attributes [  ]
+  						marginTop Single
+  					}
+  				MoveUp _NTCl4VItEe2FSMa3sLmgcg at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _NTDM8VItEe2FSMa3sLmgcg at 2,10 size 14,7 {
+  				}
+  				
+  				Col _NTEbEVItEe2FSMa3sLmgcg at 10,30 size 170,354 {
+  					wideness Full
+  					layout Layout _NTGQQVItEe2FSMa3sLmgcg {
+  							size Default
+  							offset None
+  							alignment Left
+  						}
+  					generalStyle GeneralStyling _NTGQQFItEe2FSMa3sLmgcg {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _NTFCIVItEe2FSMa3sLmgcg at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _NTFCI1ItEe2FSMa3sLmgcg at 10,2 size 7,14 {
+  					}
+  					
+  					GUISIB _jIAjwVGNEe2J0bu3ffrh5w at 10,30 size 150,294 {
+  						libraryComponentUID "_xmnuwVFTEe2J0bu3ffrh5w"
+  						label "BrokerAssignmentTab"
+  						generalStyle GeneralStyling _2qOtkFGKEe2J0bu3ffrh5w {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						ComplexInputPort _jIRpgVGNEe2J0bu3ffrh5w at 5,67 size 90,18 {
+  							libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  							isList true
+  							name "offers"
+  						}
+  						
+  						Branch _jId2wVGNEe2J0bu3ffrh5w at 5,90 size 100,50 {
+  							name "Show bidding"
+  							ComplexOutputPort _jIivQVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  								libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  								name "bidding"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _jIrSIVGNEe2J0bu3ffrh5w at 5,158 size 100,50 {
+  							name "Assign"
+  							ComplexOutputPort _jIwKoVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  								libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  								name "bidding"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _jI4tgVGNEe2J0bu3ffrh5w at 5,226 size 100,50 {
+  							name "Unassign"
+  							ComplexOutputPort _jI9mAVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  								libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  								name "bidding"
+  								isList false
+  							}
+  						}
+  						
+  						MoveUp _jJHXAVGNEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  						}
+  						
+  						MoveDown _jJHXA1GNEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  						}
+  					}
+  				}
+  			}
+  			
+  			Alert _Wqw_0VMVEe2KQc5QIsW97w at 10,30 size 220,120 {
+  				dismissible false
+  				coloring ComponentColoring _OljWwFMWEe2KQc5QIsW97w {
+  						color Yellow
+  					}
+  				generalStyle GeneralStyling _WrA3cFMVEe2KQc5QIsW97w {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop Single
+  					}
+  				MoveUp _Wqy1AVMVEe2KQc5QIsW97w at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _WqzcEVMVEe2KQc5QIsW97w at 2,10 size 14,7 {
+  				}
+  				
+  				Text _Wq14UVMVEe2KQc5QIsW97w at 10,30 size 200,60 {
+  					content [ StaticContent _Wq47oVMVEe2KQc5QIsW97w {
+  							renderMarkdown false
+  							maxChars 0
+  							html false
+  							rawContent "Only approved offers get listed here."
+  							styling TextStyling _Wq47olMVEe2KQc5QIsW97w {
+  									small false
+  									highlight false
+  									deleted false
+  									underline false
+  									bold false
+  									alignment Left
+  									italic false
+  									color Default
+  								}
+  						} ]
+  					generalStyle GeneralStyling _Wq47oFMVEe2KQc5QIsW97w {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _Wq3GcVMVEe2KQc5QIsW97w at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _Wq3tgVMVEe2KQc5QIsW97w at 2,10 size 14,7 {
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}

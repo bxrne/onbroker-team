@@ -1,0 +1,104 @@
+GUI _dFq2AVN-Ee2KQc5QIsW97w {
+  fullWidth false
+  disableAutoLayout true
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "IssueStateBadge"
+  DataContext _dFrdEVN-Ee2KQc5QIsW97w at 10,10 size 180,166 {
+  	dfViewWorkaround true
+  	ComplexVariable _hNIaoVN-Ee2KQc5QIsW97w at 10,70 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_MZz8sVN-Ee2KQc5QIsW97w"
+  		isInput true
+  		name "issueState"
+  		dfViewWorkaround true
+  		isList false
+  		-IS-> _jo-K9VN-Ee2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _pgZ4YVN-Ee2KQc5QIsW97w
+  			exactMatch false
+  			negate false
+  			matchingType "_Z3-yAVN-Ee2KQc5QIsW97w"
+  		}
+  		
+  		-IS-> _jo9j4VN-Ee2KQc5QIsW97w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _qkxfcVN-Ee2KQc5QIsW97w
+  			exactMatch false
+  			negate false
+  			matchingType "_YzTB4VN-Ee2KQc5QIsW97w"
+  		}
+  	}
+  }
+  
+  Template _dFsrMVN-Ee2KQc5QIsW97w at 240,10 size 220,166 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _dFtSQFN-Ee2KQc5QIsW97w {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Badge _jo9j4VN-Ee2KQc5QIsW97w at 10,88 size 200,48 {
+  		color Green
+  		content [ StaticContent _jo9j51N-Ee2KQc5QIsW97w {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "resolved"
+  				styling TextStyling _jo9j6FN-Ee2KQc5QIsW97w {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _jo9j5lN-Ee2KQc5QIsW97w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _jo9j6lN-Ee2KQc5QIsW97w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _jo9j7VN-Ee2KQc5QIsW97w at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Badge _jo-K9VN-Ee2KQc5QIsW97w at 10,30 size 200,48 {
+  		color Yellow
+  		content [ StaticContent _jo-K-1N-Ee2KQc5QIsW97w {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "unresolved"
+  				styling TextStyling _jo-K_FN-Ee2KQc5QIsW97w {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _jo-K-lN-Ee2KQc5QIsW97w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _jo-K_lN-Ee2KQc5QIsW97w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _jo-LAVN-Ee2KQc5QIsW97w at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}
