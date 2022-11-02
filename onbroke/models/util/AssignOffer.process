@@ -1,0 +1,82 @@
+Process _cica8VoSEe2pHs49CF3jBg {
+  modelName "AssignDetails"
+  description "AssignDetails"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  DataContext _c2R88VoSEe2pHs49CF3jBg at 20,0 size 210,105 {
+  	dfViewWorkaround true
+  	PrimitiveVariable _0yn8sVqTEe2Tt5OOfOmnDQ at 30,50 size 140,25 {
+  		dataType Boolean
+  		name "variable"
+  		dfViewWorkaround true
+  		isList false
+  	}
+  }
+  
+  StartSIB _c2SkAVoSEe2pHs49CF3jBg at 330,20 size 100,90 {
+  	ComplexOutputPort _Al628VoYEe2pHs49CF3jBg at 5,67 size 90,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  	}
+  	-ControlFlow-> _kWaekVq3Ee2pqvJzQmZLqw  decorate "" at (0,0) {
+  		id _nE9IcVq3Ee2pqvJzQmZLqw
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _c2TLEVoSEe2pHs49CF3jBg at 320,530 size 100,65 {
+  	branchName "back"
+  }
+  
+  RetrieveOfTypeSIB _kWaekVq3Ee2pqvJzQmZLqw at 330,150 size 120,65 {
+  	libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  	label "Retrieve from Offer"
+  	ignoredBranch [  ]
+  	-BranchConnector-> _kWbFoVq3Ee2pqvJzQmZLqw   {
+  		id _kWbssVq3Ee2pqvJzQmZLqw
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _kWf-IVq3Ee2pqvJzQmZLqw   {
+  		id _kWglMVq3Ee2pqvJzQmZLqw
+  		concurrent true
+  	}
+  }
+  
+  Branch _kWbFoVq3Ee2pqvJzQmZLqw at 330,230 size 120,50 {
+  	name "success"
+  	ComplexOutputPort _kWcTwVq3Ee2pqvJzQmZLqw at 5,27 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList true
+  		name "retrieved"
+  	}
+  	-ControlFlow-> _CXw84Vq5Ee2VD6lutq-iww  decorate "" at (0,0) {
+  		id _DinmcVq5Ee2VD6lutq-iww
+  		concurrent true
+  	}
+  }
+  
+  Branch _kWf-IVq3Ee2pqvJzQmZLqw at 470,170 size 120,25 {
+  	name "none found"
+  	-ControlFlow-> _c2TLEVoSEe2pHs49CF3jBg  decorate "" at (0,0) {
+  		id _lQb20Vq3Ee2pqvJzQmZLqw
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _CXw84Vq5Ee2VD6lutq-iww at 280,380 size 120,90 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_y6NUoFq2Ee2pqvJzQmZLqw"
+  	name "AssignBiddingDetails"
+  	label "AssignBiddingDetails"
+  	ignoredBranch [  ]
+  	ComplexInputPort _Q6DhoVq5Ee2VD6lutq-iww at 5,67 size 110,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  	}
+  }
+}

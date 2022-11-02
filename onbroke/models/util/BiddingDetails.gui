@@ -4,18 +4,53 @@ GUI _zSAVgVOjEe2KQc5QIsW97w {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "BiddingDetails"
-  DataContext _zSA8kVOjEe2KQc5QIsW97w at 20,10 size 221,1335 {
+  DataContext _zSA8kVOjEe2KQc5QIsW97w at 20,10 size 221,805 {
   	dfViewWorkaround true
-  	ComplexVariable _4e2N0VOjEe2KQc5QIsW97w at 10,90 size 201,51 {
-  		expanded false
+  	ComplexVariable _4e2N0VOjEe2KQc5QIsW97w at 10,90 size 201,240 {
+  		expanded true
   		isLive false
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		isInput true
   		name "bidding"
   		dfViewWorkaround true
   		isList false
-  		PrimitiveAttribute _43U_QVOjEe2KQc5QIsW97w at 10,23 size 181,25 {
+  		ComplexAttribute _uyBeoVqzEe2Tt5OOfOmnDQ at 10,212 size 181,25 {
+  			libraryComponentUID "_T0d8UVFNEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _uyCFsVqzEe2Tt5OOfOmnDQ at 10,131 size 181,25 {
+  			libraryComponentUID "_xY5BsVGIEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _uyCFs1qzEe2Tt5OOfOmnDQ at 10,158 size 181,25 {
+  			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _uyCFtVqzEe2Tt5OOfOmnDQ at 10,77 size 181,25 {
+  			libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _uyCswVqzEe2Tt5OOfOmnDQ at 10,104 size 181,25 {
+  			libraryComponentUID "_3M1ooVN9Ee2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _uyCsw1qzEe2Tt5OOfOmnDQ at 10,50 size 181,25 {
+  			libraryComponentUID "_ynLkUVGJEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _uyDT0VqzEe2Tt5OOfOmnDQ at 10,185 size 181,25 {
   			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveExtensionAttribute _uyDT01qzEe2Tt5OOfOmnDQ at 10,23 size 181,25 {
+  			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
   			isLive false
   		}
   		-ComplexAttributeConnector-> _-jiUIVOjEe2KQc5QIsW97w  decorate "Ellipse" at (0,0) {

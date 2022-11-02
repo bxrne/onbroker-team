@@ -1,0 +1,63 @@
+GUI _y6NUoFq2Ee2pqvJzQmZLqw {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "AssignBiddingDetails"
+  DataContext _y6OiwVq2Ee2pqvJzQmZLqw at 10,10 size 180,105 {
+  	dfViewWorkaround true
+  	ComplexVariable _Px9RIVq5Ee2VD6lutq-iww at 0,50 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isInput true
+  		name "bidding"
+  		dfViewWorkaround true
+  		isList false
+  	}
+  }
+  
+  Template _y6Pw4Fq2Ee2pqvJzQmZLqw at 240,10 size 190,220 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _y6Q_AFq2Ee2pqvJzQmZLqw {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _y6Q_Alq2Ee2pqvJzQmZLqw at 10,30 size 170,160 {
+  		generalStyle GeneralStyling _y6VQclq2Ee2pqvJzQmZLqw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _y6RmEVq2Ee2pqvJzQmZLqw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _y6SNIVq2Ee2pqvJzQmZLqw at 2,10 size 14,7 {
+  		}
+  		
+  		Col _y6TbQVq2Ee2pqvJzQmZLqw at 10,30 size 140,110 {
+  			wideness Full
+  			layout Layout _y6VQcVq2Ee2pqvJzQmZLqw {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _y6VQcFq2Ee2pqvJzQmZLqw {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _y6UCUVq2Ee2pqvJzQmZLqw at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _y6UCU1q2Ee2pqvJzQmZLqw at 10,2 size 7,14 {
+  			}
+  		}
+  	}
+  }
+}
