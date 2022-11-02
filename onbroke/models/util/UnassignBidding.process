@@ -1,0 +1,58 @@
+Process _VVJDUVqtEe2Tt5OOfOmnDQ {
+  modelName "UnassignBidding"
+  description "UnassignBidding"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  DataContext _VmRPkVqtEe2Tt5OOfOmnDQ at 20,20 size 210,545 {
+  	dfViewWorkaround true
+  }
+  
+  StartSIB _VmR2oVqtEe2Tt5OOfOmnDQ at 330,20 size 100,90 {
+  	ComplexOutputPort _fWRKAVqtEe2Tt5OOfOmnDQ at 5,67 size 90,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  		-ComplexDirectDataFlow-> _bx2oF1qtEe2Tt5OOfOmnDQ via (310,96) (310,266) decorate "" at (0,0) {
+  			id _f1kVIVqtEe2Tt5OOfOmnDQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _bx2oEVqtEe2Tt5OOfOmnDQ  decorate "" at (0,0) {
+  		id _dLFr4VqtEe2Tt5OOfOmnDQ
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _VmSdsVqtEe2Tt5OOfOmnDQ at 330,500 size 100,65 {
+  	branchName "success"
+  }
+  
+  SetAttributeValueSIB _bx2oEVqtEe2Tt5OOfOmnDQ at 320,190 size 120,108 {
+  	libraryComponentUID "_ynLkUVGJEe2J0bu3ffrh5w"
+  	label "Set assigned"
+  	ignoredBranch [  ]
+  	ComplexInputPort _bx2oF1qtEe2Tt5OOfOmnDQ at 5,67 size 110,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  	}
+  	
+  	BooleanInputStatic _clN-sVqtEe2Tt5OOfOmnDQ at 5,85 size 110,18 {
+  		value false
+  		name "assigned"
+  	}
+  	-BranchConnector-> _bx3PIVqtEe2Tt5OOfOmnDQ   {
+  		id _bx2oJ1qtEe2Tt5OOfOmnDQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _bx3PIVqtEe2Tt5OOfOmnDQ at 320,380 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _VmSdsVqtEe2Tt5OOfOmnDQ  decorate "" at (0,0) {
+  		id _di_1kVqtEe2Tt5OOfOmnDQ
+  		concurrent true
+  	}
+  }
+}

@@ -174,9 +174,13 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		isList false
   		name "bidding"
+  		-ComplexDirectDataFlow-> _G_O4QVquEe2Tt5OOfOmnDQ via (2000,556) (2000,676) decorate "" at (0,0) {
+  			id _Nd0FQVquEe2Tt5OOfOmnDQ
+  			dfViewWorkaround true
+  		}
   	}
-  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (2069,648) (2149,648) (2150,393) decorate "" at (0,0) {
-  		id _xfUyIVGOEe2J0bu3ffrh5w
+  	-ControlFlow-> _G_J_wVquEe2Tt5OOfOmnDQ  decorate "" at (0,0) {
+  		id _M7JdEVquEe2Tt5OOfOmnDQ
   		concurrent true
   	}
   }
@@ -321,10 +325,6 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   	content "TODO"
   }
   
-  Documentation _rxu9MVGOEe2J0bu3ffrh5w at 2010,580 size 52,40 {
-  	content "TODO"
-  }
-  
   ProcessSIB _1d5TYVOlEe2KQc5QIsW97w at 309,610 size 120,90 {
   	libraryComponentUID "_U_pfYVOlEe2KQc5QIsW97w"
   	label "ShowBiddingDetails"
@@ -390,6 +390,29 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   	name "back"
   	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (1980,710) (1980,649) (1980,393) decorate "" at (0,0) {
   		id _tWXYsVGOEe2J0bu3ffrh5w
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _G_J_wVquEe2Tt5OOfOmnDQ at 2010,600 size 120,90 {
+  	libraryComponentUID "_VVJDUVqtEe2Tt5OOfOmnDQ"
+  	label "UnassignBidding"
+  	ignoredBranch [  ]
+  	ComplexInputPort _G_O4QVquEe2Tt5OOfOmnDQ at 5,67 size 110,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  	}
+  	-BranchConnector-> _G_TwwVquEe2Tt5OOfOmnDQ   {
+  		id _G_U-4VquEe2Tt5OOfOmnDQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _G_TwwVquEe2Tt5OOfOmnDQ at 2010,720 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (2149,730) (2149,648) (2150,393) decorate "" at (0,0) {
+  		id _xfUyIVGOEe2J0bu3ffrh5w
   		concurrent true
   	}
   }
