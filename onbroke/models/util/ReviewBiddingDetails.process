@@ -1,0 +1,21 @@
+Process _4CKU4VoREe2pHs49CF3jBg {
+  modelName "ReviewBiddingDetails"
+  description "ReviewBiddingDetails"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  DataContext _4SvHgVoREe2pHs49CF3jBg at 20,20 size 210,545 {
+  	dfViewWorkaround true
+  }
+  
+  StartSIB _4SwVoVoREe2pHs49CF3jBg at 330,20 size 100,65 {
+  	-ControlFlow-> _4SzY8VoREe2pHs49CF3jBg  decorate "" at (0,0) {
+  		id _TOzdoVoYEe2pHs49CF3jBg
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _4SzY8VoREe2pHs49CF3jBg at 330,500 size 100,65 {
+  	branchName "success"
+  }
+}

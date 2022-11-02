@@ -1,0 +1,64 @@
+Process _cica8VoSEe2pHs49CF3jBg {
+  modelName "AssignDetails"
+  description "AssignDetails"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  DataContext _c2R88VoSEe2pHs49CF3jBg at 20,0 size 210,105 {
+  	dfViewWorkaround true
+  	PrimitiveVariable _0yn8sVqTEe2Tt5OOfOmnDQ at 30,50 size 140,25 {
+  		dataType Boolean
+  		name "variable"
+  		dfViewWorkaround true
+  		isList false
+  	}
+  }
+  
+  StartSIB _c2SkAVoSEe2pHs49CF3jBg at 330,20 size 100,90 {
+  	ComplexOutputPort _Al628VoYEe2pHs49CF3jBg at 5,67 size 90,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  		-ComplexDirectDataFlow-> _LVxO8VqTEe2Tt5OOfOmnDQ via (310,96) (310,226) decorate "" at (0,0) {
+  			id _TEGzoVqTEe2Tt5OOfOmnDQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _LVs9gVqTEe2Tt5OOfOmnDQ  decorate "" at (0,0) {
+  		id _Ocl9UVqQEe2Tt5OOfOmnDQ
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _c2TLEVoSEe2pHs49CF3jBg at 330,410 size 100,65 {
+  	branchName "back"
+  }
+  
+  SetAttributeValueSIB _LVs9gVqTEe2Tt5OOfOmnDQ at 320,150 size 120,108 {
+  	libraryComponentUID "_ynLkUVGJEe2J0bu3ffrh5w"
+  	label "Set assigned"
+  	ignoredBranch [  ]
+  	ComplexInputPort _LVxO8VqTEe2Tt5OOfOmnDQ at 5,67 size 110,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  	}
+  	
+  	BooleanInputStatic _Y7ab4VqsEe2Tt5OOfOmnDQ at 5,85 size 110,18 {
+  		value true
+  		name "assigned"
+  	}
+  	-BranchConnector-> _LV7nAVqTEe2Tt5OOfOmnDQ   {
+  		id _LV81IVqTEe2Tt5OOfOmnDQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _LV7nAVqTEe2Tt5OOfOmnDQ at 320,280 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _c2TLEVoSEe2pHs49CF3jBg  decorate "" at (0,0) {
+  		id _Qw4MwVqTEe2Tt5OOfOmnDQ
+  		concurrent true
+  	}
+  }
+}
