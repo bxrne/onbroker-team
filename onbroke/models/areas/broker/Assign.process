@@ -1,0 +1,134 @@
+Process _NI96AVrXEe2zsZyFB7dFOg {
+  modelName "Assign"
+  description "Assign"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  DataContext _NqLwsVrXEe2zsZyFB7dFOg at 20,20 size 210,413 {
+  	dfViewWorkaround true
+  	ComplexVariable _fgBw4FrXEe2zsZyFB7dFOg at 10,89 size 190,294 {
+  		expanded true
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		name "bidding"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute _frFKUVrXEe2zsZyFB7dFOg at 10,266 size 170,25 {
+  			libraryComponentUID "_T0d8UVFNEe2J0bu3ffrh5w"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _frGYcVrXEe2zsZyFB7dFOg at 10,158 size 170,25 {
+  			libraryComponentUID "_xY5BsVGIEe2J0bu3ffrh5w"
+  			dfViewWorkaround true
+  			-ComplexRead-> _mypp8VrXEe2zsZyFB7dFOg  decorate "" at (0,0) {
+  				id _o9slMVrXEe2zsZyFB7dFOg
+  				dfViewWorkaround true
+  			}
+  		}
+  		
+  		ComplexAttribute _frG_gVrXEe2zsZyFB7dFOg at 10,104 size 170,25 {
+  			libraryComponentUID "_xMbLgVMTEe2KQc5QIsW97w"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _frG_g1rXEe2zsZyFB7dFOg at 10,185 size 170,25 {
+  			libraryComponentUID "_0_2Z0VMTEe2KQc5QIsW97w"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _frINoVrXEe2zsZyFB7dFOg at 10,212 size 170,25 {
+  			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _frI0sVrXEe2zsZyFB7dFOg at 10,77 size 170,25 {
+  			libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _frJbwVrXEe2zsZyFB7dFOg at 10,131 size 170,25 {
+  			libraryComponentUID "_3M1ooVN9Ee2KQc5QIsW97w"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _frgoIFrXEe2zsZyFB7dFOg at 10,50 size 170,25 {
+  			libraryComponentUID "_ynLkUVGJEe2J0bu3ffrh5w"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _frk5kVrXEe2zsZyFB7dFOg at 10,239 size 170,25 {
+  			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveExtensionAttribute _frsOUFrXEe2zsZyFB7dFOg at 10,23 size 170,25 {
+  			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
+  			dfViewWorkaround true
+  		}
+  		-ComplexRead-> _mytUUVrXEe2zsZyFB7dFOg  decorate "" at (0,0) {
+  			id _oEjWsVrXEe2zsZyFB7dFOg
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  StartSIB _NqNl4VrXEe2zsZyFB7dFOg at 330,20 size 100,90 {
+  	ComplexOutputPort _OQbxAVraEe2zsZyFB7dFOg at 5,67 size 90,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  		-ComplexUpdate-> _fgBw4FrXEe2zsZyFB7dFOg  decorate "" at (0,0) {
+  			id _RVk9AVraEe2zsZyFB7dFOg
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _im0isFrXEe2zsZyFB7dFOg  decorate "" at (0,0) {
+  		id _mH-8UVrXEe2zsZyFB7dFOg
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _NqQpMVrXEe2zsZyFB7dFOg at 330,500 size 100,65 {
+  	branchName "success"
+  }
+  
+  CreateSIB _im0isFrXEe2zsZyFB7dFOg at 330,150 size 120,126 {
+  	libraryComponentUID "_TeqGMVrWEe2zsZyFB7dFOg"
+  	label "Create Assignment"
+  	ignoredBranch [  ]
+  	PrimitiveInputPort _im6pUVrXEe2zsZyFB7dFOg at 5,67 size 110,18 {
+  		dataType Text
+  		isList false
+  		name "internalName"
+  	}
+  	
+  	ComplexInputPort _mypp8VrXEe2zsZyFB7dFOg at 5,85 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  	}
+  	
+  	ComplexInputPort _mytUUVrXEe2zsZyFB7dFOg at 5,103 size 110,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  	}
+  	-BranchConnector-> _inAv8VrXEe2zsZyFB7dFOg   {
+  		id _inClIVrXEe2zsZyFB7dFOg
+  		concurrent true
+  	}
+  }
+  
+  Branch _inAv8VrXEe2zsZyFB7dFOg at 320,320 size 120,50 {
+  	name "success"
+  	ComplexOutputPort _inDzQVrXEe2zsZyFB7dFOg at 5,27 size 110,18 {
+  		libraryComponentUID "_TeqGMVrWEe2zsZyFB7dFOg"
+  		isList false
+  		name "created"
+  	}
+  	-ControlFlow-> _NqQpMVrXEe2zsZyFB7dFOg  decorate "" at (0,0) {
+  		id _pxbvQVrXEe2zsZyFB7dFOg
+  		concurrent true
+  	}
+  }
+}
