@@ -2,4 +2,7 @@ package onbroke
 
 import "models/app.data" as data
 
-// TODO
+sib printAssignment: info.scce.dime.app.onbroke.OnbrokeNative#printAssignment
+input: data.Assignment
+->success
+output: text
