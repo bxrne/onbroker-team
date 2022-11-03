@@ -45,7 +45,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   		}
   	}
   	
-  	ComplexVariable _jFUnIVrYEe2zsZyFB7dFOg at 11,940 size 201,159 {
+  	ComplexVariable _jFUnIVrYEe2zsZyFB7dFOg at 11,940 size 201,105 {
   		expanded true
   		isLive false
   		libraryComponentUID "_TeqGMVrWEe2zsZyFB7dFOg"
@@ -53,32 +53,22 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   		name "assignment"
   		dfViewWorkaround true
   		isList true
-  		ComplexListAttribute _EOBtYVrZEe2zsZyFB7dFOg at 10,23 size 181,25 {
+  		ComplexListAttribute _BxFlEFuCEe24-NGcS7DsBA at 10,50 size 181,25 {
   			attributeName last
   			libraryComponentUID "_TeqGMVrWEe2zsZyFB7dFOg"
   			isLive false
   		}
   		
-  		ComplexListAttribute _EOF-0VrZEe2zsZyFB7dFOg at 10,50 size 181,25 {
+  		ComplexListAttribute _BxJ2gVuCEe24-NGcS7DsBA at 10,23 size 181,25 {
   			attributeName first
   			libraryComponentUID "_TeqGMVrWEe2zsZyFB7dFOg"
   			isLive false
   		}
   		
-  		PrimitiveListAttribute _EOQW4VrZEe2zsZyFB7dFOg at 10,77 size 181,25 {
+  		PrimitiveListAttribute _BxSZYVuCEe24-NGcS7DsBA at 10,77 size 181,25 {
   			attributeName size
   			primitiveType Integer
   			libraryComponentUID "_TeqGMVrWEe2zsZyFB7dFOg"
-  			isLive false
-  		}
-  		
-  		ComplexAttribute _FOhhEVrZEe2zsZyFB7dFOg at 10,104 size 181,25 {
-  			libraryComponentUID "_reoGUVrWEe2zsZyFB7dFOg"
-  			isLive false
-  		}
-  		
-  		ComplexAttribute _FeDK0VrZEe2zsZyFB7dFOg at 10,131 size 181,25 {
-  			libraryComponentUID "_t4NM0VrWEe2zsZyFB7dFOg"
   			isLive false
   		}
   		-FOR-> _hxuRQVrYEe2zsZyFB7dFOg  decorate "" at (0,0) decorate "Text" at (0,0) {
@@ -100,19 +90,19 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   		name "current"
   		dfViewWorkaround true
   		isList false
-  		ComplexAttribute _HQmGgVrZEe2zsZyFB7dFOg at 10,50 size 181,25 {
+  		ComplexAttribute _ClSCIVuCEe24-NGcS7DsBA at 10,50 size 181,25 {
   			libraryComponentUID "_reoGUVrWEe2zsZyFB7dFOg"
   			isLive false
   		}
   		
-  		ComplexAttribute _HQmtkVrZEe2zsZyFB7dFOg at 10,23 size 181,25 {
+  		ComplexAttribute _ClSpMVuCEe24-NGcS7DsBA at 10,23 size 181,25 {
   			libraryComponentUID "_t4NM0VrWEe2zsZyFB7dFOg"
   			isLive false
   		}
   	}
   }
   
-  Template _dCc5YVFOEe2J0bu3ffrh5w at 300,10 size 520,1180 {
+  Template _dCc5YVFOEe2J0bu3ffrh5w at 300,10 size 600,1000 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _dCeHgFFOEe2J0bu3ffrh5w {
@@ -121,7 +111,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   			attributes [  ]
   			marginTop None
   		}
-  	Tabbing _hg-g4FFTEe2J0bu3ffrh5w at 10,30 size 500,940 {
+  	Tabbing _hg-g4FFTEe2J0bu3ffrh5w at 10,30 size 580,940 {
   		justified false
   		tabtype Tab
   		generalStyle GeneralStyling _hhW7YFFTEe2J0bu3ffrh5w {
@@ -295,7 +285,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   			}
   		}
   		
-  		Tab _iUpZgVFTEe2J0bu3ffrh5w at 240,30 size 240,594 {
+  		Tab _iUpZgVFTEe2J0bu3ffrh5w at 240,30 size 320,844 {
   			default false
   			label "Assignments"
   			generalStyle GeneralStyling _iUsc0FFTEe2J0bu3ffrh5w {
@@ -310,7 +300,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   			MoveRight _iUrOs1FTEe2J0bu3ffrh5w at 10,2 size 7,14 {
   			}
   			
-  			Row _NTBXwVItEe2FSMa3sLmgcg at 10,160 size 200,404 {
+  			Row _NTBXwVItEe2FSMa3sLmgcg at 10,160 size 300,654 {
   				generalStyle GeneralStyling _NTGQQlItEe2FSMa3sLmgcg {
   						tallness Fitting
   						marginBottom Single
@@ -323,7 +313,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   				MoveDown _NTDM8VItEe2FSMa3sLmgcg at 2,10 size 14,7 {
   				}
   				
-  				Col _NTEbEVItEe2FSMa3sLmgcg at 10,30 size 170,354 {
+  				Col _NTEbEVItEe2FSMa3sLmgcg at 10,30 size 270,604 {
   					wideness Full
   					layout Layout _NTGQQVItEe2FSMa3sLmgcg {
   							size Default
@@ -390,6 +380,100 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   						MoveDown _jJHXA1GNEe2J0bu3ffrh5w at 2,10 size 14,7 {
   						}
   					}
+  					
+  					Row _hxuRQVrYEe2zsZyFB7dFOg at 10,334 size 250,240 {
+  						generalStyle GeneralStyling _hx-v8FrYEe2zsZyFB7dFOg {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						MoveUp _hxwGcFrYEe2zsZyFB7dFOg at 2,2 size 14,7 {
+  						}
+  						
+  						MoveDown _hxwGclrYEe2zsZyFB7dFOg at 2,10 size 14,7 {
+  						}
+  						
+  						Col _hx2NEVrYEe2zsZyFB7dFOg at 10,30 size 220,190 {
+  							wideness Full
+  							layout Layout _hx7soFrYEe2zsZyFB7dFOg {
+  									size Default
+  									offset None
+  									alignment Left
+  								}
+  							generalStyle GeneralStyling _hx4pUFrYEe2zsZyFB7dFOg {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  								}
+  							MoveLeft _hx20IVrYEe2zsZyFB7dFOg at 2,2 size 7,14 {
+  							}
+  							
+  							MoveRight _hx3bMVrYEe2zsZyFB7dFOg at 10,2 size 7,14 {
+  							}
+  							
+  							Text _pztxwVrYEe2zsZyFB7dFOg at 10,30 size 200,60 {
+  								content [ StaticContent _pz0fcFrYEe2zsZyFB7dFOg {
+  										renderMarkdown false
+  										maxChars 0
+  										html false
+  										rawContent "Assignment between offer {{current.offer.title}} for {{current.bidding.user}}"
+  										styling TextStyling _pz1tkFrYEe2zsZyFB7dFOg {
+  												small false
+  												highlight false
+  												deleted false
+  												underline false
+  												bold false
+  												alignment Left
+  												italic false
+  												color Default
+  											}
+  									} ]
+  								generalStyle GeneralStyling _pzw1EFrYEe2zsZyFB7dFOg {
+  										tallness Fitting
+  										marginBottom None
+  										attributes [  ]
+  										marginTop None
+  									}
+  								MoveUp _pzu_4VrYEe2zsZyFB7dFOg at 2,2 size 14,7 {
+  								}
+  								
+  								MoveDown _pzu_41rYEe2zsZyFB7dFOg at 2,10 size 14,7 {
+  								}
+  							}
+  							
+  							Text _khzkQVt9Ee249tGcS7DsBA at 10,100 size 200,60 {
+  								content [ StaticContent _kiNM4Ft9Ee249tGcS7DsBA {
+  										renderMarkdown false
+  										maxChars 0
+  										html false
+  										rawContent "Full Objs : Offer:{{current.offer}}\nBidding:{{current.bidding}}\n\n\n\nHello World!"
+  										styling TextStyling _kiObAFt9Ee249tGcS7DsBA {
+  												small false
+  												highlight false
+  												deleted false
+  												underline false
+  												bold false
+  												alignment Left
+  												italic false
+  												color Default
+  											}
+  									} ]
+  								generalStyle GeneralStyling _kiCNwFt9Ee249tGcS7DsBA {
+  										tallness Fitting
+  										marginBottom None
+  										attributes [  ]
+  										marginTop None
+  									}
+  								MoveUp _kh_xgVt9Ee249tGcS7DsBA at 2,2 size 14,7 {
+  								}
+  								
+  								MoveDown _kiAYkVt9Ee249tGcS7DsBA at 2,10 size 14,7 {
+  								}
+  							}
+  						}
+  					}
   				}
   			}
   			
@@ -438,70 +522,6 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   					
   					MoveDown _Wq3tgVMVEe2KQc5QIsW97w at 2,10 size 14,7 {
   					}
-  				}
-  			}
-  		}
-  	}
-  	
-  	Row _hxuRQVrYEe2zsZyFB7dFOg at 10,980 size 250,170 {
-  		generalStyle GeneralStyling _hx-v8FrYEe2zsZyFB7dFOg {
-  				tallness Fitting
-  				marginBottom None
-  				attributes [  ]
-  				marginTop None
-  			}
-  		MoveUp _hxwGcFrYEe2zsZyFB7dFOg at 2,2 size 14,7 {
-  		}
-  		
-  		MoveDown _hxwGclrYEe2zsZyFB7dFOg at 2,10 size 14,7 {
-  		}
-  		
-  		Col _hx2NEVrYEe2zsZyFB7dFOg at 10,30 size 220,120 {
-  			wideness Full
-  			layout Layout _hx7soFrYEe2zsZyFB7dFOg {
-  					size Default
-  					offset None
-  					alignment Left
-  				}
-  			generalStyle GeneralStyling _hx4pUFrYEe2zsZyFB7dFOg {
-  					tallness Fitting
-  					marginBottom None
-  					attributes [  ]
-  					marginTop None
-  				}
-  			MoveLeft _hx20IVrYEe2zsZyFB7dFOg at 2,2 size 7,14 {
-  			}
-  			
-  			MoveRight _hx3bMVrYEe2zsZyFB7dFOg at 10,2 size 7,14 {
-  			}
-  			
-  			Text _pztxwVrYEe2zsZyFB7dFOg at 10,30 size 200,60 {
-  				content [ StaticContent _pz0fcFrYEe2zsZyFB7dFOg {
-  						renderMarkdown false
-  						maxChars 0
-  						html false
-  						rawContent "Assignment between offer {{current.offer.title}} for {{current.bidding.user}}"
-  						styling TextStyling _pz1tkFrYEe2zsZyFB7dFOg {
-  								small false
-  								highlight false
-  								deleted false
-  								underline false
-  								bold false
-  								alignment Left
-  								italic false
-  								color Default
-  							}
-  					} ]
-  				generalStyle GeneralStyling _pzw1EFrYEe2zsZyFB7dFOg {
-  						tallness Fitting
-  						marginBottom None
-  						attributes [  ]
-  						marginTop None
-  					}
-  				MoveUp _pzu_4VrYEe2zsZyFB7dFOg at 2,2 size 14,7 {
-  				}
-  				
-  				MoveDown _pzu_41rYEe2zsZyFB7dFOg at 2,10 size 14,7 {
   				}
   			}
   		}

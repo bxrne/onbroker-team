@@ -110,9 +110,9 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	}
   }
   
-  ConcreteType _DJ1LAVFNEe2J0bu3ffrh5w at 810,78 size 140,109 {
+  ConcreteType _DJ1LAVFNEe2J0bu3ffrh5w at 810,78 size 140,127 {
   	name "Offer"
-  	BidirectionalAttribute _STTrkVFNEe2J0bu3ffrh5w at 5,86 size 130,18 {
+  	BidirectionalAttribute _STTrkVFNEe2J0bu3ffrh5w at 5,104 size 130,18 {
   		oppositeAttribute _STDz8VFNEe2J0bu3ffrh5w
   		dataType _dh6BYMwNEeWZVvvwxpYu8A
   		name "user"
@@ -126,16 +126,22 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		isList true
   	}
   	
-  	ComplexAttribute _mFmoEVMTEe2KQc5QIsW97w at 5,68 size 130,18 {
+  	ComplexAttribute _mFmoEVMTEe2KQc5QIsW97w at 5,86 size 130,18 {
   		dataType _A6uWQVHpEe2J0bu3ffrh5w
   		name "preferences"
   		isList true
   	}
   	
-  	ComplexAttribute _txofoVMTEe2KQc5QIsW97w at 5,50 size 130,18 {
+  	ComplexAttribute _txofoVMTEe2KQc5QIsW97w at 5,68 size 130,18 {
   		dataType _A6uWQVHpEe2J0bu3ffrh5w
   		name "features"
   		isList true
+  	}
+  	
+  	PrimitiveAttribute _rTRUMVuBEe24-NGcS7DsBA at 5,50 size 130,18 {
+  		dataType Boolean
+  		name "assigned"
+  		isList false
   	}
   	-Inheritance-> _V7iG8FGDEe2J0bu3ffrh5w  decorate "" at (0,0) {
   		id _hIpfoFGDEe2J0bu3ffrh5w
