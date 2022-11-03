@@ -285,7 +285,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   			}
   		}
   		
-  		Tab _iUpZgVFTEe2J0bu3ffrh5w at 240,30 size 320,844 {
+  		Tab _iUpZgVFTEe2J0bu3ffrh5w at 240,30 size 320,774 {
   			default false
   			label "Assignments"
   			generalStyle GeneralStyling _iUsc0FFTEe2J0bu3ffrh5w {
@@ -300,7 +300,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   			MoveRight _iUrOs1FTEe2J0bu3ffrh5w at 10,2 size 7,14 {
   			}
   			
-  			Row _NTBXwVItEe2FSMa3sLmgcg at 10,160 size 300,654 {
+  			Row _NTBXwVItEe2FSMa3sLmgcg at 10,160 size 300,584 {
   				generalStyle GeneralStyling _NTGQQlItEe2FSMa3sLmgcg {
   						tallness Fitting
   						marginBottom Single
@@ -313,7 +313,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   				MoveDown _NTDM8VItEe2FSMa3sLmgcg at 2,10 size 14,7 {
   				}
   				
-  				Col _NTEbEVItEe2FSMa3sLmgcg at 10,30 size 270,604 {
+  				Col _NTEbEVItEe2FSMa3sLmgcg at 10,30 size 270,534 {
   					wideness Full
   					layout Layout _NTGQQVItEe2FSMa3sLmgcg {
   							size Default
@@ -381,7 +381,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   						}
   					}
   					
-  					Row _hxuRQVrYEe2zsZyFB7dFOg at 10,334 size 250,240 {
+  					Row _hxuRQVrYEe2zsZyFB7dFOg at 10,334 size 250,170 {
   						generalStyle GeneralStyling _hx-v8FrYEe2zsZyFB7dFOg {
   								tallness Fitting
   								marginBottom None
@@ -394,7 +394,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   						MoveDown _hxwGclrYEe2zsZyFB7dFOg at 2,10 size 14,7 {
   						}
   						
-  						Col _hx2NEVrYEe2zsZyFB7dFOg at 10,30 size 220,190 {
+  						Col _hx2NEVrYEe2zsZyFB7dFOg at 10,30 size 220,120 {
   							wideness Full
   							layout Layout _hx7soFrYEe2zsZyFB7dFOg {
   									size Default
@@ -440,36 +440,6 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   								}
   								
   								MoveDown _pzu_41rYEe2zsZyFB7dFOg at 2,10 size 14,7 {
-  								}
-  							}
-  							
-  							Text _khzkQVt9Ee249tGcS7DsBA at 10,100 size 200,60 {
-  								content [ StaticContent _kiNM4Ft9Ee249tGcS7DsBA {
-  										renderMarkdown false
-  										maxChars 0
-  										html false
-  										rawContent "Full Objs : Offer:{{current.offer}}\nBidding:{{current.bidding}}\n\n\n\nHello World!"
-  										styling TextStyling _kiObAFt9Ee249tGcS7DsBA {
-  												small false
-  												highlight false
-  												deleted false
-  												underline false
-  												bold false
-  												alignment Left
-  												italic false
-  												color Default
-  											}
-  									} ]
-  								generalStyle GeneralStyling _kiCNwFt9Ee249tGcS7DsBA {
-  										tallness Fitting
-  										marginBottom None
-  										attributes [  ]
-  										marginTop None
-  									}
-  								MoveUp _kh_xgVt9Ee249tGcS7DsBA at 2,2 size 14,7 {
-  								}
-  								
-  								MoveDown _kiAYkVt9Ee249tGcS7DsBA at 2,10 size 14,7 {
   								}
   							}
   						}

@@ -82,6 +82,11 @@ GUI _dsesAVGJEe2J0bu3ffrh5w {
   				id _0pCKQVIsEe2FSMa3sLmgcg
   				negate true
   			}
+  			
+  			-IF-> _PdUCgVuYEe2C-dvY0XUmpA via (120,490) (1100,533) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _YmDvsVuYEe2C-dvY0XUmpA
+  				negate false
+  			}
   		}
   		-AddComplexToSubmission-> _kOQ-U1GJEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _E_pwcVGKEe2J0bu3ffrh5w
@@ -98,6 +103,10 @@ GUI _dsesAVGJEe2J0bu3ffrh5w {
   		-ComplexAttributeConnector-> _po5doVIsEe2FSMa3sLmgcg  decorate "Ellipse" at (0,0) {
   			id _ppIHIFIsEe2FSMa3sLmgcg
   			associationName "offer"
+  		}
+  		
+  		-AddComplexToSubmission-> _PdUCgVuYEe2C-dvY0XUmpA  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _iUp78VuYEe2C-dvY0XUmpA
   		}
   	}
   	
@@ -119,7 +128,7 @@ GUI _dsesAVGJEe2J0bu3ffrh5w {
   	}
   }
   
-  Template _dsghMVGJEe2J0bu3ffrh5w at 300,10 size 1180,350 {
+  Template _dsghMVGJEe2J0bu3ffrh5w at 300,10 size 1390,350 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _dshIQFGJEe2J0bu3ffrh5w {
@@ -128,7 +137,7 @@ GUI _dsesAVGJEe2J0bu3ffrh5w {
   			attributes [  ]
   			marginTop None
   		}
-  	Table _kOPI0VGJEe2J0bu3ffrh5w at 10,100 size 1160,220 {
+  	Table _kOPI0VGJEe2J0bu3ffrh5w at 10,100 size 1370,220 {
   		striped true
   		numbering false
   		pagination 20
@@ -201,7 +210,7 @@ GUI _dsesAVGJEe2J0bu3ffrh5w {
   			}
   		}
   		
-  		TableEntry _kOQXJlGJEe2J0bu3ffrh5w at 470,30 size 670,170 {
+  		TableEntry _kOQXJlGJEe2J0bu3ffrh5w at 470,30 size 880,170 {
   			fullTextSearch false
   			defaultSorting NONE
   			label "Actions"
@@ -218,7 +227,7 @@ GUI _dsesAVGJEe2J0bu3ffrh5w {
   			MoveRight _kOQ-EVGJEe2J0bu3ffrh5w at 10,2 size 7,14 {
   			}
   			
-  			ButtonGroup _kOQ-FFGJEe2J0bu3ffrh5w at 10,30 size 650,110 {
+  			ButtonGroup _kOQ-FFGJEe2J0bu3ffrh5w at 10,30 size 860,110 {
   				size Default
   				alignment horizontal
   				generalStyle GeneralStyling _kOQ-S1GJEe2J0bu3ffrh5w {
@@ -325,6 +334,36 @@ GUI _dsesAVGJEe2J0bu3ffrh5w {
   					MoveRight _kORlPlGJEe2J0bu3ffrh5w at 10,2 size 7,14 {
   					}
   				}
+  				
+  				Button _PdUCgVuYEe2C-dvY0XUmpA at 640,30 size 200,60 {
+  					label "Edit"
+  					styling ButtonStyling _Pe_dgFuYEe2C-dvY0XUmpA {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Green
+  						}
+  					options ButtonOptions _Pfd-oFuYEe2C-dvY0XUmpA {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _Pd9iwFuYEe2C-dvY0XUmpA {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _PdtrIFuYEe2C-dvY0XUmpA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _PdkhMFuYEe2C-dvY0XUmpA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _PdlvUVuYEe2C-dvY0XUmpA at 10,2 size 7,14 {
+  					}
+  				}
   			}
   		}
   		
@@ -345,7 +384,7 @@ GUI _dsesAVGJEe2J0bu3ffrh5w {
   			MoveRight _kORlaVGJEe2J0bu3ffrh5w at 10,2 size 7,14 {
   			}
   			
-  			Badge _kORlbFGJEe2J0bu3ffrh5w at 10,30 size 200,54 {
+  			Badge _kORlbFGJEe2J0bu3ffrh5w at 10,30 size 200,62 {
   				color Blue
   				content [ StaticContent _kORlclGJEe2J0bu3ffrh5w {
   						renderMarkdown false
@@ -376,7 +415,7 @@ GUI _dsesAVGJEe2J0bu3ffrh5w {
   				}
   			}
   			
-  			Badge _wYe7EFIsEe2FSMa3sLmgcg at 10,88 size 200,54 {
+  			Badge _wYe7EFIsEe2FSMa3sLmgcg at 10,88 size 200,62 {
   				color Default
   				content [ StaticContent _wYe7FlIsEe2FSMa3sLmgcg {
   						renderMarkdown false
