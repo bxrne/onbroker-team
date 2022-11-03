@@ -345,7 +345,7 @@ GUI _dsesAVGJEe2J0bu3ffrh5w {
   			MoveRight _kORlaVGJEe2J0bu3ffrh5w at 10,2 size 7,14 {
   			}
   			
-  			Badge _kORlbFGJEe2J0bu3ffrh5w at 10,30 size 200,48 {
+  			Badge _kORlbFGJEe2J0bu3ffrh5w at 10,30 size 200,54 {
   				color Blue
   				content [ StaticContent _kORlclGJEe2J0bu3ffrh5w {
   						renderMarkdown false
@@ -376,7 +376,7 @@ GUI _dsesAVGJEe2J0bu3ffrh5w {
   				}
   			}
   			
-  			Badge _wYe7EFIsEe2FSMa3sLmgcg at 10,88 size 200,48 {
+  			Badge _wYe7EFIsEe2FSMa3sLmgcg at 10,88 size 200,54 {
   				color Default
   				content [ StaticContent _wYe7FlIsEe2FSMa3sLmgcg {
   						renderMarkdown false

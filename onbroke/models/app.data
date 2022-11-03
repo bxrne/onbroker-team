@@ -154,7 +154,7 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	}
   }
   
-  ConcreteType _FSL-oVFNEe2J0bu3ffrh5w at 810,304 size 140,127 {
+  ConcreteType _FSL-oVFNEe2J0bu3ffrh5w at 810,472 size 140,127 {
   	name "Bidding"
   	BidirectionalAttribute _T0d8UVFNEe2J0bu3ffrh5w at 5,104 size 130,18 {
   		oppositeAttribute _T0OEsVFNEe2J0bu3ffrh5w
@@ -198,13 +198,13 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		sourceAttr _xZISQVGIEe2J0bu3ffrh5w
   	}
   	
-  	-Association-> _A6uWQVHpEe2J0bu3ffrh5w  decorate "Text" at (-25,-30) decorate "" at (0,0) {
+  	-Association-> _A6uWQVHpEe2J0bu3ffrh5w  decorate "Text" at (-78,-95) decorate "" at (0,0) {
   		id _xMT2wVMTEe2KQc5QIsW97w
   		isHidden false
   		sourceAttr _xMbLgVMTEe2KQc5QIsW97w
   	}
   	
-  	-Association-> _A6uWQVHpEe2J0bu3ffrh5w via (610,367) decorate "Text" at (-14,11) decorate "" at (0,0) {
+  	-Association-> _A6uWQVHpEe2J0bu3ffrh5w via (610,367) decorate "Text" at (-178,-42) decorate "" at (0,0) {
   		id _0_o-cVMTEe2KQc5QIsW97w
   		isHidden false
   		sourceAttr _0_2Z0VMTEe2KQc5QIsW97w
@@ -402,6 +402,32 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		displayName ""
   		name "unresolved"
   		isList false
+  	}
+  }
+  
+  ConcreteType _TeqGMVrWEe2zsZyFB7dFOg at 714,238 size 140,73 {
+  	name "Assignment"
+  	ComplexAttribute _reoGUVrWEe2zsZyFB7dFOg at 5,50 size 130,18 {
+  		dataType _DJ1LAVFNEe2J0bu3ffrh5w
+  		name "offer"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _t4NM0VrWEe2zsZyFB7dFOg at 5,32 size 130,18 {
+  		dataType _FSL-oVFNEe2J0bu3ffrh5w
+  		name "bidding"
+  		isList false
+  	}
+  	-Association-> _DJ1LAVFNEe2J0bu3ffrh5w  decorate "Text" at (25,-18) decorate "" at (0,0) {
+  		id _reQS4VrWEe2zsZyFB7dFOg
+  		isHidden false
+  		sourceAttr _reoGUVrWEe2zsZyFB7dFOg
+  	}
+  	
+  	-Association-> _FSL-oVFNEe2J0bu3ffrh5w  decorate "Text" at (17,15) decorate "" at (0,0) {
+  		id _t4AYgVrWEe2zsZyFB7dFOg
+  		isHidden false
+  		sourceAttr _t4NM0VrWEe2zsZyFB7dFOg
   	}
   }
 }

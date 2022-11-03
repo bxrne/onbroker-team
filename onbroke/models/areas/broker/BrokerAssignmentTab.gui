@@ -4,7 +4,7 @@ GUI _xmnuwVFTEe2J0bu3ffrh5w {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "BrokerAssignmentTab"
-  DataContext _xmoV0VFTEe2J0bu3ffrh5w at 10,10 size 221,231 {
+  DataContext _xmoV0VFTEe2J0bu3ffrh5w at 10,10 size 221,447 {
   	dfViewWorkaround true
   	ComplexVariable _K3MBAVGJEe2J0bu3ffrh5w at 10,52 size 201,25 {
   		expanded false
@@ -25,16 +25,56 @@ GUI _xmnuwVFTEe2J0bu3ffrh5w {
   		}
   	}
   	
-  	ComplexVariable _Su_DsVGJEe2J0bu3ffrh5w at 10,150 size 201,61 {
-  		expanded false
+  	ComplexVariable _Su_DsVGJEe2J0bu3ffrh5w at 10,150 size 201,267 {
+  		expanded true
   		isLive false
   		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   		isInput false
   		name "offer"
   		dfViewWorkaround true
   		isList false
-  		PrimitiveAttribute _s4g74VGKEe2J0bu3ffrh5w at 10,23 size 181,25 {
+  		PrimitiveAttribute _s4g74VGKEe2J0bu3ffrh5w at 10,212 size 181,25 {
   			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _zFbfoVrWEe2zsZyFB7dFOg at 10,239 size 181,25 {
+  			libraryComponentUID "_STTrkVFNEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _zFgYIVrWEe2zsZyFB7dFOg at 10,50 size 181,25 {
+  			libraryComponentUID "_xZISQVGIEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _zFi0YFrWEe2zsZyFB7dFOg at 10,158 size 181,25 {
+  			libraryComponentUID "_mFmoEVMTEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _zFkCgVrWEe2zsZyFB7dFOg at 10,104 size 181,25 {
+  			libraryComponentUID "_txofoVMTEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _zFkpkVrWEe2zsZyFB7dFOg at 10,185 size 181,25 {
+  			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _zFkpk1rWEe2zsZyFB7dFOg at 10,77 size 181,25 {
+  			libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _zFlQoVrWEe2zsZyFB7dFOg at 10,131 size 181,25 {
+  			libraryComponentUID "_3M1ooVN9Ee2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		PrimitiveExtensionAttribute _zFmewVrWEe2zsZyFB7dFOg at 10,23 size 181,25 {
+  			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
   			isLive false
   		}
   		-ComplexRead-> _no5cYVGKEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
