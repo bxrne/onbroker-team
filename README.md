@@ -1,15 +1,14 @@
 # Onbroke
 
-## Setup the project
+This project is our main project for the module CS4421 of LM173 ISE at the University of Limerick.
 
-Clone this repository to a folder that will be referred to as 'repo location' in the following.
+-----
 
-From the context menu of the Project Explorer in DIME select 'Import project' or select 'File > Import...' from the main menu.  
-In the opening dialog, select 'General > Existing Projects into Workspace' and hit 'Next'.  
-In the next dialog, enter your repo location as root directory.  
-Mark the checkbox of the `onbroke` project and hit 'Finish'.
+Our group: Daniel Kennedy, Fionn Barrett, Adam Byrne, Desiree Charles dos Santos
 
-Once imported, the project is listed in the Project Explorer. You may want to explore the already existing models in folder `oncore/models`. A good start for your tour is the DAD model in `onbroke/models/app.dad`.
+-----
 
-To build and deploy the app, hit the 'Purge and Deploy' button in the Deployment View that builds, deploys and runs the app automatically.
-As soon as the app has been deployed you can access it by opening http://localhost:8080 in a browser.
+We are tackling task 5 of this project where we enable brokers to manually assign offers and bids and also assign them automatically utilising our algorithm that matches the offer with the best suited bids based on preferences and features.
+
+-----
+[https://software-engineering.ie](https://software-engineering.ie)
