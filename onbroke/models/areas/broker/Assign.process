@@ -24,6 +24,11 @@ Process _NI96AVrXEe2zsZyFB7dFOg {
   				id _o9slMVrXEe2zsZyFB7dFOg
   				dfViewWorkaround true
   			}
+  			
+  			-ComplexRead-> _IHGuIVuREe2C-dvY0XUmpA  decorate "" at (0,0) {
+  				id _PRIE0FuREe2C-dvY0XUmpA
+  				dfViewWorkaround true
+  			}
   		}
   		
   		ComplexAttribute _frG_gVrXEe2zsZyFB7dFOg at 10,104 size 251,25 {
@@ -93,7 +98,7 @@ Process _NI96AVrXEe2zsZyFB7dFOg {
   	}
   }
   
-  EndSIB _NqQpMVrXEe2zsZyFB7dFOg at 330,590 size 100,65 {
+  EndSIB _NqQpMVrXEe2zsZyFB7dFOg at 340,790 size 100,65 {
   	branchName "success"
   }
   
@@ -159,8 +164,36 @@ Process _NI96AVrXEe2zsZyFB7dFOg {
   
   Branch _uPeY4Vt8Ee249tGcS7DsBA at 320,530 size 120,25 {
   	name "success"
+  	-ControlFlow-> _IFCRkFuREe2C-dvY0XUmpA  decorate "" at (0,0) {
+  		id _OH82QVuREe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  }
+  
+  SetAttributeValueSIB _IFCRkFuREe2C-dvY0XUmpA at 320,570 size 120,108 {
+  	libraryComponentUID "_rTRUMVuBEe24-NGcS7DsBA"
+  	label "Set assigned"
+  	ignoredBranch [  ]
+  	ComplexInputPort _IHGuIVuREe2C-dvY0XUmpA at 5,67 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  	}
+  	
+  	BooleanInputStatic _Imq_AFuREe2C-dvY0XUmpA at 5,85 size 110,18 {
+  		value true
+  		name "assigned"
+  	}
+  	-BranchConnector-> _IJJVgFuREe2C-dvY0XUmpA   {
+  		id _IJjlMVuREe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  }
+  
+  Branch _IJJVgFuREe2C-dvY0XUmpA at 320,688 size 120,25 {
+  	name "success"
   	-ControlFlow-> _NqQpMVrXEe2zsZyFB7dFOg  decorate "" at (0,0) {
-  		id _8ykO4Vt8Ee249tGcS7DsBA
+  		id _NxHqoVuREe2C-dvY0XUmpA
   		concurrent true
   	}
   }
