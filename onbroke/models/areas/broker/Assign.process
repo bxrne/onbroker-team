@@ -4,20 +4,20 @@ Process _NI96AVrXEe2zsZyFB7dFOg {
   dataFlowView true
   processType Basic
   isStateful false
-  DataContext _NqLwsVrXEe2zsZyFB7dFOg at 20,20 size 210,413 {
+  DataContext _NqLwsVrXEe2zsZyFB7dFOg at 20,20 size 291,354 {
   	dfViewWorkaround true
-  	ComplexVariable _fgBw4FrXEe2zsZyFB7dFOg at 10,89 size 190,294 {
+  	ComplexVariable _fgBw4FrXEe2zsZyFB7dFOg at 10,30 size 271,294 {
   		expanded true
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		name "bidding"
   		dfViewWorkaround true
   		isList false
-  		ComplexAttribute _frFKUVrXEe2zsZyFB7dFOg at 10,266 size 170,25 {
+  		ComplexAttribute _frFKUVrXEe2zsZyFB7dFOg at 10,266 size 251,25 {
   			libraryComponentUID "_T0d8UVFNEe2J0bu3ffrh5w"
   			dfViewWorkaround true
   		}
   		
-  		ComplexAttribute _frGYcVrXEe2zsZyFB7dFOg at 10,158 size 170,25 {
+  		ComplexAttribute _frGYcVrXEe2zsZyFB7dFOg at 10,158 size 251,25 {
   			libraryComponentUID "_xY5BsVGIEe2J0bu3ffrh5w"
   			dfViewWorkaround true
   			-ComplexRead-> _mypp8VrXEe2zsZyFB7dFOg  decorate "" at (0,0) {
@@ -26,47 +26,52 @@ Process _NI96AVrXEe2zsZyFB7dFOg {
   			}
   		}
   		
-  		ComplexAttribute _frG_gVrXEe2zsZyFB7dFOg at 10,104 size 170,25 {
+  		ComplexAttribute _frG_gVrXEe2zsZyFB7dFOg at 10,104 size 251,25 {
   			libraryComponentUID "_xMbLgVMTEe2KQc5QIsW97w"
   			dfViewWorkaround true
   		}
   		
-  		ComplexAttribute _frG_g1rXEe2zsZyFB7dFOg at 10,185 size 170,25 {
+  		ComplexAttribute _frG_g1rXEe2zsZyFB7dFOg at 10,185 size 251,25 {
   			libraryComponentUID "_0_2Z0VMTEe2KQc5QIsW97w"
   			dfViewWorkaround true
   		}
   		
-  		ComplexAttribute _frINoVrXEe2zsZyFB7dFOg at 10,212 size 170,25 {
+  		ComplexAttribute _frINoVrXEe2zsZyFB7dFOg at 10,212 size 251,25 {
   			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
   			dfViewWorkaround true
   		}
   		
-  		ComplexAttribute _frI0sVrXEe2zsZyFB7dFOg at 10,77 size 170,25 {
+  		ComplexAttribute _frI0sVrXEe2zsZyFB7dFOg at 10,77 size 251,25 {
   			libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
   			dfViewWorkaround true
   		}
   		
-  		ComplexAttribute _frJbwVrXEe2zsZyFB7dFOg at 10,131 size 170,25 {
+  		ComplexAttribute _frJbwVrXEe2zsZyFB7dFOg at 10,131 size 251,25 {
   			libraryComponentUID "_3M1ooVN9Ee2KQc5QIsW97w"
   			dfViewWorkaround true
   		}
   		
-  		PrimitiveAttribute _frgoIFrXEe2zsZyFB7dFOg at 10,50 size 170,25 {
+  		PrimitiveAttribute _frgoIFrXEe2zsZyFB7dFOg at 10,50 size 251,25 {
   			libraryComponentUID "_ynLkUVGJEe2J0bu3ffrh5w"
   			dfViewWorkaround true
   		}
   		
-  		PrimitiveAttribute _frk5kVrXEe2zsZyFB7dFOg at 10,239 size 170,25 {
+  		PrimitiveAttribute _frk5kVrXEe2zsZyFB7dFOg at 10,239 size 251,25 {
   			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
   			dfViewWorkaround true
   		}
   		
-  		PrimitiveExtensionAttribute _frsOUFrXEe2zsZyFB7dFOg at 10,23 size 170,25 {
+  		PrimitiveExtensionAttribute _frsOUFrXEe2zsZyFB7dFOg at 10,23 size 251,25 {
   			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
   			dfViewWorkaround true
   		}
   		-ComplexRead-> _mytUUVrXEe2zsZyFB7dFOg  decorate "" at (0,0) {
   			id _oEjWsVrXEe2zsZyFB7dFOg
+  			dfViewWorkaround true
+  		}
+  		
+  		-ComplexRead-> _uO4jAVt8Ee249tGcS7DsBA  decorate "" at (0,0) {
+  			id _yGd4kVt8Ee249tGcS7DsBA
   			dfViewWorkaround true
   		}
   	}
@@ -88,7 +93,7 @@ Process _NI96AVrXEe2zsZyFB7dFOg {
   	}
   }
   
-  EndSIB _NqQpMVrXEe2zsZyFB7dFOg at 330,500 size 100,65 {
+  EndSIB _NqQpMVrXEe2zsZyFB7dFOg at 330,590 size 100,65 {
   	branchName "success"
   }
   
@@ -126,8 +131,36 @@ Process _NI96AVrXEe2zsZyFB7dFOg {
   		isList false
   		name "created"
   	}
+  	-ControlFlow-> _uOpScVt8Ee249tGcS7DsBA  decorate "" at (0,0) {
+  		id _xlD0oVt8Ee249tGcS7DsBA
+  		concurrent true
+  	}
+  }
+  
+  SetAttributeValueSIB _uOpScVt8Ee249tGcS7DsBA at 330,390 size 120,108 {
+  	libraryComponentUID "_ynLkUVGJEe2J0bu3ffrh5w"
+  	label "Set assigned"
+  	ignoredBranch [  ]
+  	ComplexInputPort _uO4jAVt8Ee249tGcS7DsBA at 5,67 size 110,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  	}
+  	
+  	BooleanInputStatic _KFO-0Vt9Ee249tGcS7DsBA at 5,85 size 110,18 {
+  		value true
+  		name "assigned"
+  	}
+  	-BranchConnector-> _uPeY4Vt8Ee249tGcS7DsBA   {
+  		id _uPiqUVt8Ee249tGcS7DsBA
+  		concurrent true
+  	}
+  }
+  
+  Branch _uPeY4Vt8Ee249tGcS7DsBA at 320,530 size 120,25 {
+  	name "success"
   	-ControlFlow-> _NqQpMVrXEe2zsZyFB7dFOg  decorate "" at (0,0) {
-  		id _pxbvQVrXEe2zsZyFB7dFOg
+  		id _8ykO4Vt8Ee249tGcS7DsBA
   		concurrent true
   	}
   }
