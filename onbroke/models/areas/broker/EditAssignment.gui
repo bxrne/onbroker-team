@@ -227,7 +227,7 @@ GUI _mOjJMVuZEe2C-dvY0XUmpA {
   	}
   }
   
-  Template _mOnao1uZEe2C-dvY0XUmpA at 240,10 size 370,700 {
+  Template _mOnao1uZEe2C-dvY0XUmpA at 240,10 size 370,770 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _mOp24FuZEe2C-dvY0XUmpA {
@@ -236,7 +236,7 @@ GUI _mOjJMVuZEe2C-dvY0XUmpA {
   			attributes [  ]
   			marginTop None
   		}
-  	Row _mOrsEVuZEe2C-dvY0XUmpA at 10,30 size 350,160 {
+  	Row _mOrsEVuZEe2C-dvY0XUmpA at 10,30 size 350,230 {
   		generalStyle GeneralStyling _mOxysluZEe2C-dvY0XUmpA {
   				tallness Fitting
   				marginBottom None
@@ -249,7 +249,7 @@ GUI _mOjJMVuZEe2C-dvY0XUmpA {
   		MoveDown _mOvWcVuZEe2C-dvY0XUmpA at 2,10 size 14,7 {
   		}
   		
-  		Col _mOwkkVuZEe2C-dvY0XUmpA at 10,30 size 320,110 {
+  		Col _mOwkkVuZEe2C-dvY0XUmpA at 10,30 size 320,180 {
   			wideness Full
   			layout Layout _mOxysVuZEe2C-dvY0XUmpA {
   					size Default
@@ -298,10 +298,40 @@ GUI _mOjJMVuZEe2C-dvY0XUmpA {
   				MoveDown _3kSF8VuZEe2C-dvY0XUmpA at 2,10 size 14,7 {
   				}
   			}
+  			
+  			Button _ka-Z4Vw1Ee2gxcFkjyzH4g at 10,90 size 200,60 {
+  				label "Cancel Edit"
+  				styling ButtonStyling _kbIx8Fw1Ee2gxcFkjyzH4g {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Red
+  					}
+  				options ButtonOptions _kbIx8Vw1Ee2gxcFkjyzH4g {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon _kbA2IVw1Ee2gxcFkjyzH4g {
+  						postIcon None
+  						preIcon None
+  					}
+  				generalStyle GeneralStyling _kbA2IFw1Ee2gxcFkjyzH4g {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _kbAPEVw1Ee2gxcFkjyzH4g at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _kbAPE1w1Ee2gxcFkjyzH4g at 2,10 size 14,7 {
+  				}
+  			}
   		}
   	}
   	
-  	Row __dYwMVuZEe2C-dvY0XUmpA at 10,200 size 350,470 {
+  	Row __dYwMVuZEe2C-dvY0XUmpA at 10,270 size 350,470 {
   		generalStyle GeneralStyling __djvUFuZEe2C-dvY0XUmpA {
   				tallness Fitting
   				marginBottom None
