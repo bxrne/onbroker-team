@@ -62,11 +62,6 @@ GUI _mOjJMVuZEe2C-dvY0XUmpA {
   			id _1TfIAVuZEe2C-dvY0XUmpA
   			associationName "offer"
   		}
-  		
-  		-IF-> _mOwkkVuZEe2C-dvY0XUmpA  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _HDTjQVubEe2C-dvY0XUmpA
-  			negate false
-  		}
   	}
   	
   	ComplexVariable _1TaPgFuZEe2C-dvY0XUmpA at 10,370 size 160,267 {
