@@ -22,6 +22,11 @@ Process _8Y3rwVuYEe2C-dvY0XUmpA {
   			id _zL8-UVuaEe2C-dvY0XUmpA
   			dfViewWorkaround true
   		}
+  		
+  		-ComplexDirectDataFlow-> _q44RcVw1Ee2gxcFkjyzH4g via (320,96) (1064,261) decorate "" at (0,0) {
+  			id _tqqckVw1Ee2gxcFkjyzH4g
+  			dfViewWorkaround true
+  		}
   	}
   	-ControlFlow-> _yZYR4VuaEe2C-dvY0XUmpA  decorate "" at (0,0) {
   		id _3C2XYVuaEe2C-dvY0XUmpA
@@ -47,6 +52,11 @@ Process _8Y3rwVuYEe2C-dvY0XUmpA {
   	}
   	-BranchConnector-> _qzih4VuaEe2C-dvY0XUmpA   {
   		id _qzjI8VuaEe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _nXt30Vw1Ee2gxcFkjyzH4g   {
+  		id _nXxiMVw1Ee2gxcFkjyzH4g
   		concurrent true
   	}
   }
@@ -110,6 +120,37 @@ Process _8Y3rwVuYEe2C-dvY0XUmpA {
   	name "success"
   	-ControlFlow-> _8qWdUVuYEe2C-dvY0XUmpA  decorate "" at (0,0) {
   		id _69N7MVuaEe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  }
+  
+  Branch _nXt30Vw1Ee2gxcFkjyzH4g at 640,372 size 120,25 {
+  	name "Cancel Edit"
+  	-ControlFlow-> _q4yK0Vw1Ee2gxcFkjyzH4g  decorate "" at (0,0) {
+  		id _rrMfMVw1Ee2gxcFkjyzH4g
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _q4yK0Vw1Ee2gxcFkjyzH4g at 640,470 size 120,90 {
+  	libraryComponentUID "_NI96AVrXEe2zsZyFB7dFOg"
+  	label "Assign"
+  	ignoredBranch [  ]
+  	ComplexInputPort _q44RcVw1Ee2gxcFkjyzH4g at 5,67 size 110,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  	}
+  	-BranchConnector-> _q5A0UVw1Ee2gxcFkjyzH4g   {
+  		id _q5CCcVw1Ee2gxcFkjyzH4g
+  		concurrent true
+  	}
+  }
+  
+  Branch _q5A0UVw1Ee2gxcFkjyzH4g at 640,620 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _8qWdUVuYEe2C-dvY0XUmpA  decorate "" at (0,0) {
+  		id _uWiEEFw1Ee2gxcFkjyzH4g
   		concurrent true
   	}
   }
