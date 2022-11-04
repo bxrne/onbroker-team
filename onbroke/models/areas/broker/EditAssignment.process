@@ -53,12 +53,12 @@ Process _8Y3rwVuYEe2C-dvY0XUmpA {
   
   Branch _qzih4VuaEe2C-dvY0XUmpA at 320,470 size 120,50 {
   	name "Assign"
-  	ComplexOutputPort _qzkXEVuaEe2C-dvY0XUmpA at 5,27 size 110,18 {
+  	ComplexOutputPort _nwFJ8Vw0Ee2gxcFkjyzH4g at 5,27 size 110,18 {
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		isList false
-  		name "current"
+  		name "bidding"
   		-ComplexDirectDataFlow-> _4ndkwVuaEe2C-dvY0XUmpA via (310,506) (310,626) decorate "" at (0,0) {
-  			id _6OfM8VuaEe2C-dvY0XUmpA
+  			id _xWJFQVw0Ee2gxcFkjyzH4g
   			dfViewWorkaround true
   		}
   	}
