@@ -4,7 +4,7 @@ GUI _mOjJMVuZEe2C-dvY0XUmpA {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "EditAssignment"
-  DataContext _mOnaoVuZEe2C-dvY0XUmpA at 10,10 size 180,1134 {
+  DataContext _mOnaoVuZEe2C-dvY0XUmpA at 10,10 size 180,1125 {
   	dfViewWorkaround true
   	ComplexVariable _zxwPgVuZEe2C-dvY0XUmpA at 10,70 size 160,267 {
   		expanded true
@@ -121,13 +121,13 @@ GUI _mOjJMVuZEe2C-dvY0XUmpA {
   			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
   			isLive false
   		}
-  		-ComplexAttributeConnector-> _2JdtwVuZEe2C-dvY0XUmpA  decorate "Ellipse" at (0,0) {
-  			id _2Jfi8VuZEe2C-dvY0XUmpA
+  		-ComplexAttributeConnector-> _Td9KAVwzEe2gxcFkjyzH4g  decorate "Ellipse" at (0,0) {
+  			id _TeHiEVwzEe2gxcFkjyzH4g
   			associationName "biddings"
   		}
   	}
   	
-  	ComplexVariable _2JdtwVuZEe2C-dvY0XUmpA at 10,670 size 160,105 {
+  	ComplexVariable _Td9KAVwzEe2gxcFkjyzH4g at 10,670 size 160,105 {
   		expanded true
   		isLive false
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
@@ -135,99 +135,99 @@ GUI _mOjJMVuZEe2C-dvY0XUmpA {
   		name "biddings"
   		dfViewWorkaround true
   		isList true
-  		ComplexListAttribute _2JrJIVuZEe2C-dvY0XUmpA at 10,23 size 140,25 {
-  			attributeName first
-  			libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
-  			isLive false
-  		}
-  		
-  		ComplexListAttribute _2JxPwVuZEe2C-dvY0XUmpA at 10,50 size 140,25 {
+  		ComplexListAttribute _Tejm8VwzEe2gxcFkjyzH4g at 10,23 size 140,25 {
   			attributeName last
   			libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		PrimitiveListAttribute _2J2vUVuZEe2C-dvY0XUmpA at 10,77 size 140,25 {
+  		ComplexListAttribute _Tet_AVwzEe2gxcFkjyzH4g at 10,50 size 140,25 {
+  			attributeName first
+  			libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveListAttribute _Te0FoVwzEe2gxcFkjyzH4g at 10,77 size 140,25 {
   			attributeName size
   			primitiveType Integer
   			libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   			isLive false
   		}
-  		-ComplexListAttributeConnector-> _SNlf0FuaEe2C-dvY0XUmpA  decorate "Ellipse" at (0,0) {
-  			id _SNq_YVuaEe2C-dvY0XUmpA
+  		-ComplexListAttributeConnector-> _Vh3igVwzEe2gxcFkjyzH4g  decorate "Ellipse" at (0,0) {
+  			id _ViAFYVwzEe2gxcFkjyzH4g
   			attributeName current
   		}
   		
-  		-FOR-> _afTeYFuaEe2C-dvY0XUmpA  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _fRxu4VuaEe2C-dvY0XUmpA
+  		-FOR-> _aF35MVwzEe2gxcFkjyzH4g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _bksAkVwzEe2gxcFkjyzH4g
   			index "index"
   		}
   	}
   	
-  	ComplexVariable _SNlf0FuaEe2C-dvY0XUmpA at 10,810 size 160,294 {
+  	ComplexVariable _Vh3igVwzEe2gxcFkjyzH4g at 10,801 size 160,294 {
   		expanded true
   		isLive false
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		isInput false
-  		name "current"
+  		name "bidding"
   		dfViewWorkaround true
   		isList false
-  		ComplexAttribute _SN4awVuaEe2C-dvY0XUmpA at 10,266 size 140,25 {
+  		ComplexAttribute _ViaVEVwzEe2gxcFkjyzH4g at 10,266 size 140,25 {
   			libraryComponentUID "_T0d8UVFNEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		ComplexAttribute _SN4aw1uaEe2C-dvY0XUmpA at 10,158 size 140,25 {
+  		ComplexAttribute _Via8IVwzEe2gxcFkjyzH4g at 10,158 size 140,25 {
   			libraryComponentUID "_xY5BsVGIEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		ComplexAttribute _SN5B0VuaEe2C-dvY0XUmpA at 10,104 size 140,25 {
+  		ComplexAttribute _VibjMVwzEe2gxcFkjyzH4g at 10,104 size 140,25 {
   			libraryComponentUID "_xMbLgVMTEe2KQc5QIsW97w"
   			isLive false
   		}
   		
-  		ComplexAttribute _SN5o4VuaEe2C-dvY0XUmpA at 10,185 size 140,25 {
+  		ComplexAttribute _VibjM1wzEe2gxcFkjyzH4g at 10,185 size 140,25 {
   			libraryComponentUID "_0_2Z0VMTEe2KQc5QIsW97w"
   			isLive false
   		}
   		
-  		ComplexAttribute _SN5o41uaEe2C-dvY0XUmpA at 10,212 size 140,25 {
+  		ComplexAttribute _VicKQVwzEe2gxcFkjyzH4g at 10,212 size 140,25 {
   			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		ComplexAttribute _SN6P8VuaEe2C-dvY0XUmpA at 10,77 size 140,25 {
+  		ComplexAttribute _VicxUVwzEe2gxcFkjyzH4g at 10,77 size 140,25 {
   			libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		ComplexAttribute _SN6P81uaEe2C-dvY0XUmpA at 10,131 size 140,25 {
+  		ComplexAttribute _VicxU1wzEe2gxcFkjyzH4g at 10,131 size 140,25 {
   			libraryComponentUID "_3M1ooVN9Ee2KQc5QIsW97w"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _SN63AVuaEe2C-dvY0XUmpA at 10,50 size 140,25 {
+  		PrimitiveAttribute _Vid_cVwzEe2gxcFkjyzH4g at 10,50 size 140,25 {
   			libraryComponentUID "_ynLkUVGJEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _SN63A1uaEe2C-dvY0XUmpA at 10,239 size 140,25 {
+  		PrimitiveAttribute _ViemgVwzEe2gxcFkjyzH4g at 10,239 size 140,25 {
   			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		PrimitiveExtensionAttribute _SN7eEVuaEe2C-dvY0XUmpA at 10,23 size 140,25 {
+  		PrimitiveExtensionAttribute _Vif0oVwzEe2gxcFkjyzH4g at 10,23 size 140,25 {
   			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
   			isLive false
   		}
   		-AddComplexToSubmission-> _afXv0VuaEe2C-dvY0XUmpA  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _ivLC0VuaEe2C-dvY0XUmpA
+  			id _YoPoIFw0Ee2gxcFkjyzH4g
   		}
   	}
   }
   
-  Template _mOnao1uZEe2C-dvY0XUmpA at 240,10 size 370,590 {
+  Template _mOnao1uZEe2C-dvY0XUmpA at 240,10 size 370,700 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _mOp24FuZEe2C-dvY0XUmpA {
@@ -301,7 +301,7 @@ GUI _mOjJMVuZEe2C-dvY0XUmpA {
   		}
   	}
   	
-  	Row __dYwMVuZEe2C-dvY0XUmpA at 10,200 size 350,360 {
+  	Row __dYwMVuZEe2C-dvY0XUmpA at 10,200 size 350,470 {
   		generalStyle GeneralStyling __djvUFuZEe2C-dvY0XUmpA {
   				tallness Fitting
   				marginBottom None
@@ -314,7 +314,7 @@ GUI _mOjJMVuZEe2C-dvY0XUmpA {
   		MoveDown __dZXQVuZEe2C-dvY0XUmpA at 2,10 size 14,7 {
   		}
   		
-  		Col __dZXQ1uZEe2C-dvY0XUmpA at 10,30 size 320,310 {
+  		Col __dZXQ1uZEe2C-dvY0XUmpA at 10,30 size 320,420 {
   			wideness Full
   			layout Layout __dh6IFuZEe2C-dvY0XUmpA {
   					size Default
@@ -364,77 +364,111 @@ GUI _mOjJMVuZEe2C-dvY0XUmpA {
   				}
   			}
   			
-  			Form _afTeYFuaEe2C-dvY0XUmpA at 10,90 size 220,190 {
-  				inline false
-  				generalStyle GeneralStyling _aftHAFuaEe2C-dvY0XUmpA {
+  			Row _aFzAsVwzEe2gxcFkjyzH4g at 10,90 size 270,300 {
+  				generalStyle GeneralStyling _aGHJwFwzEe2gxcFkjyzH4g {
   						tallness Fitting
   						marginBottom None
   						attributes [  ]
   						marginTop None
   					}
-  				MoveUp _afV6oVuaEe2C-dvY0XUmpA at 2,2 size 14,7 {
+  				MoveUp _aF1c8VwzEe2gxcFkjyzH4g at 2,2 size 14,7 {
   				}
   				
-  				MoveDown _afWhsVuaEe2C-dvY0XUmpA at 2,10 size 14,7 {
+  				MoveDown _aF2EAVwzEe2gxcFkjyzH4g at 2,10 size 14,7 {
   				}
   				
-  				Button _afXv0VuaEe2C-dvY0XUmpA at 10,100 size 200,60 {
-  					label "Assign"
-  					styling ButtonStyling _afjWAFuaEe2C-dvY0XUmpA {
-  							fullWidth false
+  				Col _aF35MVwzEe2gxcFkjyzH4g at 10,30 size 240,250 {
+  					wideness Full
+  					layout Layout _aF5uYVwzEe2gxcFkjyzH4g {
   							size Default
-  							disabled false
-  							color Default
+  							offset None
+  							alignment Left
   						}
-  					options ButtonOptions _afnAYFuaEe2C-dvY0XUmpA {
-  							isLink false
-  							submitsForm true
-  						}
-  					disabled false
-  					icon Icon _afdPYFuaEe2C-dvY0XUmpA {
-  							postIcon None
-  							preIcon None
-  						}
-  					generalStyle GeneralStyling _afaMEFuaEe2C-dvY0XUmpA {
+  					generalStyle GeneralStyling _aF5uYFwzEe2gxcFkjyzH4g {
   							tallness Fitting
   							marginBottom None
   							attributes [  ]
   							marginTop None
   						}
-  					MoveUp _afZlAVuaEe2C-dvY0XUmpA at 2,2 size 14,7 {
+  					MoveLeft _aF4gQVwzEe2gxcFkjyzH4g at 2,2 size 7,14 {
   					}
   					
-  					MoveDown _afZlA1uaEe2C-dvY0XUmpA at 2,10 size 14,7 {
+  					MoveRight _aF5HUVwzEe2gxcFkjyzH4g at 10,2 size 7,14 {
   					}
-  				}
-  				
-  				Text _mfRQUVuaEe2C-dvY0XUmpA at 10,30 size 200,60 {
-  					content [ StaticContent _mfXW8FuaEe2C-dvY0XUmpA {
-  							renderMarkdown false
-  							maxChars 0
-  							html false
-  							rawContent "{{current.title}}"
-  							styling TextStyling _mfXW8VuaEe2C-dvY0XUmpA {
-  									small false
-  									highlight false
-  									deleted false
-  									underline false
-  									bold false
-  									alignment Left
-  									italic false
-  									color Default
+  					
+  					Form _afTeYFuaEe2C-dvY0XUmpA at 10,30 size 220,190 {
+  						inline false
+  						generalStyle GeneralStyling _aftHAFuaEe2C-dvY0XUmpA {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						MoveUp _afV6oVuaEe2C-dvY0XUmpA at 2,2 size 14,7 {
+  						}
+  						
+  						MoveDown _afWhsVuaEe2C-dvY0XUmpA at 2,10 size 14,7 {
+  						}
+  						
+  						Button _afXv0VuaEe2C-dvY0XUmpA at 10,100 size 200,60 {
+  							label "Assign"
+  							styling ButtonStyling _afjWAFuaEe2C-dvY0XUmpA {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Yellow
   								}
-  						} ]
-  					generalStyle GeneralStyling _mfSecFuaEe2C-dvY0XUmpA {
-  							tallness Fitting
-  							marginBottom None
-  							attributes [  ]
-  							marginTop None
+  							options ButtonOptions _afnAYFuaEe2C-dvY0XUmpA {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon _afdPYFuaEe2C-dvY0XUmpA {
+  									postIcon None
+  									preIcon None
+  								}
+  							generalStyle GeneralStyling _afaMEFuaEe2C-dvY0XUmpA {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  								}
+  							MoveUp _afZlAVuaEe2C-dvY0XUmpA at 2,2 size 14,7 {
+  							}
+  							
+  							MoveDown _afZlA1uaEe2C-dvY0XUmpA at 2,10 size 14,7 {
+  							}
   						}
-  					MoveUp _mfR3YVuaEe2C-dvY0XUmpA at 2,2 size 14,7 {
-  					}
-  					
-  					MoveDown _mfR3Y1uaEe2C-dvY0XUmpA at 2,10 size 14,7 {
+  						
+  						Text _mfRQUVuaEe2C-dvY0XUmpA at 10,30 size 200,60 {
+  							content [ StaticContent _mfXW8FuaEe2C-dvY0XUmpA {
+  									renderMarkdown false
+  									maxChars 0
+  									html false
+  									rawContent "{{ bidding.title }}"
+  									styling TextStyling _mfXW8VuaEe2C-dvY0XUmpA {
+  											small false
+  											highlight false
+  											deleted false
+  											underline false
+  											bold false
+  											alignment Left
+  											italic false
+  											color Default
+  										}
+  								} ]
+  							generalStyle GeneralStyling _mfSecFuaEe2C-dvY0XUmpA {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  								}
+  							MoveUp _mfR3YVuaEe2C-dvY0XUmpA at 2,2 size 14,7 {
+  							}
+  							
+  							MoveDown _mfR3Y1uaEe2C-dvY0XUmpA at 2,10 size 14,7 {
+  							}
+  						}
   					}
   				}
   			}
