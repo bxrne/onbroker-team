@@ -1,0 +1,444 @@
+GUI _mOjJMVuZEe2C-dvY0XUmpA {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "EditAssignment"
+  DataContext _mOnaoVuZEe2C-dvY0XUmpA at 10,10 size 180,1134 {
+  	dfViewWorkaround true
+  	ComplexVariable _zxwPgVuZEe2C-dvY0XUmpA at 10,70 size 160,267 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isInput true
+  		name "bidding"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute _0WFroVuZEe2C-dvY0XUmpA at 10,23 size 140,25 {
+  			libraryComponentUID "_T0d8UVFNEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _0WG5w1uZEe2C-dvY0XUmpA at 10,50 size 140,25 {
+  			libraryComponentUID "_xMbLgVMTEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _0WG5xVuZEe2C-dvY0XUmpA at 10,77 size 140,25 {
+  			libraryComponentUID "_0_2Z0VMTEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _0WHg0VuZEe2C-dvY0XUmpA at 10,104 size 140,25 {
+  			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _0WIH4VuZEe2C-dvY0XUmpA at 10,131 size 140,25 {
+  			libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _0WIH41uZEe2C-dvY0XUmpA at 10,158 size 140,25 {
+  			libraryComponentUID "_3M1ooVN9Ee2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _0WIu8VuZEe2C-dvY0XUmpA at 10,185 size 140,25 {
+  			libraryComponentUID "_ynLkUVGJEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _0WIu81uZEe2C-dvY0XUmpA at 10,212 size 140,25 {
+  			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveExtensionAttribute _0WJWAVuZEe2C-dvY0XUmpA at 10,239 size 140,25 {
+  			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  		-ComplexAttributeConnector-> _1TaPgFuZEe2C-dvY0XUmpA  decorate "Ellipse" at (0,0) {
+  			id _1TfIAVuZEe2C-dvY0XUmpA
+  			associationName "offer"
+  		}
+  		
+  		-IF-> _mOwkkVuZEe2C-dvY0XUmpA  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _HDTjQVubEe2C-dvY0XUmpA
+  			negate false
+  		}
+  	}
+  	
+  	ComplexVariable _1TaPgFuZEe2C-dvY0XUmpA at 10,370 size 160,267 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isInput false
+  		name "offer"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute _1TmcwFuZEe2C-dvY0XUmpA at 10,23 size 140,25 {
+  			libraryComponentUID "_STTrkVFNEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _1TnD0VuZEe2C-dvY0XUmpA at 10,50 size 140,25 {
+  			libraryComponentUID "_mFmoEVMTEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _1TnD01uZEe2C-dvY0XUmpA at 10,77 size 140,25 {
+  			libraryComponentUID "_txofoVMTEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _1TnD1VuZEe2C-dvY0XUmpA at 10,104 size 140,25 {
+  			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _1To5AVuZEe2C-dvY0XUmpA at 10,131 size 140,25 {
+  			libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _1TpgEVuZEe2C-dvY0XUmpA at 10,158 size 140,25 {
+  			libraryComponentUID "_3M1ooVN9Ee2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _1TpgE1uZEe2C-dvY0XUmpA at 10,185 size 140,25 {
+  			libraryComponentUID "_rTRUMVuBEe24-NGcS7DsBA"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _1TqHIVuZEe2C-dvY0XUmpA at 10,212 size 140,25 {
+  			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveExtensionAttribute _1TqHI1uZEe2C-dvY0XUmpA at 10,239 size 140,25 {
+  			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  		-ComplexAttributeConnector-> _2JdtwVuZEe2C-dvY0XUmpA  decorate "Ellipse" at (0,0) {
+  			id _2Jfi8VuZEe2C-dvY0XUmpA
+  			associationName "biddings"
+  		}
+  	}
+  	
+  	ComplexVariable _2JdtwVuZEe2C-dvY0XUmpA at 10,670 size 160,105 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isInput false
+  		name "biddings"
+  		dfViewWorkaround true
+  		isList true
+  		ComplexListAttribute _2JrJIVuZEe2C-dvY0XUmpA at 10,23 size 140,25 {
+  			attributeName first
+  			libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _2JxPwVuZEe2C-dvY0XUmpA at 10,50 size 140,25 {
+  			attributeName last
+  			libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveListAttribute _2J2vUVuZEe2C-dvY0XUmpA at 10,77 size 140,25 {
+  			attributeName size
+  			primitiveType Integer
+  			libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		-ComplexListAttributeConnector-> _SNlf0FuaEe2C-dvY0XUmpA  decorate "Ellipse" at (0,0) {
+  			id _SNq_YVuaEe2C-dvY0XUmpA
+  			attributeName current
+  		}
+  		
+  		-FOR-> _afTeYFuaEe2C-dvY0XUmpA  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _fRxu4VuaEe2C-dvY0XUmpA
+  			index "index"
+  		}
+  	}
+  	
+  	ComplexVariable _SNlf0FuaEe2C-dvY0XUmpA at 10,810 size 160,294 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isInput false
+  		name "current"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute _SN4awVuaEe2C-dvY0XUmpA at 10,266 size 140,25 {
+  			libraryComponentUID "_T0d8UVFNEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _SN4aw1uaEe2C-dvY0XUmpA at 10,158 size 140,25 {
+  			libraryComponentUID "_xY5BsVGIEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _SN5B0VuaEe2C-dvY0XUmpA at 10,104 size 140,25 {
+  			libraryComponentUID "_xMbLgVMTEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _SN5o4VuaEe2C-dvY0XUmpA at 10,185 size 140,25 {
+  			libraryComponentUID "_0_2Z0VMTEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _SN5o41uaEe2C-dvY0XUmpA at 10,212 size 140,25 {
+  			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _SN6P8VuaEe2C-dvY0XUmpA at 10,77 size 140,25 {
+  			libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _SN6P81uaEe2C-dvY0XUmpA at 10,131 size 140,25 {
+  			libraryComponentUID "_3M1ooVN9Ee2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _SN63AVuaEe2C-dvY0XUmpA at 10,50 size 140,25 {
+  			libraryComponentUID "_ynLkUVGJEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _SN63A1uaEe2C-dvY0XUmpA at 10,239 size 140,25 {
+  			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveExtensionAttribute _SN7eEVuaEe2C-dvY0XUmpA at 10,23 size 140,25 {
+  			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  		-AddComplexToSubmission-> _afXv0VuaEe2C-dvY0XUmpA  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _ivLC0VuaEe2C-dvY0XUmpA
+  		}
+  	}
+  }
+  
+  Template _mOnao1uZEe2C-dvY0XUmpA at 240,10 size 370,590 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _mOp24FuZEe2C-dvY0XUmpA {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _mOrsEVuZEe2C-dvY0XUmpA at 10,30 size 350,160 {
+  		generalStyle GeneralStyling _mOxysluZEe2C-dvY0XUmpA {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _mOthQVuZEe2C-dvY0XUmpA at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _mOvWcVuZEe2C-dvY0XUmpA at 2,10 size 14,7 {
+  		}
+  		
+  		Col _mOwkkVuZEe2C-dvY0XUmpA at 10,30 size 320,110 {
+  			wideness Full
+  			layout Layout _mOxysVuZEe2C-dvY0XUmpA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _mOxysFuZEe2C-dvY0XUmpA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _mOxLoVuZEe2C-dvY0XUmpA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _mOxLo1uZEe2C-dvY0XUmpA at 10,2 size 7,14 {
+  			}
+  			
+  			Headline _3kAZIVuZEe2C-dvY0XUmpA at 10,30 size 300,50 {
+  				size Big
+  				content [ StaticContent _3kVJQFuZEe2C-dvY0XUmpA {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "Edit Assignment for {{bidding.offer.title}}"
+  						styling TextStyling _3kao0FuZEe2C-dvY0XUmpA {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _3kStAFuZEe2C-dvY0XUmpA {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _3kRe4VuZEe2C-dvY0XUmpA at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _3kSF8VuZEe2C-dvY0XUmpA at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  	
+  	Row __dYwMVuZEe2C-dvY0XUmpA at 10,200 size 350,360 {
+  		generalStyle GeneralStyling __djvUFuZEe2C-dvY0XUmpA {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp __dYwM1uZEe2C-dvY0XUmpA at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown __dZXQVuZEe2C-dvY0XUmpA at 2,10 size 14,7 {
+  		}
+  		
+  		Col __dZXQ1uZEe2C-dvY0XUmpA at 10,30 size 320,310 {
+  			wideness Full
+  			layout Layout __dh6IFuZEe2C-dvY0XUmpA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling __dalYFuZEe2C-dvY0XUmpA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft __dZXRVuZEe2C-dvY0XUmpA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight __dZ-UVuZEe2C-dvY0XUmpA at 10,2 size 7,14 {
+  			}
+  			
+  			Headline _F_8eQVuaEe2C-dvY0XUmpA at 10,30 size 300,50 {
+  				size Big
+  				content [ StaticContent _GAFBIFuaEe2C-dvY0XUmpA {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "Biddings\n"
+  						styling TextStyling _GAFoMFuaEe2C-dvY0XUmpA {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _F_9sYluaEe2C-dvY0XUmpA {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _F_9FUVuaEe2C-dvY0XUmpA at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _F_9sYVuaEe2C-dvY0XUmpA at 2,10 size 14,7 {
+  				}
+  			}
+  			
+  			Form _afTeYFuaEe2C-dvY0XUmpA at 10,90 size 220,190 {
+  				inline false
+  				generalStyle GeneralStyling _aftHAFuaEe2C-dvY0XUmpA {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _afV6oVuaEe2C-dvY0XUmpA at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _afWhsVuaEe2C-dvY0XUmpA at 2,10 size 14,7 {
+  				}
+  				
+  				Button _afXv0VuaEe2C-dvY0XUmpA at 10,100 size 200,60 {
+  					label "Assign"
+  					styling ButtonStyling _afjWAFuaEe2C-dvY0XUmpA {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions _afnAYFuaEe2C-dvY0XUmpA {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _afdPYFuaEe2C-dvY0XUmpA {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _afaMEFuaEe2C-dvY0XUmpA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _afZlAVuaEe2C-dvY0XUmpA at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _afZlA1uaEe2C-dvY0XUmpA at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Text _mfRQUVuaEe2C-dvY0XUmpA at 10,30 size 200,60 {
+  					content [ StaticContent _mfXW8FuaEe2C-dvY0XUmpA {
+  							renderMarkdown false
+  							maxChars 0
+  							html false
+  							rawContent "{{current.title}}"
+  							styling TextStyling _mfXW8VuaEe2C-dvY0XUmpA {
+  									small false
+  									highlight false
+  									deleted false
+  									underline false
+  									bold false
+  									alignment Left
+  									italic false
+  									color Default
+  								}
+  						} ]
+  					generalStyle GeneralStyling _mfSecFuaEe2C-dvY0XUmpA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _mfR3YVuaEe2C-dvY0XUmpA at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _mfR3Y1uaEe2C-dvY0XUmpA at 2,10 size 14,7 {
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}

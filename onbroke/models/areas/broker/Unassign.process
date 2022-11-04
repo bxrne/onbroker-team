@@ -1,0 +1,223 @@
+Process _eckUQVuREe2C-dvY0XUmpA {
+  modelName "Unassign"
+  description "Unassign"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  DataContext _ez9gkVuREe2C-dvY0XUmpA at 20,20 size 210,373 {
+  	dfViewWorkaround true
+  	ComplexVariable _C3CGMVuSEe2C-dvY0XUmpA at 10,58 size 190,294 {
+  		expanded true
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		name "bidding"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute _DH83EVuSEe2C-dvY0XUmpA at 10,266 size 170,25 {
+  			libraryComponentUID "_T0d8UVFNEe2J0bu3ffrh5w"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _DH9eIVuSEe2C-dvY0XUmpA at 10,158 size 170,25 {
+  			libraryComponentUID "_xY5BsVGIEe2J0bu3ffrh5w"
+  			dfViewWorkaround true
+  			-ComplexRead-> _Hs63EVuSEe2C-dvY0XUmpA  decorate "" at (0,0) {
+  				id _5NoGgVuSEe2C-dvY0XUmpA
+  				dfViewWorkaround true
+  			}
+  		}
+  		
+  		ComplexAttribute _DH_TUVuSEe2C-dvY0XUmpA at 10,104 size 170,25 {
+  			libraryComponentUID "_xMbLgVMTEe2KQc5QIsW97w"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _DIAhcVuSEe2C-dvY0XUmpA at 10,185 size 170,25 {
+  			libraryComponentUID "_0_2Z0VMTEe2KQc5QIsW97w"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _DIBvkVuSEe2C-dvY0XUmpA at 10,212 size 170,25 {
+  			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _DICWoVuSEe2C-dvY0XUmpA at 10,77 size 170,25 {
+  			libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _DIC9sVuSEe2C-dvY0XUmpA at 10,131 size 170,25 {
+  			libraryComponentUID "_3M1ooVN9Ee2KQc5QIsW97w"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _DIDkwVuSEe2C-dvY0XUmpA at 10,50 size 170,25 {
+  			libraryComponentUID "_ynLkUVGJEe2J0bu3ffrh5w"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _DIEL0VuSEe2C-dvY0XUmpA at 10,239 size 170,25 {
+  			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveExtensionAttribute _DIEy4VuSEe2C-dvY0XUmpA at 10,23 size 170,25 {
+  			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
+  			dfViewWorkaround true
+  		}
+  		-ComplexRead-> _FgifEVuSEe2C-dvY0XUmpA  decorate "" at (0,0) {
+  			id _4QbecVuSEe2C-dvY0XUmpA
+  			dfViewWorkaround true
+  		}
+  		
+  		-ComplexRead-> _tWlAAVuSEe2C-dvY0XUmpA  decorate "" at (0,0) {
+  			id _6Wd94VuSEe2C-dvY0XUmpA
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  StartSIB _e0DnMVuREe2C-dvY0XUmpA at 330,20 size 100,90 {
+  	ComplexOutputPort _orTZIVuREe2C-dvY0XUmpA at 5,67 size 90,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  		-ComplexUpdate-> _C3CGMVuSEe2C-dvY0XUmpA  decorate "" at (0,0) {
+  			id _xRR7AFuSEe2C-dvY0XUmpA
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _FgZ8MVuSEe2C-dvY0XUmpA  decorate "" at (0,0) {
+  		id _8MTeIVuSEe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _e0Us8VuREe2C-dvY0XUmpA at 322,1130 size 100,65 {
+  	branchName "success"
+  }
+  
+  SetAttributeValueSIB _FgZ8MVuSEe2C-dvY0XUmpA at 310,130 size 120,108 {
+  	libraryComponentUID "_ynLkUVGJEe2J0bu3ffrh5w"
+  	label "Set assigned"
+  	ignoredBranch [  ]
+  	ComplexInputPort _FgifEVuSEe2C-dvY0XUmpA at 5,67 size 110,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  	}
+  	
+  	BooleanInputStatic _2-OPs1uSEe2C-dvY0XUmpA at 5,85 size 110,18 {
+  		value false
+  		name "assigned"
+  	}
+  	-BranchConnector-> _Fg5EYVuSEe2C-dvY0XUmpA   {
+  		id _Fg8HsVuSEe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  }
+  
+  Branch _Fg5EYVuSEe2C-dvY0XUmpA at 310,290 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _HsvQ4VuSEe2C-dvY0XUmpA  decorate "" at (0,0) {
+  		id _8fXkEVuSEe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  }
+  
+  SetAttributeValueSIB _HsvQ4VuSEe2C-dvY0XUmpA at 312,349 size 120,108 {
+  	libraryComponentUID "_rTRUMVuBEe24-NGcS7DsBA"
+  	label "Set assigned"
+  	ignoredBranch [  ]
+  	ComplexInputPort _Hs63EVuSEe2C-dvY0XUmpA at 5,67 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  	}
+  	
+  	BooleanInputStatic _3Rd70VuSEe2C-dvY0XUmpA at 5,85 size 110,18 {
+  		value false
+  		name "assigned"
+  	}
+  	-BranchConnector-> _HtQOQVuSEe2C-dvY0XUmpA   {
+  		id _HtTRkVuSEe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  }
+  
+  Branch _HtQOQVuSEe2C-dvY0XUmpA at 312,490 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _T_JdsFuSEe2C-dvY0XUmpA  decorate "" at (0,0) {
+  		id _GElK0VuTEe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  }
+  
+  RetrieveOfTypeSIB _T_JdsFuSEe2C-dvY0XUmpA at 266,555 size 211,90 {
+  	libraryComponentUID "_TeqGMVrWEe2zsZyFB7dFOg"
+  	label "Retrieve from Assignment"
+  	ignoredBranch [  ]
+  	ComplexInputPort _tWlAAVuSEe2C-dvY0XUmpA at 5,67 size 201,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  	}
+  	-BranchConnector-> _T_cYoVuSEe2C-dvY0XUmpA   {
+  		id _T_gDAVuSEe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _T_yW4VuSEe2C-dvY0XUmpA   {
+  		id _T_2oUVuSEe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  }
+  
+  Branch _T_cYoVuSEe2C-dvY0XUmpA at 298,720 size 148,83 {
+  	name "success"
+  	ComplexOutputPort _T_ifQVuSEe2C-dvY0XUmpA at 5,27 size 138,18 {
+  		libraryComponentUID "_TeqGMVrWEe2zsZyFB7dFOg"
+  		isList false
+  		name "retrieved"
+  		-ComplexDirectDataFlow-> _v-mLIVuSEe2C-dvY0XUmpA via (290,756) (290,996) decorate "" at (0,0) {
+  			id _7WtS4VuSEe2C-dvY0XUmpA
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _nah4UFuSEe2C-dvY0XUmpA  decorate "" at (0,0) {
+  		id _E9DiEVuTEe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  }
+  
+  Branch _T_yW4VuSEe2C-dvY0XUmpA at 530,587 size 120,25 {
+  	name "none found"
+  	-ControlFlow-> _e0Us8VuREe2C-dvY0XUmpA via (670,599) (670,1162) decorate "" at (0,0) {
+  		id _Dl0pYVuTEe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  }
+  
+  DeleteSIB _nah4UFuSEe2C-dvY0XUmpA at 320,920 size 120,90 {
+  	force true
+  	label "Delete"
+  	ignoredBranch [  ]
+  	ComplexInputPort _v-mLIVuSEe2C-dvY0XUmpA at 5,67 size 110,18 {
+  		libraryComponentUID "_TeqGMVrWEe2zsZyFB7dFOg"
+  		isList false
+  		name "assignment"
+  	}
+  	-BranchConnector-> _nategVuSEe2C-dvY0XUmpA   {
+  		id _nazlIVuSEe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  }
+  
+  Branch _nategVuSEe2C-dvY0XUmpA at 320,1060 size 120,25 {
+  	name "deleted"
+  	-ControlFlow-> _e0Us8VuREe2C-dvY0XUmpA  decorate "" at (0,0) {
+  		id _FNaSQVuTEe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  }
+}

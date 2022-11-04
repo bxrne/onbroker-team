@@ -95,6 +95,11 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   		id _kpe9kVGNEe2J0bu3ffrh5w
   		concurrent true
   	}
+  	
+  	-BranchConnector-> _AxMsAVubEe2C-dvY0XUmpA via (2247,402) (2247,488)  {
+  		id _AxNTEVubEe2C-dvY0XUmpA
+  		concurrent true
+  	}
   }
   
   Branch _KvfysVGLEe2J0bu3ffrh5w at 480,520 size 120,50 {
@@ -180,9 +185,13 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		isList false
   		name "bidding"
+  		-ComplexDirectDataFlow-> _qoT4YVuREe2C-dvY0XUmpA via (2000,556) (2000,728) decorate "" at (0,0) {
+  			id _rLgsEVuREe2C-dvY0XUmpA
+  			dfViewWorkaround true
+  		}
   	}
-  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (2069,648) (2149,648) (2150,393) decorate "" at (0,0) {
-  		id _xfUyIVGOEe2J0bu3ffrh5w
+  	-ControlFlow-> _haQNYVuREe2C-dvY0XUmpA  decorate "" at (0,0) {
+  		id _kjdaAFuREe2C-dvY0XUmpA
   		concurrent true
   	}
   }
@@ -413,7 +422,7 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   
   Branch _QVKJMVrXEe2zsZyFB7dFOg at 1840,780 size 120,25 {
   	name "success"
-  	-ControlFlow-> _ffvSAVGMEe2J0bu3ffrh5w  decorate "" at (0,0) {
+  	-ControlFlow-> _ffvSAVGMEe2J0bu3ffrh5w via (1980,792) (1980,162) decorate "" at (0,0) {
   		id _y86AUVrXEe2zsZyFB7dFOg
   		concurrent true
   	}
@@ -517,6 +526,69 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   	name "success"
   	-ControlFlow-> _Ej9N8FuFEe25ANGcS7DsBA  decorate "" at (0,0) {
   		id _Ux2Y4VuFEe25ANGcS7DsBA
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _haQNYVuREe2C-dvY0XUmpA at 2010,652 size 120,90 {
+  	libraryComponentUID "_eckUQVuREe2C-dvY0XUmpA"
+  	label "Unassign"
+  	ignoredBranch [  ]
+  	ComplexInputPort _qoT4YVuREe2C-dvY0XUmpA at 5,67 size 110,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  	}
+  	-BranchConnector-> _hbMBgVuREe2C-dvY0XUmpA   {
+  		id _hbN2sVuREe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  }
+  
+  Branch _hbMBgVuREe2C-dvY0XUmpA at 2000,780 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _ffvSAVGMEe2J0bu3ffrh5w via (2140,792) (2140,162) decorate "" at (0,0) {
+  		id _sd_noVuREe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _-u_1oVuYEe2C-dvY0XUmpA at 2172,652 size 149,90 {
+  	libraryComponentUID "_8Y3rwVuYEe2C-dvY0XUmpA"
+  	label "EditAssignment"
+  	ignoredBranch [  ]
+  	ComplexInputPort _EWkiIVuZEe2C-dvY0XUmpA at 5,67 size 139,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  	}
+  	-BranchConnector-> _-vMC4VuYEe2C-dvY0XUmpA   {
+  		id _-vNRAVuYEe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  }
+  
+  Branch _-vMC4VuYEe2C-dvY0XUmpA at 2180,780 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _ffvSAVGMEe2J0bu3ffrh5w via (2337,762) (2337,162) decorate "" at (0,0) {
+  		id _FuCEUVuZEe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  }
+  
+  Branch _AxMsAVubEe2C-dvY0XUmpA at 2187,520 size 120,50 {
+  	name "Edit"
+  	ComplexOutputPort _AxQ9cVubEe2C-dvY0XUmpA at 5,27 size 110,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  		-ComplexDirectDataFlow-> _EWkiIVuZEe2C-dvY0XUmpA via (2162,556) (2162,728) decorate "" at (0,0) {
+  			id _T9mPcVubEe2C-dvY0XUmpA
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _-u_1oVuYEe2C-dvY0XUmpA  decorate "" at (0,0) {
+  		id _TsfRUVubEe2C-dvY0XUmpA
   		concurrent true
   	}
   }
