@@ -1,0 +1,8 @@
+#!/bin/bash
+docker kill $(docker ps -q)
+docker rm -f $(docker ps -a -q)
+docker rmi target-wildfly
+docker volume rm $(docker volume ls -q)
+docker system prune -f
+cd target
+docker compose up --build
