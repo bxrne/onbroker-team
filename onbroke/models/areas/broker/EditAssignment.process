@@ -23,7 +23,7 @@ Process _8Y3rwVuYEe2C-dvY0XUmpA {
   			dfViewWorkaround true
   		}
   		
-  		-ComplexDirectDataFlow-> _q44RcVw1Ee2gxcFkjyzH4g via (320,96) (1064,261) decorate "" at (0,0) {
+  		-ComplexDirectDataFlow-> _q44RcVw1Ee2gxcFkjyzH4g via (254,96) (254,545) decorate "" at (0,0) {
   			id _tqqckVw1Ee2gxcFkjyzH4g
   			dfViewWorkaround true
   		}
@@ -34,7 +34,7 @@ Process _8Y3rwVuYEe2C-dvY0XUmpA {
   	}
   }
   
-  EndSIB _8qWdUVuYEe2C-dvY0XUmpA at 330,770 size 100,65 {
+  EndSIB _8qWdUVuYEe2C-dvY0XUmpA at 330,880 size 100,65 {
   	branchName "success"
   }
   
@@ -63,12 +63,12 @@ Process _8Y3rwVuYEe2C-dvY0XUmpA {
   
   Branch _qzih4VuaEe2C-dvY0XUmpA at 320,470 size 120,50 {
   	name "Assign"
-  	ComplexOutputPort _nwFJ8Vw0Ee2gxcFkjyzH4g at 5,27 size 110,18 {
+  	ComplexOutputPort _XLxEQVxOEe2AfqRlXAmQBA at 5,27 size 110,18 {
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		isList false
-  		name "bidding"
-  		-ComplexDirectDataFlow-> _4ndkwVuaEe2C-dvY0XUmpA via (310,506) (310,626) decorate "" at (0,0) {
-  			id _xWJFQVw0Ee2gxcFkjyzH4g
+  		name "thisBidding"
+  		-ComplexDirectDataFlow-> _4ndkwVuaEe2C-dvY0XUmpA via (310,506) (310,736) decorate "" at (0,0) {
+  			id _YOzOkVxOEe2AfqRlXAmQBA
   			dfViewWorkaround true
   		}
   	}
@@ -101,7 +101,7 @@ Process _8Y3rwVuYEe2C-dvY0XUmpA {
   	}
   }
   
-  ProcessSIB _4ncWoVuaEe2C-dvY0XUmpA at 320,550 size 120,90 {
+  ProcessSIB _4ncWoVuaEe2C-dvY0XUmpA at 320,660 size 120,90 {
   	libraryComponentUID "_NI96AVrXEe2zsZyFB7dFOg"
   	label "Assign"
   	ignoredBranch [  ]
@@ -116,7 +116,7 @@ Process _8Y3rwVuYEe2C-dvY0XUmpA {
   	}
   }
   
-  Branch _4ngBAVuaEe2C-dvY0XUmpA at 320,680 size 120,25 {
+  Branch _4ngBAVuaEe2C-dvY0XUmpA at 320,790 size 120,25 {
   	name "success"
   	-ControlFlow-> _8qWdUVuYEe2C-dvY0XUmpA  decorate "" at (0,0) {
   		id _69N7MVuaEe2C-dvY0XUmpA
@@ -149,7 +149,7 @@ Process _8Y3rwVuYEe2C-dvY0XUmpA {
   
   Branch _q5A0UVw1Ee2gxcFkjyzH4g at 640,620 size 120,25 {
   	name "success"
-  	-ControlFlow-> _8qWdUVuYEe2C-dvY0XUmpA  decorate "" at (0,0) {
+  	-ControlFlow-> _8qWdUVuYEe2C-dvY0XUmpA via (699,912) decorate "" at (0,0) {
   		id _uWiEEFw1Ee2gxcFkjyzH4g
   		concurrent true
   	}
