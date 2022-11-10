@@ -6,3 +6,8 @@ sib printAssignment: info.scce.dime.app.onbroke.OnbrokeNative#printAssignment
 input: data.Assignment
 ->success
 output: text
+
+sib filterUnassigned: info.scce.dime.app.onbroke.OnbrokeNative#filterUnassigned
+input: [data.Offer]
+->success
+output: [data.Offer]

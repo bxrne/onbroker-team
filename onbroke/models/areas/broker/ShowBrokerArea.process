@@ -100,6 +100,11 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   		id _AxNTEVubEe2C-dvY0XUmpA
   		concurrent true
   	}
+  	
+  	-BranchConnector-> _h-5hgV-BEe2pr7wspri7ww via (2439,401)  {
+  		id _h_WNcF-BEe2pr7wspri7ww
+  		concurrent true
+  	}
   }
   
   Branch _KvfysVGLEe2J0bu3ffrh5w at 480,520 size 120,50 {
@@ -351,14 +356,6 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   	content "TODO"
   }
   
-  Documentation _rPd9oVGOEe2J0bu3ffrh5w at 1840,580 size 52,40 {
-  	content "TODO"
-  }
-  
-  Documentation _rxu9MVGOEe2J0bu3ffrh5w at 2010,580 size 52,40 {
-  	content "TODO"
-  }
-  
   ProcessSIB _1d5TYVOlEe2KQc5QIsW97w at 309,610 size 120,90 {
   	libraryComponentUID "_U_pfYVOlEe2KQc5QIsW97w"
   	label "ShowBiddingDetails"
@@ -589,6 +586,46 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   	}
   	-ControlFlow-> _-u_1oVuYEe2C-dvY0XUmpA  decorate "" at (0,0) {
   		id _TsfRUVubEe2C-dvY0XUmpA
+  		concurrent true
+  	}
+  }
+  
+  Branch _h-5hgV-BEe2pr7wspri7ww at 2380,532 size 120,50 {
+  	name "Auto Assign"
+  	ComplexOutputPort _BphAkWEsEe22faBh7MAS9A at 5,27 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList true
+  		name "approvedOffers"
+  		-ComplexDirectDataFlow-> _8tvDEWErEe22faBh7MAS9A via (2370,568) (2370,740) decorate "" at (0,0) {
+  			id _CeEqAWEsEe22faBh7MAS9A
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _tErjIV-BEe2pr7wspri7ww  decorate "" at (0,0) {
+  		id _tt1N0V-BEe2pr7wspri7ww
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _tErjIV-BEe2pr7wspri7ww at 2380,664 size 120,90 {
+  	libraryComponentUID "_q67oYV-BEe2pr7wspri7ww"
+  	label "AutoAssign"
+  	ignoredBranch [  ]
+  	ComplexInputPort _8tvDEWErEe22faBh7MAS9A at 5,67 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList true
+  		name "offer"
+  	}
+  	-BranchConnector-> _tE_FIV-BEe2pr7wspri7ww   {
+  		id _tFATQV-BEe2pr7wspri7ww
+  		concurrent true
+  	}
+  }
+  
+  Branch _tE_FIV-BEe2pr7wspri7ww at 2380,780 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _ffvSAVGMEe2J0bu3ffrh5w via (2520,792) (2520,162) decorate "" at (0,0) {
+  		id _-us5cGEkEe2Vwqqo0dxUZA
   		concurrent true
   	}
   }
