@@ -4,7 +4,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "BrokerArea"
-  DataContext _dCbrQVFOEe2J0bu3ffrh5w at 10,10 size 221,1248 {
+  DataContext _dCbrQVFOEe2J0bu3ffrh5w at 10,10 size 221,245 {
   	dfViewWorkaround true
   	ComplexVariable _4sIT4VGKEe2J0bu3ffrh5w at 11,150 size 201,25 {
   		expanded false
@@ -48,65 +48,9 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   			id _DkgLoVGLEe2J0bu3ffrh5w
   		}
   	}
-  	
-  	ComplexVariable _jFUnIVrYEe2zsZyFB7dFOg at 11,940 size 201,105 {
-  		expanded true
-  		isLive false
-  		libraryComponentUID "_TeqGMVrWEe2zsZyFB7dFOg"
-  		isInput true
-  		name "assignment"
-  		dfViewWorkaround true
-  		isList true
-  		ComplexListAttribute _BxFlEFuCEe24-NGcS7DsBA at 10,50 size 181,25 {
-  			attributeName last
-  			libraryComponentUID "_TeqGMVrWEe2zsZyFB7dFOg"
-  			isLive false
-  		}
-  		
-  		ComplexListAttribute _BxJ2gVuCEe24-NGcS7DsBA at 10,23 size 181,25 {
-  			attributeName first
-  			libraryComponentUID "_TeqGMVrWEe2zsZyFB7dFOg"
-  			isLive false
-  		}
-  		
-  		PrimitiveListAttribute _BxSZYVuCEe24-NGcS7DsBA at 10,77 size 181,25 {
-  			attributeName size
-  			primitiveType Integer
-  			libraryComponentUID "_TeqGMVrWEe2zsZyFB7dFOg"
-  			isLive false
-  		}
-  		-FOR-> _hxuRQVrYEe2zsZyFB7dFOg  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _vHk4EVrYEe2zsZyFB7dFOg
-  			index "index"
-  		}
-  		
-  		-ComplexListAttributeConnector-> _HQMd4VrZEe2zsZyFB7dFOg  decorate "Ellipse" at (0,0) {
-  			id _HQQIQVrZEe2zsZyFB7dFOg
-  			attributeName current
-  		}
-  	}
-  	
-  	ComplexVariable _HQMd4VrZEe2zsZyFB7dFOg at 10,1140 size 201,78 {
-  		expanded true
-  		isLive false
-  		libraryComponentUID "_TeqGMVrWEe2zsZyFB7dFOg"
-  		isInput false
-  		name "current"
-  		dfViewWorkaround true
-  		isList false
-  		ComplexAttribute _ClSCIVuCEe24-NGcS7DsBA at 10,50 size 181,25 {
-  			libraryComponentUID "_reoGUVrWEe2zsZyFB7dFOg"
-  			isLive false
-  		}
-  		
-  		ComplexAttribute _ClSpMVuCEe24-NGcS7DsBA at 10,23 size 181,25 {
-  			libraryComponentUID "_t4NM0VrWEe2zsZyFB7dFOg"
-  			isLive false
-  		}
-  	}
   }
   
-  Template _dCc5YVFOEe2J0bu3ffrh5w at 300,10 size 800,1084 {
+  Template _dCc5YVFOEe2J0bu3ffrh5w at 300,10 size 800,1014 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _dCeHgFFOEe2J0bu3ffrh5w {
@@ -115,7 +59,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   			attributes [  ]
   			marginTop None
   		}
-  	Tabbing _hg-g4FFTEe2J0bu3ffrh5w at 10,30 size 780,1024 {
+  	Tabbing _hg-g4FFTEe2J0bu3ffrh5w at 10,30 size 780,954 {
   		justified false
   		tabtype Tab
   		generalStyle GeneralStyling _hhW7YFFTEe2J0bu3ffrh5w {
@@ -289,7 +233,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   			}
   		}
   		
-  		Tab _iUpZgVFTEe2J0bu3ffrh5w at 240,30 size 520,974 {
+  		Tab _iUpZgVFTEe2J0bu3ffrh5w at 240,30 size 520,904 {
   			default false
   			label "Assignments"
   			generalStyle GeneralStyling _iUsc0FFTEe2J0bu3ffrh5w {
@@ -304,7 +248,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   			MoveRight _iUrOs1FTEe2J0bu3ffrh5w at 10,2 size 7,14 {
   			}
   			
-  			Row _NTBXwVItEe2FSMa3sLmgcg at 10,360 size 300,584 {
+  			Row _NTBXwVItEe2FSMa3sLmgcg at 10,360 size 200,514 {
   				generalStyle GeneralStyling _NTGQQlItEe2FSMa3sLmgcg {
   						tallness Fitting
   						marginBottom Single
@@ -317,7 +261,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   				MoveDown _NTDM8VItEe2FSMa3sLmgcg at 2,10 size 14,7 {
   				}
   				
-  				Col _NTEbEVItEe2FSMa3sLmgcg at 10,30 size 270,534 {
+  				Col _NTEbEVItEe2FSMa3sLmgcg at 10,30 size 170,464 {
   					wideness Full
   					layout Layout _NTGQQVItEe2FSMa3sLmgcg {
   							size Default
@@ -382,70 +326,6 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   						}
   						
   						MoveDown _jJHXA1GNEe2J0bu3ffrh5w at 2,10 size 14,7 {
-  						}
-  					}
-  					
-  					Row _hxuRQVrYEe2zsZyFB7dFOg at 10,334 size 250,170 {
-  						generalStyle GeneralStyling _hx-v8FrYEe2zsZyFB7dFOg {
-  								tallness Fitting
-  								marginBottom None
-  								attributes [  ]
-  								marginTop None
-  							}
-  						MoveUp _hxwGcFrYEe2zsZyFB7dFOg at 2,2 size 14,7 {
-  						}
-  						
-  						MoveDown _hxwGclrYEe2zsZyFB7dFOg at 2,10 size 14,7 {
-  						}
-  						
-  						Col _hx2NEVrYEe2zsZyFB7dFOg at 10,30 size 220,120 {
-  							wideness Full
-  							layout Layout _hx7soFrYEe2zsZyFB7dFOg {
-  									size Default
-  									offset None
-  									alignment Left
-  								}
-  							generalStyle GeneralStyling _hx4pUFrYEe2zsZyFB7dFOg {
-  									tallness Fitting
-  									marginBottom None
-  									attributes [  ]
-  									marginTop None
-  								}
-  							MoveLeft _hx20IVrYEe2zsZyFB7dFOg at 2,2 size 7,14 {
-  							}
-  							
-  							MoveRight _hx3bMVrYEe2zsZyFB7dFOg at 10,2 size 7,14 {
-  							}
-  							
-  							Text _pztxwVrYEe2zsZyFB7dFOg at 10,30 size 200,60 {
-  								content [ StaticContent _pz0fcFrYEe2zsZyFB7dFOg {
-  										renderMarkdown false
-  										maxChars 0
-  										html false
-  										rawContent "Assignment between offer {{current.offer.title}} for {{current.bidding.user}}"
-  										styling TextStyling _pz1tkFrYEe2zsZyFB7dFOg {
-  												small false
-  												highlight false
-  												deleted false
-  												underline false
-  												bold false
-  												alignment Left
-  												italic false
-  												color Default
-  											}
-  									} ]
-  								generalStyle GeneralStyling _pzw1EFrYEe2zsZyFB7dFOg {
-  										tallness Fitting
-  										marginBottom None
-  										attributes [  ]
-  										marginTop None
-  									}
-  								MoveUp _pzu_4VrYEe2zsZyFB7dFOg at 2,2 size 14,7 {
-  								}
-  								
-  								MoveDown _pzu_41rYEe2zsZyFB7dFOg at 2,10 size 14,7 {
-  								}
-  							}
   						}
   					}
   				}

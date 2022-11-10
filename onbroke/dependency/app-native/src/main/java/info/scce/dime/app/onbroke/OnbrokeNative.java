@@ -17,47 +17,14 @@ public class OnbrokeNative {
 	}
 	
 	public static List<Offer> filterUnassigned(List<Offer> input) {
-		
-		/*
-		 * TODO null safe check on offer.getassigned, if null set to false
-		 * T
-		 * 
-		 * Okay, so basically the getassigned() method is not recognised for the Offer class, so instead we'll iterate through the offer's
-		 * biddings and make sure they're all unassigned.
-		 * 
-		 * 			
-			Boolean assigned = false;
-			//if an offer has biddings at all
-			if(!offer.getbiddings_Bidding().isEmpty()) {
-				//for each bidding associated with the offer
-				for(Bidding bidding: offer.getbiddings_Bidding()) {
-					if(bidding.getassigned() == true) {//i know this line is causing a NullPointerException
-						assigned = true;
-					}
-				}
-				
-			}else {
-				//if there's no biddings 
-				continue;
-		 
-		System.err.println("input in pos 0 getassigned = " + input.get(0).getassigned());
-		input.stream().forEach((offer) -> {
-			System.err.println("offer: " + offer.gettitle()+" | Assigned: " + offer.getassigned()  + "\n Offer.user.getName" + offer.getuser().getfirstName() + " " + offer.getuser().getlastName());
-		});
-		 *
-		 */
-		//input.get(0).getbiddings_Bidding().get(0).getassigned()
-		//return input.stream().filter(p -> !p.get).collect(Collectors.toList());
-		
-		
 		List<Offer> unassignedOffers = new ArrayList<Offer>();
-		//for each offer in input
+		//for each offer in input (approved offers)
 		for(Offer offer: input) {
+			//if it's not assigned, add it to unassigned offers
 			if(offer.getassigned() == false) {
 				unassignedOffers.add(offer);
 			}
 		}
-		//System.err.println("Unassignedoffers:" + unassignedOffers.toString());
 		return unassignedOffers;
 	}
 	
