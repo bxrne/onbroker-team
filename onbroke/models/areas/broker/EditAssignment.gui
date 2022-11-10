@@ -286,7 +286,7 @@ GUI _mOjJMVuZEe2C-dvY0XUmpA {
   			isLive false
   		}
   		
-  		ComplexAttribute _Dllw0Vz8Ee2u-Pvg-aLylw at 10,104 size 271,25 {
+  		ComplexAttribute _Dllw0Vz8Ee2u-Pvg-aLylw at 10,101 size 271,25 {
   			libraryComponentUID "_pse4kVHpEe2J0bu3ffrh5w"
   			isLive false
   		}
@@ -805,7 +805,7 @@ GUI _mOjJMVuZEe2C-dvY0XUmpA {
   							generalStyle GeneralStyling _sB5dAFz7Ee2u-Pvg-aLylw {
   									tallness Fitting
   									marginBottom None
-  									attributes [  ]
+  									attributes [ "Finder" ]
   									marginTop None
   								}
   							MoveLeft _sB2ZsVz7Ee2u-Pvg-aLylw at 2,2 size 7,14 {

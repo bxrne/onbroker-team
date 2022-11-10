@@ -1,0 +1,194 @@
+GUI _D--CsV-EEe2pr7wspri7ww {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "TestGUI"
+  DataContext _D_GlkV-EEe2pr7wspri7ww at 10,10 size 180,524 {
+  	dfViewWorkaround true
+  	ComplexVariable _ODI2UV-EEe2pr7wspri7ww at 10,60 size 160,105 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isInput true
+  		name "offer"
+  		dfViewWorkaround true
+  		isList true
+  		ComplexListAttribute _PkAMIV-EEe2pr7wspri7ww at 10,23 size 140,25 {
+  			attributeName last
+  			libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _PkBaQV-EEe2pr7wspri7ww at 10,50 size 140,25 {
+  			attributeName first
+  			libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveListAttribute _PkDPcV-EEe2pr7wspri7ww at 10,77 size 140,25 {
+  			attributeName size
+  			primitiveType Integer
+  			libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		-FOR-> _SV-kgV-EEe2pr7wspri7ww  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _TQgTEV-EEe2pr7wspri7ww
+  			index "index"
+  		}
+  		
+  		-ComplexListAttributeConnector-> _Tn77oV-EEe2pr7wspri7ww  decorate "Ellipse" at (0,0) {
+  			id _Tn9w0V-EEe2pr7wspri7ww
+  			attributeName current
+  		}
+  	}
+  	
+  	ComplexVariable _Tn77oV-EEe2pr7wspri7ww at 10,200 size 160,294 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isInput false
+  		name "thisOffer"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute _ToEegV-EEe2pr7wspri7ww at 10,266 size 140,25 {
+  			libraryComponentUID "_STTrkVFNEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _ToFFkV-EEe2pr7wspri7ww at 10,77 size 140,25 {
+  			libraryComponentUID "_xZISQVGIEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _ToGTsV-EEe2pr7wspri7ww at 10,185 size 140,25 {
+  			libraryComponentUID "_mFmoEVMTEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _ToIv8F-EEe2pr7wspri7ww at 10,131 size 140,25 {
+  			libraryComponentUID "_txofoVMTEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _ToKlIV-EEe2pr7wspri7ww at 10,212 size 140,25 {
+  			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _ToKlI1-EEe2pr7wspri7ww at 10,104 size 140,25 {
+  			libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _ToLMMV-EEe2pr7wspri7ww at 10,158 size 140,25 {
+  			libraryComponentUID "_3M1ooVN9Ee2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _ToMaUV-EEe2pr7wspri7ww at 10,50 size 140,25 {
+  			libraryComponentUID "_rTRUMVuBEe24-NGcS7DsBA"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _ToO2kV-EEe2pr7wspri7ww at 10,239 size 140,25 {
+  			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveExtensionAttribute _ToQEsV-EEe2pr7wspri7ww at 10,23 size 140,25 {
+  			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  	}
+  }
+  
+  Template _D_HMoV-EEe2pr7wspri7ww at 240,10 size 290,320 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _D_JB0F-EEe2pr7wspri7ww {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _D_Jo4V-EEe2pr7wspri7ww at 10,30 size 270,260 {
+  		generalStyle GeneralStyling _D_QWkF-EEe2pr7wspri7ww {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _D_KP8V-EEe2pr7wspri7ww at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _D_K3AV-EEe2pr7wspri7ww at 2,10 size 14,7 {
+  		}
+  		
+  		Col _D_LeEV-EEe2pr7wspri7ww at 10,30 size 240,210 {
+  			wideness Full
+  			layout Layout _D_OhYV-EEe2pr7wspri7ww {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _D_OhYF-EEe2pr7wspri7ww {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _D_NTQV-EEe2pr7wspri7ww at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _D_N6UV-EEe2pr7wspri7ww at 10,2 size 7,14 {
+  			}
+  			
+  			Box _SV-kgV-EEe2pr7wspri7ww at 10,30 size 220,150 {
+  				invisible false
+  				generalStyle GeneralStyling _SWGgUF-EEe2pr7wspri7ww {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _SWErIV-EEe2pr7wspri7ww at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _SWFSMV-EEe2pr7wspri7ww at 2,10 size 14,7 {
+  				}
+  				
+  				Text _Z342wF-EEe2pr7wspri7ww at 10,60 size 200,60 {
+  					content [ StaticContent _Z4CAsF-EEe2pr7wspri7ww {
+  							renderMarkdown false
+  							maxChars 0
+  							html false
+  							rawContent "{{thisOffer.title}}: {{thisOffer.assigned}}"
+  							styling TextStyling _Z4HgQF-EEe2pr7wspri7ww {
+  									small false
+  									highlight false
+  									deleted false
+  									underline false
+  									bold false
+  									alignment Left
+  									italic false
+  									color Default
+  								}
+  						} ]
+  					generalStyle GeneralStyling _Z4AykF-EEe2pr7wspri7ww {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _Z3_kcV-EEe2pr7wspri7ww at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _Z3_kc1-EEe2pr7wspri7ww at 2,10 size 14,7 {
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}

@@ -30,6 +30,10 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   		-ComplexRead-> _jIRpgVGNEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _EfAsEVGLEe2J0bu3ffrh5w
   		}
+  		
+  		-AddComplexToSubmission-> _oi368V94Ee2pr7wspri7ww  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id __-oMEWErEe22faBh7MAS9A
+  		}
   	}
   	
   	ComplexVariable __safwVGKEe2J0bu3ffrh5w at 11,190 size 201,25 {
@@ -102,7 +106,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   	}
   }
   
-  Template _dCc5YVFOEe2J0bu3ffrh5w at 300,10 size 600,1000 {
+  Template _dCc5YVFOEe2J0bu3ffrh5w at 300,10 size 800,1084 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _dCeHgFFOEe2J0bu3ffrh5w {
@@ -111,7 +115,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   			attributes [  ]
   			marginTop None
   		}
-  	Tabbing _hg-g4FFTEe2J0bu3ffrh5w at 10,30 size 580,940 {
+  	Tabbing _hg-g4FFTEe2J0bu3ffrh5w at 10,30 size 780,1024 {
   		justified false
   		tabtype Tab
   		generalStyle GeneralStyling _hhW7YFFTEe2J0bu3ffrh5w {
@@ -285,7 +289,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   			}
   		}
   		
-  		Tab _iUpZgVFTEe2J0bu3ffrh5w at 240,30 size 320,774 {
+  		Tab _iUpZgVFTEe2J0bu3ffrh5w at 240,30 size 520,974 {
   			default false
   			label "Assignments"
   			generalStyle GeneralStyling _iUsc0FFTEe2J0bu3ffrh5w {
@@ -300,7 +304,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   			MoveRight _iUrOs1FTEe2J0bu3ffrh5w at 10,2 size 7,14 {
   			}
   			
-  			Row _NTBXwVItEe2FSMa3sLmgcg at 10,160 size 300,584 {
+  			Row _NTBXwVItEe2FSMa3sLmgcg at 10,360 size 300,584 {
   				generalStyle GeneralStyling _NTGQQlItEe2FSMa3sLmgcg {
   						tallness Fitting
   						marginBottom Single
@@ -447,50 +451,134 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   				}
   			}
   			
-  			Alert _Wqw_0VMVEe2KQc5QIsW97w at 10,30 size 220,120 {
-  				dismissible false
-  				coloring ComponentColoring _OljWwFMWEe2KQc5QIsW97w {
-  						color Yellow
-  					}
-  				generalStyle GeneralStyling _WrA3cFMVEe2KQc5QIsW97w {
+  			Row _jgIZ0V94Ee2pr7wspri7ww at 10,30 size 500,320 {
+  				generalStyle GeneralStyling _jgci4F94Ee2pr7wspri7ww {
   						tallness Fitting
   						marginBottom None
   						attributes [  ]
-  						marginTop Single
+  						marginTop None
   					}
-  				MoveUp _Wqy1AVMVEe2KQc5QIsW97w at 2,2 size 14,7 {
+  				MoveUp _jgK2EV94Ee2pr7wspri7ww at 2,2 size 14,7 {
   				}
   				
-  				MoveDown _WqzcEVMVEe2KQc5QIsW97w at 2,10 size 14,7 {
+  				MoveDown _jgMEMF94Ee2pr7wspri7ww at 2,10 size 14,7 {
   				}
   				
-  				Text _Wq14UVMVEe2KQc5QIsW97w at 10,30 size 200,60 {
-  					content [ StaticContent _Wq47oVMVEe2KQc5QIsW97w {
-  							renderMarkdown false
-  							maxChars 0
-  							html false
-  							rawContent "Only approved offers get listed here."
-  							styling TextStyling _Wq47olMVEe2KQc5QIsW97w {
-  									small false
-  									highlight false
-  									deleted false
-  									underline false
-  									bold false
-  									alignment Left
-  									italic false
-  									color Default
-  								}
-  						} ]
-  					generalStyle GeneralStyling _Wq47oFMVEe2KQc5QIsW97w {
+  				Col _jgNSUV94Ee2pr7wspri7ww at 10,30 size 240,270 {
+  					wideness Full
+  					layout Layout _jgV1MF94Ee2pr7wspri7ww {
+  							size Default
+  							offset None
+  							alignment Left
+  						}
+  					generalStyle GeneralStyling _jgPHgF94Ee2pr7wspri7ww {
   							tallness Fitting
   							marginBottom None
   							attributes [  ]
   							marginTop None
   						}
-  					MoveUp _Wq3GcVMVEe2KQc5QIsW97w at 2,2 size 14,7 {
+  					MoveLeft _jgN5YV94Ee2pr7wspri7ww at 2,2 size 7,14 {
   					}
   					
-  					MoveDown _Wq3tgVMVEe2KQc5QIsW97w at 2,10 size 14,7 {
+  					MoveRight _jgN5Y194Ee2pr7wspri7ww at 10,2 size 7,14 {
+  					}
+  					
+  					Alert _Wqw_0VMVEe2KQc5QIsW97w at 10,30 size 220,210 {
+  						dismissible false
+  						coloring ComponentColoring _OljWwFMWEe2KQc5QIsW97w {
+  								color Yellow
+  							}
+  						generalStyle GeneralStyling _WrA3cFMVEe2KQc5QIsW97w {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop Single
+  							}
+  						MoveUp _Wqy1AVMVEe2KQc5QIsW97w at 2,2 size 14,7 {
+  						}
+  						
+  						MoveDown _WqzcEVMVEe2KQc5QIsW97w at 2,10 size 14,7 {
+  						}
+  						
+  						Text _Wq14UVMVEe2KQc5QIsW97w at 10,30 size 200,60 {
+  							content [ StaticContent _Wq47oVMVEe2KQc5QIsW97w {
+  									renderMarkdown false
+  									maxChars 0
+  									html false
+  									rawContent "Only approved offers get listed here."
+  									styling TextStyling _Wq47olMVEe2KQc5QIsW97w {
+  											small false
+  											highlight false
+  											deleted false
+  											underline false
+  											bold false
+  											alignment Left
+  											italic false
+  											color Default
+  										}
+  								} ]
+  							generalStyle GeneralStyling _Wq47oFMVEe2KQc5QIsW97w {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  								}
+  							MoveUp _Wq3GcVMVEe2KQc5QIsW97w at 2,2 size 14,7 {
+  							}
+  							
+  							MoveDown _Wq3tgVMVEe2KQc5QIsW97w at 2,10 size 14,7 {
+  							}
+  						}
+  					}
+  				}
+  				
+  				Col _lWOYwF94Ee2pr7wspri7ww at 260,30 size 220,120 {
+  					wideness Full
+  					layout Layout _lWoocF94Ee2pr7wspri7ww {
+  							size Default
+  							offset None
+  							alignment Left
+  						}
+  					generalStyle GeneralStyling _lWQ1AF94Ee2pr7wspri7ww {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _lWO_0V94Ee2pr7wspri7ww at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _lWPm4V94Ee2pr7wspri7ww at 10,2 size 7,14 {
+  					}
+  					
+  					Button _oi368V94Ee2pr7wspri7ww at 10,30 size 200,60 {
+  						label "Auto Assign"
+  						styling ButtonStyling _oj0WIF94Ee2pr7wspri7ww {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Blue
+  							}
+  						options ButtonOptions _okN-wF94Ee2pr7wspri7ww {
+  								isLink false
+  								submitsForm true
+  							}
+  						disabled false
+  						icon Icon _ojVN8F94Ee2pr7wspri7ww {
+  								postIcon None
+  								preIcon None
+  							}
+  						generalStyle GeneralStyling _ojKO0F94Ee2pr7wspri7ww {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						MoveUp _ojCTAV94Ee2pr7wspri7ww at 2,2 size 14,7 {
+  						}
+  						
+  						MoveDown _ojHykV94Ee2pr7wspri7ww at 2,10 size 14,7 {
+  						}
   					}
   				}
   			}
